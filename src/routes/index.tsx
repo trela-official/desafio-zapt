@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
-import Home from '../pages/Home';
+// import Home from '../pages/Home';
 import Login from '../pages/Login';
 
 const Routes = () => {
@@ -11,11 +11,11 @@ const Routes = () => {
       component: Login,
       exact: true,
     },
-    {
-      path: '/home',
-      component: Home,
-      exact: false,
-    },
+    // {
+    //   path: '/home',
+    //   component: Home,
+    //   exact: false,
+    // },
   ];
 
   return (
