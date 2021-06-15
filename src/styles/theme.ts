@@ -3,6 +3,11 @@ export default {
     primary: '#6f0202',
     white: '#ececec',
     gold: '#fbc202',
+    gray: '#bab9b5',
+  },
+
+  border: {
+    radius: '0.4rem',
   },
 
   font: {
