@@ -4,7 +4,7 @@ import { renderWithTheme } from '../../utils/renderWithTheme';
 
 import FieldText from '.';
 
-describe('<FieldText', () => {
+describe('<FieldText />', () => {
   it('should render input text', () => {
     renderWithTheme(<FieldText />);
 

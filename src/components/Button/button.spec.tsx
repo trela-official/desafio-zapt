@@ -6,7 +6,7 @@ import { renderWithTheme } from '../../utils/renderWithTheme';
 import Button from '.';
 import userEvent from '@testing-library/user-event';
 
-describe('<FieldText', () => {
+describe('<Button />', () => {
   it('should render button with label', () => {
     renderWithTheme(<Button label="send" onClick={() => {}} />);
 
