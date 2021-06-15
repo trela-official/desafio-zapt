@@ -17,4 +17,17 @@ describe('<Layout />', () => {
       background: theme.colors.primary,
     });
   });
+
+  it('should render with height and with 100% of screen', () => {
+    renderWithTheme(
+      <Layout>
+        <h1>test</h1>
+      </Layout>
+    );
+
+    expect(screen.getByLabelText(/layout/i)).toHaveStyle({
+      height: '100vh',
+      width: '100%',
+    });
+  });
 });
