@@ -17,7 +17,7 @@ export const Input = styled.input`
 
 export const Label = styled.label`
   ${({ theme }) => css`
-    font-size: ${theme.font.sizes.xlarge};
+    font-size: ${theme.font.sizes.medium};
     font-weight: ${theme.font.bold};
     color: ${theme.colors.white};
     margin-bottom: ${theme.spacings.xxsmall};
