@@ -9,7 +9,7 @@ const FormLogin = () => {
     <Styled.Wrapper>
       <Styled.Form>
         <Styled.Box>
-          <FieldText label="Your name" labelId="username" />
+          <FieldText label="Your name" labelId="username" inputSize="huge" />
           <Button label="Go!" onClick={() => console.log('entrou')} />
         </Styled.Box>
       </Styled.Form>

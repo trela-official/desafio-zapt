@@ -32,7 +32,7 @@ export const Input = styled.input<InputProps>`
 
 export const Label = styled.label`
   ${({ theme }) => css`
-    font-size: ${theme.font.sizes.medium};
+    font-size: ${theme.font.sizes.large};
     font-weight: ${theme.font.bold};
     color: ${theme.colors.white};
     margin-bottom: ${theme.spacings.xxsmall};

@@ -16,6 +16,6 @@ export const Box = styled.div`
   max-width: 30rem;
 
   ${ButttonStyles.Button} {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
   }
 `;
