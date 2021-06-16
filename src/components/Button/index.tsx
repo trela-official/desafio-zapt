@@ -7,8 +7,12 @@ export type ButtonProps = {
   onClick: () => void;
 } & ButtonHTMLAttributes<HTMLButtonElement>;
 
-const Button = ({ label, onClick }: ButtonProps) => {
-  return <Styled.Button onClick={onClick}>{label}</Styled.Button>;
+const Button = ({ label, onClick, ...rest }: ButtonProps) => {
+  return (
+    <Styled.Button {...rest} onClick={onClick}>
+      {label}
+    </Styled.Button>
+  );
 };
 
 export default Button;
