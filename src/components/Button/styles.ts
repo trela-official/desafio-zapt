@@ -7,6 +7,7 @@ export const Button = styled.button`
     padding: 0 ${theme.spacings.small};
     height: 3.5rem;
     border-radius: ${theme.border.radius};
+    cursor: pointer;
 
     font-size: ${theme.font.sizes.medium};
   `}

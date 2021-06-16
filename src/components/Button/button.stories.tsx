@@ -13,3 +13,7 @@ export default {
 } as Meta;
 
 export const ButtonDefault: Story<ButtonProps> = args => <Button {...args} />;
+
+ButtonDefault.args = {
+  label: 'Go!',
+};
