@@ -10,10 +10,10 @@ export const Wrapper = styled.div`
 `;
 export const Form = styled.form`
   background: none;
+  width: 100%;
 `;
 export const Box = styled.div`
   width: 100%;
-  max-width: 30rem;
 
   ${ButttonStyles.Button} {
     margin-top: 1.5rem;

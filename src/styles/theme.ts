@@ -34,4 +34,14 @@ export default {
     xlarge: '4.8rem',
     xxlarge: '5.6rem',
   },
+
+  breakpoints: {
+    sm: '320px',
+    mm: '375px',
+    xm: '425px',
+    tablet: '768px',
+    laptop: '1024px',
+    laptopLarge: '1440px',
+    desktop: '2560px',
+  },
 } as const;

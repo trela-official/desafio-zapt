@@ -13,7 +13,14 @@ export default function Login() {
       <Styled.Wrapper>
         <FormLogin />
         <Styled.Image>
-          <img src={image} alt="" />
+          <Styled.ImageTag
+            animate={{
+              y: ['10%', '0%'],
+              opacity: [0, 1],
+            }}
+            src={image}
+            alt=""
+          />
         </Styled.Image>
       </Styled.Wrapper>
     </Layout>
