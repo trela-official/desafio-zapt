@@ -28,6 +28,8 @@ export const Input = styled.input<InputProps>`
     border-radius: ${theme.border.radius};
     padding: 0 ${theme.spacings.xxsmall};
     font-size: ${theme.font.sizes.medium};
+    font-weight: ${theme.font.bold};
+
     ${!!inputSize && inputModifiers[inputSize!]()};
   `}
 `;
