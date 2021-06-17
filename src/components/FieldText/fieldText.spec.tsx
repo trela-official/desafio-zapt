@@ -30,11 +30,12 @@ describe('<FieldText />', () => {
 
     expect(screen.getByLabelText(/label/i)).toHaveStyle({
       height: '3.5rem',
-      width: '30rem',
+      width: '100%',
+      maxWidth: '30rem',
     });
   });
 
-  it('should render input size normal', () => {
+  it('should render input size huge', () => {
     renderWithTheme(
       <form>
         <FieldText label="label" labelId="labelid" inputSize="huge" />
@@ -43,7 +44,8 @@ describe('<FieldText />', () => {
 
     expect(screen.getByLabelText(/label/i)).toHaveStyle({
       height: '4rem',
-      width: '40rem',
+      width: '100%',
+      maxWidth: '40rem',
     });
   });
 });
