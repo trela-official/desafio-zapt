@@ -41,15 +41,20 @@ export const ImageTag = styled(motion.img)`
     height: 100vh;
 
     @media only screen and (max-width: ${theme.breakpoints.laptop}) {
-      height: 50rem;
+      height: 70rem;
       z-index: 0;
     }
 
     @media only screen and (max-width: ${theme.breakpoints.tablet}) {
-      height: 40rem;
+      height: 50rem;
+      z-index: 0;
     }
 
     @media only screen and (max-width: ${theme.breakpoints.xm}) {
+      height: 32rem;
+    }
+
+    @media only screen and (max-width: ${theme.breakpoints.mm}) {
       height: 30rem;
     }
   `}
