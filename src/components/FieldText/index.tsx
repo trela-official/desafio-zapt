@@ -12,11 +12,12 @@ const FieldText = ({
   label,
   labelId = '',
   inputSize = 'normal',
+  ...rest
 }: FiledTextProps) => {
   return (
     <Styled.Wrapper>
       {!!label && <Styled.Label htmlFor={labelId}>{label}</Styled.Label>}
-      <Styled.Input inputSize={inputSize} id={labelId} />
+      <Styled.Input {...rest} inputSize={inputSize} id={labelId} />
     </Styled.Wrapper>
   );
 };

@@ -1,8 +1,9 @@
 import React from 'react';
-import { screen } from '@testing-library/react';
+import { screen, waitFor } from '@testing-library/react';
 import { renderWithTheme } from '../../utils/renderWithTheme';
 
 import FieldText from '.';
+import userEvent from '@testing-library/user-event';
 
 describe('<FieldText />', () => {
   it('should render input text', () => {
@@ -46,6 +47,25 @@ describe('<FieldText />', () => {
       height: '4rem',
       width: '100%',
       maxWidth: '40rem',
+    });
+  });
+
+  it('should render input whith correctly values ', async () => {
+    const change = jest.fn();
+
+    renderWithTheme(
+      <form>
+        <FieldText onChange={change} />
+      </form>
+    );
+
+    const input = screen.getByRole('textbox');
+
+    userEvent.type(input, 'text to test');
+
+    await waitFor(() => {
+      expect(input).toHaveValue('text to test');
+      expect(change).toHaveBeenCalledTimes('text to test'.length);
     });
   });
 });
