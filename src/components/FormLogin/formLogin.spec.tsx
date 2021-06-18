@@ -13,6 +13,7 @@ jest.mock('../FieldText', () => {
     },
   };
 });
+
 jest.mock('../Button', () => {
   return {
     __esModule: true,

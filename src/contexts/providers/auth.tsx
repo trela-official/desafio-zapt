@@ -6,8 +6,13 @@ import { AuthProviderProps, AuthTypes } from '../types/authTypes';
 const AuthContext = createContext({} as AuthTypes);
 
 const AuthProvider = ({ children }: AuthProviderProps) => {
-  const history = useHistory();
-  const [logged, setLogged] = useState(false);
+  const [logged, setLogged] = useState(() => {
+    const userLogged = localStorage.getItem('username');
+
+    if (userLogged) return true;
+
+    return false;
+  });
 
   const signIn = useCallback((username: string) => {
     try {
@@ -15,18 +20,18 @@ const AuthProvider = ({ children }: AuthProviderProps) => {
         throw new Error('Your name should not be empty');
       }
       setLogged(true);
-      sessionStorage.setItem(
+      localStorage.setItem(
         'username',
         JSON.stringify({
           username,
         })
       );
-
-      history.push('/home');
     } catch (err) {
       console.error(err);
     }
   }, []);
+
+  console.log('logged', logged);
 
   return (
     <AuthContext.Provider value={{ signIn, logged }}>

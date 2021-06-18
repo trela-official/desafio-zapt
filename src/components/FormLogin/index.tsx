@@ -4,15 +4,19 @@ import Button from '../Button';
 
 import * as Styled from './styles';
 import useAuth from '../../contexts/hooks/useAuth';
+import { useHistory } from 'react-router-dom';
 
 const FormLogin = () => {
   const { signIn } = useAuth();
+  const history = useHistory();
+
   const [username, setUsername] = useState('');
 
   const handleSubmit = (event: React.ChangeEvent<HTMLFormElement>) => {
     event.preventDefault();
 
     signIn(username);
+    history.push('/home');
   };
 
   return (

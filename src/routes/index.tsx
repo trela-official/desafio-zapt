@@ -1,7 +1,9 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Switch } from 'react-router-dom';
 
-// import Home from '../pages/Home';
+import Router from './Router';
+
+import Home from '../pages/Home';
 import Login from '../pages/Login';
 
 const Routes = () => {
@@ -10,22 +12,25 @@ const Routes = () => {
       path: '/',
       component: Login,
       exact: true,
+      isPrivate: false,
     },
-    // {
-    //   path: '/home',
-    //   component: Home,
-    //   exact: false,
-    // },
+    {
+      path: '/home',
+      component: Home,
+      exact: false,
+      isPrivate: true,
+    },
   ];
 
   return (
     <Switch>
       {routes.map(route => (
-        <Route
+        <Router
           key={route.path}
           exact={route.exact}
           component={route.component}
           path={route.path}
+          isPrivate={route.isPrivate}
         />
       ))}
     </Switch>
