@@ -21,6 +21,7 @@ export default createGlobalStyle`
   body, input, button {
     ${({ theme }) => css`
       font-family: ${theme.font.family};
+      font-weight: ${theme.font.weight[400]};
     `}
   }
 `;

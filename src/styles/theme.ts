@@ -1,9 +1,12 @@
 export default {
   colors: {
-    primary: '#6f0202',
-    white: '#ececec',
-    gold: '#fbc202',
-    gray: '#bab9b5',
+    primary: '#011FBB',
+    primaryLight: '#334BC8',
+    lightBg: '#2196F3',
+    black: '#000000',
+
+    background: '#E5E5E5',
+    gray: '#FAFAFA',
   },
 
   border: {
@@ -11,17 +14,18 @@ export default {
   },
 
   font: {
-    family: 'Karla',
-    light: 400,
-    normal: 500,
-    bold: 700,
+    family: 'Inter',
+
+    weight: {
+      '400': 400,
+      '500': 500,
+    },
+
     sizes: {
-      xsmall: '1.2rem',
       small: '1.4rem',
       medium: '1.6rem',
-      large: '1.8rem',
-      xlarge: '2.0rem',
-      xxlarge: '2.8rem',
+      large: '2.8rem',
+      xlarge: '4rem',
     },
   },
 
@@ -32,16 +36,5 @@ export default {
     medium: '3.2rem',
     large: '4.0rem',
     xlarge: '4.8rem',
-    xxlarge: '5.6rem',
-  },
-
-  breakpoints: {
-    sm: '320px',
-    mm: '375px',
-    xm: '425px',
-    tablet: '768px',
-    laptop: '1024px',
-    laptopLarge: '1440px',
-    desktop: '2560px',
   },
 } as const;
