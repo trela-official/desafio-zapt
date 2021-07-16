@@ -14,11 +14,10 @@ Vocês podem escolher **1, 2 ou 3** para fazer, lembrando que aqui **Qualidade �
 
 ## Requisitos - o que será analisado?
 
-- As seções devem ser bem próximas do apresentado no Layout do Figma
-- HTML Semântico
-- CSS escalável, organizado e com boas práticas (sempre buscando técnicas atuais)
-- Boa organização de código (Eslint, prettier, etc serão vistos com bons olhos)
-- Commits organizados (Nada de 1 commit só com tudo por favor!)
+- Escrita (HTML, CSS e JavaScript) e suas boas práticas
+- Organização e qualidade de código
+- Estrutura do projeto e escalabilidade
+- Commits organizados e bem escritos
 
 ## Como deve ser feito?
 
@@ -29,16 +28,13 @@ Vocês podem escolher **1, 2 ou 3** para fazer, lembrando que aqui **Qualidade �
 - Você precisa deixar claro todos os passos para rodar o projeto
 - Enfim, nos surpreenda!
 
-## Coisas que são um plus
+## O que usamos por aqui?
 
-Como dissemos acima, você poderá utilizar qualquer tecnologia, mas algumas das abaixo serão um plus.
+Caso você tenha interesse em se aproximar da nossa Stack, usamos:
 
-- Typescript
-- React
-- Styled Components
-- Storybook
-- Tests
-- Eslint/Prettier
+- Typescript em basicamente tudo
+- React e styled-components para construção das nossas interfaces
+- ESLint, Prettier e Jest para garantir padronização e qualidade de código
 
 ## Como entregar o teste?
 
