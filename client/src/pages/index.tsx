@@ -1,5 +1,3 @@
-import Main from 'components/Main'
-
 export default function Home() {
-  return <Main />
+  return <h1>Hello Zapt</h1>
 }
