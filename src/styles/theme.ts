@@ -17,25 +17,25 @@ export default {
       large: '2rem',
       xlarge: '2.8rem',
       huge: '4rem'
-    },
-    spacings: {
-      xxsmall: '0.8rem',
-      xsmall: '1.2rem',
-      small: '1.6rem',
-      medium: '2.4rem',
-      large: '4rem',
-      xlarge: '4.8rem',
-      huge: '8rem'
-    },
-    colors: {
-      primary: '#334BC8',
-      secondary: '#FF5B58',
-      white: '#FAFAFA',
-      gray: '#7B7B7B',
-      lightBlue: '#2196F3',
-      neutralBlue: '#011FBB',
-      darkBlue: '#001C33',
-      black: '#000000'
     }
+  },
+  colors: {
+    primary: '#334BC8',
+    secondary: '#FF5B58',
+    white: '#FAFAFA',
+    gray: '#7B7B7B',
+    lightBlue: '#2196F3',
+    neutralBlue: '#011FBB',
+    darkBlue: '#001C33',
+    black: '#000000'
+  },
+  spacings: {
+    xxsmall: '0.8rem',
+    xsmall: '1.2rem',
+    small: '1.6rem',
+    medium: '2.4rem',
+    large: '4rem',
+    xlarge: '4.8rem',
+    huge: '8rem'
   }
 } as const
