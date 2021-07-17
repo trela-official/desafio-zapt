@@ -1,11 +1,13 @@
 import { AppProps } from 'next/app';
 import Head from 'next/head';
+import { ThemeProvider } from 'styled-components';
 
 import GlobalStyle from 'styles/global';
+import theme from 'styles/theme';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <>
+    <ThemeProvider theme={theme}>
       <Head>
         <title>Zapt | Junte seus amigos para comprar com desconto</title>
         <link rel="icon" href="/img/pwa-512x512.png" />
@@ -17,7 +19,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       </Head>
       <GlobalStyle />
       <Component {...pageProps} />
-    </>
+    </ThemeProvider>
   );
 }
 
