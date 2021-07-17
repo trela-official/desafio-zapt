@@ -1,3 +1,5 @@
+import UsersPage from "templates/UserPage";
+
 export default function Home() {
-  return <h1>Oi</h1>;
+  return <UsersPage />;
 }
