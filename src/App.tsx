@@ -1,7 +1,12 @@
+import SocialComments from "pages/SocialComments";
+import GlobalStyles from "styles/global";
 
 function App() {
   return (
-    <h1>ola</h1>
+    <>
+      <SocialComments />
+      <GlobalStyles />
+    </>
   );
 }
 
