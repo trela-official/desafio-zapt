@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CircleImage /> should render correctly 1`] = `
+.c0 {
+  color: #ffffff;
+  width: 8rem;
+  height: 8rem;
+}
+
+<div
+  class="c0"
+>
+  <svg
+    aria-label="Circle"
+    fill="none"
+    role="img"
+    viewBox="0 0 80 80"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <circle
+      cx="40"
+      cy="40"
+      fill="currentColor"
+      r="40"
+    />
+  </svg>
+</div>
+`;
