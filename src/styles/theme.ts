@@ -4,13 +4,10 @@ export default {
     primaryLight: '#334BC8',
     lightBg: '#2196F3',
     black: '#000000',
-
+    white: '#ffffff',
     background: '#E5E5E5',
-    gray: '#FAFAFA',
-  },
-
-  border: {
-    radius: '0.4rem',
+    bacgrounCard: '#FAFAFA',
+    darkgray: '#7B7B7B',
   },
 
   font: {

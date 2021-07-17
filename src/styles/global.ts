@@ -13,15 +13,17 @@ export default createGlobalStyle`
     height: 100%;
   }
 
-  html {
-    font-size: 62.5%;
-    -webkit-font-smoothing: antialiased !important;
-  }
+  ${({ theme }) => css`
+    html {
+      font-size: 62.5%;
+      -webkit-font-smoothing: antialiased !important;
+    }
 
-  body, input, button {
-    ${({ theme }) => css`
+    body,
+    input,
+    button {
       font-family: ${theme.font.family};
       font-weight: ${theme.font.weight[400]};
-    `}
-  }
-`;
+    }
+  `}
+    `;
