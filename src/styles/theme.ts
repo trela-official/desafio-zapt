@@ -10,6 +10,10 @@ export default {
     darkgray: '#7B7B7B',
   },
 
+  border: {
+    radius: '0.4rem',
+  },
+
   font: {
     family: 'Inter',
 
