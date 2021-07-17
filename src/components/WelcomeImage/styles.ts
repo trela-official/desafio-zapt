@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import image from '../../assets/image.jpg';
+import image from '../../assets/image.svg';
 
 export const Wrapper = styled.div`
   background: #ffff url(${image}) no-repeat;
@@ -9,7 +9,9 @@ export const Wrapper = styled.div`
   max-width: 41rem;
   position: relative;
 `;
-export const Image = styled.img``;
+export const Image = styled.img`
+  width: 100%;
+`;
 export const BowWrapper = styled.div`
   position: absolute;
   bottom: 4rem;

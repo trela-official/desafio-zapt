@@ -9,7 +9,9 @@ export type ButtonProps = {
 
 const Button = ({ label }: ButtonProps) => (
   <Styled.Wrapper>
-    <Typography content={label} color="white" size="small" />
+    <Typography color="white" size="small">
+      {label}
+    </Typography>
   </Styled.Wrapper>
 );
 

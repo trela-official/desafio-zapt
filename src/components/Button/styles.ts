@@ -6,5 +6,6 @@ export const Wrapper = styled.button`
     padding: ${theme.spacings.xsmall} ${theme.spacings.medium};
     border: 0;
     border-radius: ${theme.border.radius};
+    cursor: pointer;
   `}
 `;

@@ -2,20 +2,20 @@ import React from 'react';
 import * as Styled from './styles';
 
 export type TypographyProps = {
-  content: string;
+  children: string;
   size?: 'small' | 'medium' | 'large';
   color?: 'black' | 'darkgray' | 'white' | 'primary';
   bold?: '400' | '500';
 };
 
 const Typography = ({
-  content,
+  children,
   size = 'medium',
   color = 'black',
   bold = '400',
 }: TypographyProps) => (
   <Styled.Text bold={bold} color={color} size={size}>
-    {content}
+    {children}
   </Styled.Text>
 );
 
