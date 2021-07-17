@@ -11,7 +11,7 @@
     "test:watch": "yarn test --watch",
     "postinstall": "husky install && chmod +x .husky/pre-commit",
     "storybook": "start-storybook -s ./public -p 6006",
-    "generate:component": "yarn plop --plopfile generators/plopfile.js",
+    "generate": "yarn plop --plopfile generators/plopfile.js",
     "build-storybook": "build-storybook -s ./public"
   },
   "dependencies": {
