@@ -20,6 +20,7 @@ const SocialComments = () => {
             </CommentBox>
           ))}
         </S.CommentColumn>
+
         <S.CommentColumn>
           {commentsColumn2.map((comment) => (
             <CommentBox

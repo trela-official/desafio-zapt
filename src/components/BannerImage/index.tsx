@@ -5,9 +5,9 @@ import * as S from "./styles";
 const BannerImage = () => {
   return (
     <S.Wrapper>
-      <S.BackgroundImg src={bgImg} />
+      <S.BackgroundImg src={bgImg} alt="Happy people" />
       <S.Circle />
-      <S.ArcCircle src={arcCircle} />
+      <S.ArcCircle src={arcCircle} alt="Cicle`s arc" />
     </S.Wrapper>
   );
 };

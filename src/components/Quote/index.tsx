@@ -24,6 +24,18 @@ const wrapperModifiers = {
   blue: () => css`
     background-color: #334bc8;
   `,
+  top: (top: string) => css`
+    top: ${top};
+  `,
+  right: (right: string) => css`
+    right: ${right};
+  `,
+  bottom: (bottom: string) => css`
+    bottom: ${bottom};
+  `,
+  left: (left: string) => css`
+    left: ${left};
+  `,
 };
 
 const Quote = styled.div<QuoteProps>`
@@ -33,13 +45,13 @@ const Quote = styled.div<QuoteProps>`
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
 
-    top: ${top};
-    right: ${right};
-    left: ${left};
-    bottom: ${bottom};
+    ${!!top && wrapperModifiers.top(top)};
+    ${!!right && wrapperModifiers.right(right)};
+    ${!!left && wrapperModifiers.left(left)};
+    ${!!bottom && wrapperModifiers.bottom(bottom)};
 
-    ${wrapperModifiers[size]}
-    ${wrapperModifiers[color]}
+    ${wrapperModifiers[size]()}
+    ${wrapperModifiers[color]()}
   `}
 `;
 
