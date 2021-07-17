@@ -26,7 +26,7 @@ const GlobalStyles = createGlobalStyle`
     font-weight: 500;
     font-display: swap;
     src: local('Inter Medium'), local('Inter-Medium'),
-        url('/fonts/inter-v3-latin-600.woff2') format('woff2');
+        url('/fonts/inter-v3-latin-500.woff2') format('woff2');
   }
 
   @font-face {
@@ -35,7 +35,7 @@ const GlobalStyles = createGlobalStyle`
     font-weight: 700;
     font-display: swap;
     src: local('Inter Bold'), local('Inter-Bold'),
-        url('/fonts/inter-v3-latin-600.woff2') format('woff2');
+        url('/fonts/inter-v3-latin-700.woff2') format('woff2');
   }
 
   * {

@@ -1,5 +1,7 @@
 import styled, { css } from 'styled-components'
 
+import { SocialCommentsWrapper } from 'templates/Home/styles'
+
 export const Wrapper = styled.div`
   ${({ theme }) => css`
     display: flex;
@@ -10,6 +12,10 @@ export const Wrapper = styled.div`
 
     background-color: ${theme.colors.backgroundLight};
     border-radius: ${theme.border.radius};
+
+    ${SocialCommentsWrapper} & {
+      margin-bottom: ${theme.grid.gutter};
+    }
   `}
 `
 
