@@ -27,9 +27,9 @@ exports[`<Button /> should render the medium size by default 1`] = `
   outline: none;
   -webkit-transition: background-color,border,0.3s ease-in-out;
   transition: background-color,border,0.3s ease-in-out;
-  height: 4rem;
+  height: 4.8rem;
   font-size: 1.4rem;
-  padding: 0.8rem 3.2rem;
+  padding: 1.6rem 3.2rem;
 }
 
 .c0:hover {
@@ -47,6 +47,8 @@ exports[`<Button /> should render the medium size by default 1`] = `
 <button
   class="c0"
 >
-  Button text
+  <span>
+    Button text
+  </span>
 </button>
 `;

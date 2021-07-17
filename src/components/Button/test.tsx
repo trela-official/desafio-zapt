@@ -7,8 +7,8 @@ describe('<Button />', () => {
     const { container } = render(<Button>Button text</Button>);
 
     expect(screen.getByRole('button', { name: /button text/i })).toHaveStyle({
-      height: '4rem',
-      padding: '0.8rem 3.2rem',
+      height: '4.8rem',
+      padding: '1.6rem 3.2rem',
       'font-size': '1.4rem',
     });
 
@@ -19,7 +19,7 @@ describe('<Button />', () => {
     render(<Button size="small">Button text</Button>);
 
     expect(screen.getByRole('button', { name: /button text/i })).toHaveStyle({
-      height: '3rem',
+      height: '3.8rem',
       'font-size': '1.2rem',
     });
   });
@@ -28,9 +28,9 @@ describe('<Button />', () => {
     render(<Button size="large">Button text</Button>);
 
     expect(screen.getByRole('button', { name: /button text/i })).toHaveStyle({
-      height: '5rem',
+      height: '5.8rem',
       'font-size': '1.6rem',
-      padding: '0.8rem 4.8rem',
+      padding: '2.4rem 4.8rem',
     });
   });
 

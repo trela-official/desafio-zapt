@@ -9,20 +9,20 @@ export type WrapperProps = {
 
 const wrapperModifiers = {
   small: (theme: DefaultTheme) => css`
-    height: 3rem;
+    height: 3.8rem;
     font-size: ${theme.font.sizes.xsmall};
   `,
 
   medium: (theme: DefaultTheme) => css`
-    height: 4rem;
+    height: 4.8rem;
     font-size: ${theme.font.sizes.small};
-    padding: ${theme.spacings.xxsmall} ${theme.spacings.medium};
+    padding: ${theme.spacings.xsmall} ${theme.spacings.medium};
   `,
 
   large: (theme: DefaultTheme) => css`
-    height: 5rem;
+    height: 5.8rem;
     font-size: ${theme.font.sizes.medium};
-    padding: ${theme.spacings.xxsmall} ${theme.spacings.xlarge};
+    padding: ${theme.spacings.small} ${theme.spacings.xlarge};
   `,
 
   fullWidth: () => css`
