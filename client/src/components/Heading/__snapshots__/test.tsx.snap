@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Heading /> should render heading as h1 by default 1`] = `
+.c0 {
+  font-size: 1.8rem;
+  color: #000000;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+<h1
+  class="c0"
+  color="#000000"
+  font-weight="500"
+>
+  Bem vindo
+</h1>
+`;
