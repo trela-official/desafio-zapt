@@ -311,6 +311,8 @@ exports[`<WelcomeBanner /> should render the username on the banner 1`] = `
      
     <a
       href="https://wa.me/5538998280928"
+      rel="noreferrer"
+      target="_blank"
     >
       WhatsApp.
     </a>
