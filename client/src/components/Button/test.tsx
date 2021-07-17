@@ -4,7 +4,7 @@ import renderWithTheme from '../../utils/tests/test-util'
 import Button from '.'
 
 describe('<Button />', () => {
-  it('should render the heading', () => {
+  it('should render the button correctly', () => {
     const { container } = renderWithTheme(<Button>Entrar em grupo</Button>)
 
     expect(

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Button /> should render the heading 1`] = `
+exports[`<Button /> should render the button correctly 1`] = `
 .c0 {
   padding: 1.6rem 3.2rem;
   background-color: #334BC8;
