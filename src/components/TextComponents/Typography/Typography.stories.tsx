@@ -6,6 +6,11 @@ import Typography, { TypographyProps } from '.';
 export default {
   title: 'Text Components/Typography',
   component: Typography,
+  argTypes: {
+    children: {
+      type: 'string',
+    },
+  },
 } as Meta;
 
 export const TypographyDefault: Story<TypographyProps> = args => (
