@@ -6,6 +6,7 @@ export const Wrapper = styled.div`
     padding: ${theme.spacings.xsmall} ${theme.spacings.small};
     background: ${theme.colors.gradients.lightBg};
     border-radius: ${theme.border.radius};
+    break-inside: avoid;
   `}
 `;
 export const UserInformation = styled.div``;
