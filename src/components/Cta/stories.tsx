@@ -26,7 +26,7 @@ Default.args = {
 export const withTwoOptions: Story<CtaProps> = (args) => <Cta {...args} />
 
 withTwoOptions.args = {
-  title: 'O que você prefere',
+  title: 'O que você prefere?',
   firstOptionLabel: 'Criar um grupo',
   secondOptionLabel: 'Entrar em um grupo',
   hasTwoOptions: true

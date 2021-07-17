@@ -15,5 +15,5 @@ export const Default: Story<HeroTitleProps> = (args) => <HeroTitle {...args} />
 Default.args = {
   title: 'Bem vindo Marcio,',
   subtitle:
-    'Para você aproveitar nossas oportunidades primeiro você precisa estar dentro de um grupo, estamos aqui para lhe ajudar. '
+    'Para você aproveitar nossas oportunidades primeiro você precisa estar dentro de um grupo, estamos aqui para lhe ajudar.'
 }
