@@ -4,7 +4,19 @@ import * as HeadingStyles from '../../components/TextComponents/Heading/styles';
 import * as TypographyStyles from '../../components/TextComponents/Typography/styles';
 import * as ButtonStyles from '../../components/Button/styles';
 
-export const Wrapper = styled.section``;
+export const Wrapper = styled.section`
+  ${({ theme }) => css`
+    > ${TypographyStyles.Text} {
+      display: block;
+      margin-top: ${theme.spacings.xsmall};
+
+      span {
+        text-decoration: underline;
+        color: ${theme.colors.primary};
+      }
+    }
+  `}
+`;
 export const DropRed = styled.div`
   position: absolute;
   top: -2rem;

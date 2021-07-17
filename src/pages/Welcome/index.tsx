@@ -46,6 +46,11 @@ const Welcome = () => {
             <Styled.Image src={dropBlue} alt="drop blue" />
           </Styled.DropBlue>
         </Styled.CardWrapper>
+
+        <Typography color="darkgray">
+          Qualquer dúvida que você tiver é só nos chamar no nosso número de
+          <span> WhatsApp.</span>
+        </Typography>
       </Styled.Wrapper>
     </Container>
   );
