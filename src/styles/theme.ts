@@ -27,8 +27,8 @@ export default {
     secondary: '#ff5b58',
     mainBackground: '#ffffff',
     darkenBackground: '#fafafa',
-    white: '#FAFAFA',
-    black: '#030517',
+    white: '#ffffff',
+    black: '#000000',
   },
   spacings: {
     xxsmall: '0.8rem',
