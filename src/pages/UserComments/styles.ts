@@ -10,5 +10,6 @@ export const Wrapper = styled.div`
     font-size: 4rem;
     text-align: center;
     margin-bottom: 4.8rem;
+    font-weight: 300;
   }
 `;
