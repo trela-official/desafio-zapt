@@ -2,6 +2,6 @@ import { Color } from 'model/commom-style-types'
 
 export interface CardProps {
   color?: Color
-  hasGutter?: boolean
+  noGutter?: boolean
   children?: React.ReactNode
 }

@@ -12,7 +12,3 @@ export const CardStory: Story = (args) => (
     <Body color="primary">Sou o conteúdo do card!</Body>
   </Card>
 )
-
-CardStory.args = {
-  hasGutter: true
-}
