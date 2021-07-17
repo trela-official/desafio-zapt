@@ -1,4 +1,5 @@
 import { Story, Meta } from '@storybook/react/types-6-0';
+
 import Button, { ButtonProps } from '.';
 
 export default {
@@ -13,14 +14,6 @@ export default {
         type: 'select',
         options: ['small', 'medium', 'large'],
       },
-    },
-    minimal: {
-      control: {
-        type: 'boolean',
-      },
-    },
-    icon: {
-      type: '',
     },
   },
 } as Meta;
