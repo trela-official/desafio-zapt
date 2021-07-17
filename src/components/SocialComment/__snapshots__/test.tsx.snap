@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SocialComment /> should render the heading 1`] = `
+.c3 {
+  border-radius: 50%;
+  object-fit: cover;
+  color: #011fbb;
+  box-shadow: 0 0 0 1px;
+  width: 3.6rem;
+  height: 3.6rem;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 1.6rem;
+  padding: 2.4rem 1.6rem;
+  background-color: #e9f5fe;
+  border-radius: 0.4rem;
+}
+
+.c1 {
+  color: #011fbb;
+  line-height: 2.2rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.c4 {
+  color: #001c33;
+  font-size: 1.4rem;
+}
+
+<div
+  class="c0"
+>
+  <p
+    class="c1"
+  >
+    ”Estava precisando achar algum lugar que vendia produtos que vêem direto da fazenda... a Zapt salvou.. e ainda paguei um preço muito mais barato que supermecado 🙌”
+  </p>
+  <div
+    class="c2"
+  >
+    <img
+      alt="User Avatar"
+      aria-label="User Avatar"
+      class="c3"
+      src="/img/sample-person.jpeg"
+    />
+    <span
+      class="c4"
+    >
+      @rafael
+    </span>
+  </div>
+</div>
+`
