@@ -9,6 +9,8 @@ export const Wrapper = styled.article`
     border-radius: ${theme.border.radius};
     padding: ${theme.spacings.medium} ${theme.spacings.small};
     background-color: rgba(33, 150, 243, 0.1);
+    break-inside: avoid;
+    margin-bottom: ${theme.grid.gutter};
   `}
 `
 
