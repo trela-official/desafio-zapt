@@ -17,6 +17,7 @@
   <a href="#-sobre-o-projeto">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-começando">Começando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">Licença</a>
 </p>
 
 <p align="center">
@@ -37,7 +38,7 @@ Montei uma estrutura de projeto pensada a longo prazo, usando uma arquitetura be
 Por fim, escrevi testes unitários bem básicos para os componentes, dando uma segurança maior do seu funcionamento.
 
 O link da aplicação no ar será:
-[Stoom Pizzaria](https://zapt-agra.netlify.app/)
+[Desafio Zapt](https://zapt-agra.vercel.app/)
 
 ## 🚀 Tecnologias
 
@@ -78,6 +79,12 @@ $ yarn
 # Rodando o cliente
 $ yarn start
 ```
+
+
+
+## 📝 Licença
+
+Esse projeto é licenciado pelo MIT License - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
 
