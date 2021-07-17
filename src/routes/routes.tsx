@@ -2,6 +2,7 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
 import Welcome from '../pages/Welcome';
+import SocialComments from '../pages/SocialComments';
 
 const Routes = () => {
   const routes = [
@@ -9,6 +10,11 @@ const Routes = () => {
       path: '/',
       exact: true,
       component: Welcome,
+    },
+    {
+      path: '/socialcomments',
+      exact: false,
+      component: SocialComments,
     },
   ];
 
