@@ -22,9 +22,9 @@ export const wrapperModifiers = {
 };
 
 export const Wrapper = styled.h2<HeadingProps>`
-  ${({ theme, size }) => css`
+  ${({ theme, size, weight }) => css`
     color: ${theme.colors.black};
-    font-weight: ${theme.font.medium};
+    font-weight: ${theme.font[weight!]};
 
     ${!!size && wrapperModifiers[size](theme)}
   `}
