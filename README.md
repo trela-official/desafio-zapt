@@ -1,5 +1,5 @@
 # Desafio zapt
-Resolução do desafio para desenvolvedor Fron-End da Zapt. O desafio propõe a criação de 3 componentes (SocialComments, UserComments e WelcomeBanner).
+Resolução do desafio para vaga de desenvolvedor Front-End da Zapt. O desafio propõe a criação de 3 componentes (SocialComments, UserComments e WelcomeBanner).
 
 ## Pré-requisitos
 Ter uma versão atualizada do NodeJS instalada em sua máquina e um gerenciador de pacotes (yarn ou npm).
