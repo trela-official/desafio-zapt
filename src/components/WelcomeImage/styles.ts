@@ -8,14 +8,6 @@ export const Wrapper = styled.div`
   min-height: 31rem;
   max-width: 41rem;
   position: relative;
-
-  &::before {
-    content: 'ola';
-    width: 100px;
-    height: 10px;
-    display: block;
-    background-size: 20px 20px;
-  }
 `;
 export const Image = styled.img``;
 export const BowWrapper = styled.div`
