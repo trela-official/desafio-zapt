@@ -2,10 +2,10 @@ import {
   createGlobalStyle,
   css,
   DefaultTheme,
-  GlobalStyleComponent,
-} from "styled-components";
+  GlobalStyleComponent
+} from 'styled-components'
 
-type GlobalStylesProps = {};
+type GlobalStylesProps = {}
 
 const GlobalStyles: GlobalStyleComponent<
   GlobalStylesProps,
@@ -51,10 +51,10 @@ const GlobalStyles: GlobalStyleComponent<
       font-size: 62.5%;
     }
     body {
-      font-family: ${theme.font.family.secondary};
-      font-size: ${theme.font.sizes.huge};
+      font-family: ${theme.font.family.primary};
+      font-size: ${theme.font.sizes.medium};
     }
   `}
-`;
+`
 
-export default GlobalStyles;
+export default GlobalStyles
