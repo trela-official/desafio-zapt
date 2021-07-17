@@ -3,6 +3,9 @@ export default {
     container: '124.8rem',
     gutter: '3.2rem'
   },
+  border: {
+    radius: '0.4rem'
+  },
   font: {
     family:
       "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
