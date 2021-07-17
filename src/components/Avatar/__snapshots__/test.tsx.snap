@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Avatar /> should render the avatar default values 1`] = `
+.c0 {
+  border-radius: 50%;
+  object-fit: cover;
+  color: #011fbb;
+  box-shadow: 0 0 0 1px;
+  width: 3.6rem;
+  height: 3.6rem;
+}
+
+<img
+  alt="User Avatar"
+  aria-label="User Avatar"
+  class="c0"
+  src="/img/user.jpg"
+/>
+`
