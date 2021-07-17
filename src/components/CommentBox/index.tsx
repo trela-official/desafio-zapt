@@ -11,7 +11,7 @@ const CommentBox = ({ children, user, userImg }: CommentBoxProps) => {
     <S.Wrapper>
       <S.CommentWrapper>{children}</S.CommentWrapper>
       <S.UserInfo>
-        <img src={userImg} />
+        <img src={userImg} alt={`${user} avatar`} />
         <span>{user}</span>
       </S.UserInfo>
     </S.Wrapper>

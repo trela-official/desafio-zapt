@@ -2,11 +2,8 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   position: relative;
-  margin: auto;
   width: 120rem;
   height: 31.3rem;
-  background-color: black;
-  margin-top: 100px;
   background-color: #fafafa;
   display: flex;
 `;

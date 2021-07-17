@@ -1,15 +1,14 @@
 import FeedbackCardSlider from "components/FeedbackCardSlider";
+import { Container } from "components/Container";
 
 import { feedbacks } from "./mock";
 
-import * as S from "./styles";
-
 const UserComments = () => {
   return (
-    <S.Wrapper>
+    <Container>
       <h1>O que as pessoas estão achando</h1>
       <FeedbackCardSlider feedbacks={feedbacks} />
-    </S.Wrapper>
+    </Container>
   );
 };
 

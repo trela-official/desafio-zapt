@@ -1,4 +1,5 @@
 import CommentBox from "components/CommentBox";
+import { Container } from "components/Container";
 
 import { commentsColumn1, commentsColumn2, commentsColumn3 } from "./mock";
 
@@ -6,7 +7,7 @@ import * as S from "./styles";
 
 const SocialComments = () => {
   return (
-    <S.Wrapper>
+    <Container>
       <h1>O que estão falando nas redes sociais</h1>
       <S.CommentsWrapper>
         <S.CommentColumn>
@@ -45,7 +46,7 @@ const SocialComments = () => {
           ))}
         </S.CommentColumn>
       </S.CommentsWrapper>
-    </S.Wrapper>
+    </Container>
   );
 };
 

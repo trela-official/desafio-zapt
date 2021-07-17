@@ -1,8 +1,8 @@
-import Welcome from "pages/WelcomeBanner";
+import Welcome from "pages/Welcome";
+import UserComments from "pages/UserComments";
 import SocialComments from "pages/SocialComments";
 
 import GlobalStyles from "styles/global";
-import UserComments from "pages/UserComments";
 
 function App() {
   return (
