@@ -1,11 +1,17 @@
-import { Container } from './styles';
+import * as S from "./styles"
 
-function Layout() {
+import PropTypes from "prop-types"
+
+const Layout = ({ children }) => {
   return (
-    <Container>
-      <h1>Layout</h1>
-    </Container>
-  );
-};
+    <S.Content>
+      {children}
+    </S.Content>
+  )
+}
 
-export default Layout;
+Layout.propTypes = {
+  children: PropTypes.node.isRequired,
+}
+
+export default Layout
