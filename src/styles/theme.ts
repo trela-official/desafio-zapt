@@ -22,20 +22,23 @@ export default {
   colors: {
     primary: '#334BC8',
     secondary: '#FF5B58',
-    white: '#FAFAFA',
+    lightGray: '#FAFAFA',
     gray: '#7B7B7B',
     lightBlue: '#2196F3',
     neutralBlue: '#011FBB',
     darkBlue: '#001C33',
-    black: '#000000'
+    black: '#000000',
+    white: '#FFFFFF'
   },
   spacings: {
     xxsmall: '0.8rem',
     xsmall: '1.2rem',
     small: '1.6rem',
+    xmedium: '1.8rem',
     medium: '2.4rem',
-    large: '4rem',
-    xlarge: '4.8rem',
+    large: '3.2rem',
+    xlarge: '4rem',
+    xxlarge: '4.8rem',
     huge: '8rem'
   }
 } as const
