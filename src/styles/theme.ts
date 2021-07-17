@@ -30,6 +30,7 @@ export default {
     sizes: {
       small: '1.4rem',
       medium: '1.6rem',
+      xmedium: '2rem',
       large: '2.8rem',
       xlarge: '4rem',
     },

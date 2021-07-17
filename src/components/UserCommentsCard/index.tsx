@@ -19,7 +19,15 @@ const UserCommentsCard = ({
 }: UserCommentsCardProps) => (
   <Styled.Wrapper backgroundImage={backgroundImage}>
     <Styled.SocialCardWrapper>
-      <SocialCard comment={comment} username={username} image={image} />
+      <SocialCard
+        fullSize
+        transparent
+        textColor="white"
+        textSize="xmedium"
+        comment={comment}
+        username={username}
+        image={image}
+      />
     </Styled.SocialCardWrapper>
   </Styled.Wrapper>
 );
