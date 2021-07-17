@@ -1,6 +1,6 @@
 export default {
   grid: {
-    container: '130rem',
+    container: '120rem',
     gutter: '3.2rem',
   },
   border: {
@@ -11,7 +11,7 @@ export default {
       "Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
     light: 300,
     normal: 400,
-    medium: 600,
+    medium: 500,
     sizes: {
       xsmall: '1.2rem',
       small: '1.4rem',
