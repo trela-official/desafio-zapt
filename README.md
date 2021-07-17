@@ -1,47 +1,70 @@
-# Desafio Zapt
+# Getting Started with Create React App
 
-> Repositório onde tem o desafio para o processo seletivo da Zapt.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Introdução
+## Available Scripts
 
-A ideia é que você aprenda, se divirta e mostre o seu melhor nesse exercício.
+In the project directory, you can run:
 
-## Exercício
+### `npm start`
 
-Segue [um link para o Figma](https://www.figma.com/file/MYVq6CfqgFkEAhcFcNmvGy/Public-File?node-id=0%3A1), onde terão 3 pequenas seções para serem feitas.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Vocês podem escolher **1, 2 ou 3** para fazer, lembrando que aqui **Qualidade é melhor que Quantidade!**
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-## Requisitos - o que será analisado?
+### `npm test`
 
-- Escrita (HTML, CSS e JavaScript) e suas boas práticas
-- Organização e qualidade de código
-- Estrutura do projeto e escalabilidade
-- Commits organizados e bem escritos
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Como deve ser feito?
+### `npm run build`
 
-- Você pode utilizar qualquer tecnologia que se sentir confortável
-- Você pode utilizar qualquer plugin se achar necessário (no dia-a-dia a gente não reinventa roda, aqui também não precisa)
-- Você pode entregar cada componente como uma página separada
-- Você pode entregar todos os componentes numa mesma página
-- Você precisa deixar claro todos os passos para rodar o projeto
-- Enfim, nos surpreenda!
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## O que usamos por aqui?
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Caso você tenha interesse em se aproximar da nossa Stack, usamos:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- Typescript em basicamente tudo
-- React e styled-components para construção das nossas interfaces
-- ESLint, Prettier e Jest para garantir padronização e qualidade de código
+### `npm run eject`
 
-## Como entregar o teste?
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-1. Crie um fork deste projeto
-2. Faça as devidas modificações
-3. Envie um PR para esse repositório
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## Dúvidas?
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-Qualquer dúvida, não deixe de nos enviar um email em admin@zapt.com.br ou wj@zapt.com.br.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
