@@ -11,14 +11,22 @@ const SocialComments = () => {
       <S.CommentsWrapper>
         <S.CommentColumn>
           {commentsColumn1.map((comment) => (
-            <CommentBox user={comment.user} userImg={comment.img}>
+            <CommentBox
+              user={comment.user}
+              userImg={comment.img}
+              key={comment.user}
+            >
               {comment.text}
             </CommentBox>
           ))}
         </S.CommentColumn>
         <S.CommentColumn>
           {commentsColumn2.map((comment) => (
-            <CommentBox user={comment.user} userImg={comment.img}>
+            <CommentBox
+              user={comment.user}
+              userImg={comment.img}
+              key={comment.user}
+            >
               {comment.text}
             </CommentBox>
           ))}
@@ -26,7 +34,11 @@ const SocialComments = () => {
 
         <S.CommentColumn>
           {commentsColumn3.map((comment) => (
-            <CommentBox user={comment.user} userImg={comment.img}>
+            <CommentBox
+              user={comment.user}
+              userImg={comment.img}
+              key={comment.user}
+            >
               {comment.text}
             </CommentBox>
           ))}
