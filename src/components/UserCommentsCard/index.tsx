@@ -1,6 +1,6 @@
 import React from 'react';
 
-import SocialCard, { SocialCardProps } from '../SocialCard';
+import SocialCard from '../SocialCard';
 
 import * as Styled from './styles';
 
@@ -9,6 +9,7 @@ export type UserCommentsCardProps = {
   comment: string;
   username: string;
   image: string;
+  userSubtext?: string;
 };
 
 const UserCommentsCard = ({
@@ -16,6 +17,7 @@ const UserCommentsCard = ({
   comment = '',
   username = '',
   image = '',
+  userSubtext = '',
 }: UserCommentsCardProps) => (
   <Styled.Wrapper backgroundImage={backgroundImage}>
     <Styled.SocialCardWrapper>
@@ -23,10 +25,12 @@ const UserCommentsCard = ({
         fullSize
         transparent
         textColor="white"
+        colorUserProfile="white"
         textSize="xmedium"
         comment={comment}
         username={username}
         image={image}
+        userSubtext={userSubtext}
       />
     </Styled.SocialCardWrapper>
   </Styled.Wrapper>

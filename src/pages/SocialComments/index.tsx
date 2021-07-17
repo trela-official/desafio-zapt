@@ -9,17 +9,14 @@ const SocialComments = () => (
   <Container>
     <Styled.Wrapper>
       <Styled.TextWrapper>
-        <Heading
-          bold="300"
-          size="large"
-          text="O que estão falando nas redes sociais"
-        />
+        <Heading size="large" text="O que estão falando nas redes sociais" />
       </Styled.TextWrapper>
       <Styled.CommentsWrapper>
         {Array.isArray(comments) &&
           comments.length > 0 &&
           comments.map(comment => (
             <SocialCard
+              colorUserProfile="black"
               key={comment.username}
               username={comment.username}
               comment={comment.comment}

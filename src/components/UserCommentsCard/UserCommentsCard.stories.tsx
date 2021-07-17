@@ -21,6 +21,7 @@ export const UserCommentsCardDefault: Story<UserCommentsCardProps> = args => (
 
 UserCommentsCardDefault.args = {
   username: '@LuisCarlos',
+  userSubtext: 'Luis carlos nascimento bastos',
   image:
     'https://www.pixsy.com/wp-content/uploads/2021/04/ben-sweet-2LowviVHZ-E-unsplash-1.jpeg',
   comment:

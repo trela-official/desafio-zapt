@@ -4,6 +4,12 @@ export const Wrapper = styled.div`
   display: flex;
   align-items: center;
 `;
+
+export const TextWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+
 export const Image = styled.img`
   border-radius: 50%;
   width: 3.6rem;
