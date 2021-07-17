@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components'
-import { darken, lighten } from 'polished'
+import { darken, lighten, rgba } from 'polished'
 
 export const Wrapper = styled.button`
   ${({ theme }) => css`
@@ -7,6 +7,8 @@ export const Wrapper = styled.button`
     background-color: ${theme.colors.primary};
     color: ${theme.colors.white};
     border: none;
+    white-space: nowrap;
+    cursor: pointer;
 
     border-radius: ${theme.border.radius};
 
@@ -21,7 +23,7 @@ export const Wrapper = styled.button`
     transition: all 0.3s;
 
     &:focus {
-      box-shadow: 0 0 0 2px ${darken(0.1, theme.colors.secondary)};
+      box-shadow: 0 0 0 2px ${rgba(darken(0.1, theme.colors.secondary), 0.4)};
     }
 
     :hover {

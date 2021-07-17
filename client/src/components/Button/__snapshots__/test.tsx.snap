@@ -6,6 +6,8 @@ exports[`<Button /> should render the button correctly 1`] = `
   background-color: #334BC8;
   color: #FFFFFF;
   border: none;
+  white-space: nowrap;
+  cursor: pointer;
   border-radius: 0.4rem;
   font-size: 1.4rem;
   display: -webkit-inline-box;
@@ -28,7 +30,7 @@ exports[`<Button /> should render the button correctly 1`] = `
 }
 
 .c0:focus {
-  box-shadow: 0 0 0 2px #ff2925;
+  box-shadow: 0 0 0 2px rgba(255,41,37,0.4);
 }
 
 .c0:hover {
