@@ -1,6 +1,6 @@
 import * as S from "./styles";
 
-type FeedbackCardProps = {
+export type FeedbackCardProps = {
   userName: string;
   userImg: string;
   userCity: string;
