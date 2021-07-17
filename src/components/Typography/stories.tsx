@@ -9,16 +9,37 @@ export default {
       type: 'string'
     },
     as: {
-      type: 'string'
+      control: {
+        type: 'select',
+        options: ['h1', 'h2', 'p']
+      }
     },
     weight: {
-      type: 'string'
+      control: {
+        type: 'select',
+        options: ['light', 'regular', 'medium']
+      }
     },
     size: {
-      type: 'string'
+      control: {
+        type: 'select',
+        options: ['xsmall', 'small', 'medium', 'large', 'xlarge', 'huge']
+      }
     },
     color: {
-      type: 'string'
+      control: {
+        type: 'select',
+        options: [
+          'primary',
+          'secondary',
+          'white',
+          'gray',
+          'lightBlue',
+          'neutralBlue',
+          'darkBlue',
+          'black'
+        ]
+      }
     }
   }
 } as Meta
