@@ -4,6 +4,7 @@ const GlobalStyle = createGlobalStyle`
   :root {
     --color-main: #334BC8;
     --color-main-light: #2196F3;
+    --color-main-dark: #001AA3;
     --color-neutral: #FAFAFA;
     --color-neutral-dark: #7B7B7B;
     --color-dark: #000;
@@ -62,6 +63,21 @@ const GlobalStyle = createGlobalStyle`
     padding: 18px 32px;
     border-radius: 4px;
     width: fit-content;
+    transition: all 0.125s ease-in-out;
+    &.external-link{
+      background: transparent;
+      padding: 0;
+      text-decoration: underline;
+      color: var(--color-main);
+      &:hover{
+        background-color: transparent;
+        box-shadow: none;
+      }
+    }
+    &:hover{
+      background-color: var(--color-main-dark);
+      box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+    }
     @media (max-width: 575px){
       padding: 15px 25px;
     }

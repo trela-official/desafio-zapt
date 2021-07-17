@@ -6,7 +6,7 @@ function Contact() {
   return (
     <S.Container>
       <S.Description>
-      Qualquer dúvida que você tiver é só nos chamar no nosso número de <a href={`https://wa.me/${numberWhatsApp}?&text=${messageWhatsApp}`} target="_blank" rel="noopener noreferrer" title="WhatsApp">WhatsApp</a>.
+      Qualquer dúvida que você tiver é só nos chamar no nosso número de <a className="external-link" href={`https://wa.me/${numberWhatsApp}?&text=${messageWhatsApp}`} target="_blank" rel="noopener noreferrer" title="WhatsApp">WhatsApp</a>.
       </S.Description>
     </S.Container>
   );
