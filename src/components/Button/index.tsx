@@ -9,7 +9,7 @@ export type ButtonProps = {
 const Button = ({ size = "medium", children, ...props }: ButtonProps) => {
   return (
     <S.Wrapper size={size} {...props}>
-      {children}
+      <span>{children}</span>
     </S.Wrapper>
   );
 };
