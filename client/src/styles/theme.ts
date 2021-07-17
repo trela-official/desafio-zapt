@@ -1,7 +1,7 @@
 export default {
   grid: {
     container: '124.8rem',
-    gutter: '3.2rem'
+    gutter: '2.0rem'
   },
   border: {
     radius: '0.4rem'
@@ -27,8 +27,8 @@ export default {
     secondary: '#FF5B58',
     white: '#FFFFFF',
     black: '#000000',
-    gray_100: '#FAFAFA',
-    gray_200: '#7B7B7B'
+    drWhite: '#FAFAFA',
+    namaraGrey: '#7B7B7B'
   },
   spacings: {
     xxsmall: '0.8rem',
