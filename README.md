@@ -1,47 +1,84 @@
-# Desafio Zapt
+<h1 align="center">
+    <img alt="Zapt" title="Zapt" src=".github/logo.png" />
+</h1>
 
-> Repositório onde tem o desafio para o processo seletivo da Zapt.
+<h3 align="center">
+  Zapt
+</h3>
 
-## Introdução
+<p align="center">
+  <a href="https://www.linkedin.com/in/agra-luca/"><img alt="Feito por" src="https://img.shields.io/badge/feito%20por-Luca%20Agra-%2315C3"></a>
+  <img alt="Tamanho do repo" src="https://img.shields.io/github/repo-size/agraluca/desafio-zapt?color=15C3D6%22">
+  <a href="https://github.com/agraluca/desafio-zapt/commits/main"><img alt="Último commit GitHub" src="https://img.shields.io/github/last-commit/agraluca/desafio-zapt?color=15C3D6"></a>
+  <img alt="GitHub" src="https://img.shields.io/github/license/agraluca/desafio-zapt?color=15C3D6">
+</p>
 
-A ideia é que você aprenda, se divirta e mostre o seu melhor nesse exercício.
+<p align="center">
+  <a href="#-sobre-o-projeto">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-começando">Começando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
 
-## Exercício
+<p align="center">
+  <img alt="Zapt" src=".github/zapt.png" width="100%">
+</p>
 
-Segue [um link para o Figma](https://www.figma.com/file/MYVq6CfqgFkEAhcFcNmvGy/Public-File?node-id=0%3A1), onde terão 3 pequenas seções para serem feitas.
+## :bulb: Sobre o projeto
 
-Vocês podem escolher **1, 2 ou 3** para fazer, lembrando que aqui **Qualidade é melhor que Quantidade!**
+Esse projeto foi desenvolvido como desafio prático para a empresa [Zapt](https://www.zapt.com.br/)
 
-## Requisitos - o que será analisado?
 
-- Escrita (HTML, CSS e JavaScript) e suas boas práticas
-- Organização e qualidade de código
-- Estrutura do projeto e escalabilidade
-- Commits organizados e bem escritos
+Nesse projeto utilizei o boilerplate que fiz no curso de [React Avançado](https://reactavancado.com.br/)
 
-## Como deve ser feito?
+Utilizando Next.JS, TypeScript, Styled Component entre outras tecnologias bem legais.
 
-- Você pode utilizar qualquer tecnologia que se sentir confortável
-- Você pode utilizar qualquer plugin se achar necessário (no dia-a-dia a gente não reinventa roda, aqui também não precisa)
-- Você pode entregar cada componente como uma página separada
-- Você pode entregar todos os componentes numa mesma página
-- Você precisa deixar claro todos os passos para rodar o projeto
-- Enfim, nos surpreenda!
+Montei uma estrutura de projeto pensada a longo prazo, usando uma arquitetura bem dividida. Além disso criei um tema para o projeto, tornando o desenvlvimento mais prazeroso - visto que o TypeScript auxilia na tipagem ao acessar uma propriedade - e evitando problemas de alterações de cores, espaçamento e etc no futuro, bastando apenas alterar em um lugar.
 
-## O que usamos por aqui?
+Por fim, escrevi testes unitários bem básicos para os componentes, dando uma segurança maior do seu funcionamento.
 
-Caso você tenha interesse em se aproximar da nossa Stack, usamos:
+O link da aplicação no ar será:
+[Stoom Pizzaria](https://zapt-agra.netlify.app/)
 
-- Typescript em basicamente tudo
-- React e styled-components para construção das nossas interfaces
-- ESLint, Prettier e Jest para garantir padronização e qualidade de código
+## 🚀 Tecnologias
 
-## Como entregar o teste?
+Technologias que eu utilizei desenvolvendo essa aplicação:
 
-1. Crie um fork deste projeto
-2. Faça as devidas modificações
-3. Envie um PR para esse repositório
+- [NextJS](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Styled Component](https://styled-components.com/)
+- [Testing Library](https://testing-library.com/)
+- [Eslint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [Husky](https://www.husky.io/)
 
-## Dúvidas?
 
-Qualquer dúvida, não deixe de nos enviar um email em admin@zapt.com.br ou wj@zapt.com.br.
+## 💻 Começando
+Para começar precisamos instalar algumas coisas
+
+### Requerimentos
+
+- [Node.js](https://nodejs.org/en/)
+- [Yarn](https://classic.yarnpkg.com/)
+
+
+```bash
+$ git clone https://github.com/agraluca/desafio-zapt.git && cd desafio-zapt
+```
+
+**Siga esses passos**
+
+### Web
+
+```bash
+
+# Instale as dependências
+$ yarn
+
+
+# Rodando o cliente
+$ yarn start
+```
+
+---
+
+Feito com amor 💙&nbsp; por Luca Agra 👋 &nbsp;[Veja meu linkedin](https://www.linkedin.com/in/agra-luca/)
