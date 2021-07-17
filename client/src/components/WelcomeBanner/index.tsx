@@ -45,7 +45,9 @@ const WelcomeBanner = ({ user }: WelcomeBannerProps) => {
       </S.Content>
       <S.WhatAppContact>
         Qualquer dúvida que você tiver é só nos chamar no nosso número de{' '}
-        <a href="https://wa.me/5538998280928">WhatsApp.</a>
+        <a target="_blank" rel="noreferrer" href="https://wa.me/5538998280928">
+          WhatsApp.
+        </a>
       </S.WhatAppContact>
     </S.Wrapper>
   )
