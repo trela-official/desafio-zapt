@@ -1,7 +1,7 @@
 import styled, { css, DefaultTheme } from 'styled-components';
 import { HeadingProps } from '.';
 
-type StyledHeadingProps = Pick<HeadingProps, 'size'>;
+type StyledHeadingProps = Pick<HeadingProps, 'size' | 'bold'>;
 
 const headingModifiers = {
   small: (theme: DefaultTheme) => css`
@@ -15,7 +15,8 @@ const headingModifiers = {
 };
 
 export const Heading = styled.h1<StyledHeadingProps>`
-  ${({ theme, size }) => css`
+  ${({ theme, size, bold }) => css`
+    font-weight: ${theme.font.weight[bold!]};
     ${!!size && headingModifiers[size](theme)}
   `}
 `;

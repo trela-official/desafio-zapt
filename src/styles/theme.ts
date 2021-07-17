@@ -22,6 +22,7 @@ export default {
     family: 'Inter',
 
     weight: {
+      '300': 300,
       '400': 400,
       '500': 500,
     },
