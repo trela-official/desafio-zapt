@@ -20,6 +20,10 @@ exports[`<Button /> should render the button correctly 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   text-align: center;
   -webkit-letter-spacing: -0.01em;
   -moz-letter-spacing: -0.01em;
@@ -42,4 +46,4 @@ exports[`<Button /> should render the button correctly 1`] = `
 >
   Entrar em grupo
 </button>
-`;
+`

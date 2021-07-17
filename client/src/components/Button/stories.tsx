@@ -17,7 +17,7 @@ Default.args = {
   children: 'Entrar em um grupo'
 }
 
-export const asLink: Story<ButtonProps> = ({ ...args }) => <Button {...args} />
+export const asLink: Story<ButtonProps> = (args) => <Button {...args} />
 
 asLink.args = {
   children: 'Criar um grupo',

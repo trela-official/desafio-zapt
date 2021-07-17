@@ -17,6 +17,7 @@ export const Wrapper = styled.button`
     display: inline-flex;
     text-decoration: none;
     align-items: center;
+    justify-content: center;
     text-align: center;
     letter-spacing: -0.01em;
 
