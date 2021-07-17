@@ -3,13 +3,13 @@ import * as S from "./styles";
 type CommentBoxProps = {
   user: string;
   userImg: string;
-  text: React.ReactNode;
+  children: React.ReactNode;
 };
 
-const CommentBox = ({ text, user, userImg }: CommentBoxProps) => {
+const CommentBox = ({ children, user, userImg }: CommentBoxProps) => {
   return (
     <S.Wrapper>
-      <S.CommentWrapper>{text}</S.CommentWrapper>
+      <S.CommentWrapper>{children}</S.CommentWrapper>
       <S.UserInfo>
         <img src={userImg} />
         <span>{user}</span>
