@@ -83,11 +83,19 @@ describe('<Typography />', () => {
     })
   })
 
+  it(`should render the lightGray color`, () => {
+    render(<Typography color="lightGray">Hello</Typography>)
+
+    expect(screen.getByRole('heading', { name: /hello/i })).toHaveStyle({
+      color: '#FAFAFA'
+    })
+  })
+
   it(`should render the white color`, () => {
     render(<Typography color="white">Hello</Typography>)
 
     expect(screen.getByRole('heading', { name: /hello/i })).toHaveStyle({
-      color: '#FAFAFA'
+      color: '#FFFFFF'
     })
   })
 

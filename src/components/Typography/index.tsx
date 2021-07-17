@@ -7,12 +7,13 @@ type TFontSize = 'xsmall' | 'small' | 'medium' | 'large' | 'xlarge' | 'huge'
 type TFontColor =
   | 'primary'
   | 'secondary'
-  | 'white'
+  | 'lightGray'
   | 'gray'
   | 'lightBlue'
   | 'neutralBlue'
   | 'darkBlue'
   | 'black'
+  | 'white'
 
 export type TypographyProps = {
   children: React.ReactNode

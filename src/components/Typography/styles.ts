@@ -29,8 +29,8 @@ const colorModifier = {
   secondary: (theme: DefaultTheme) => css`
     color: ${theme.colors.secondary};
   `,
-  white: (theme: DefaultTheme) => css`
-    color: ${theme.colors.white};
+  lightGray: (theme: DefaultTheme) => css`
+    color: ${theme.colors.lightGray};
   `,
   gray: (theme: DefaultTheme) => css`
     color: ${theme.colors.gray};
@@ -46,6 +46,9 @@ const colorModifier = {
   `,
   black: (theme: DefaultTheme) => css`
     color: ${theme.colors.black};
+  `,
+  white: (theme: DefaultTheme) => css`
+    color: ${theme.colors.white};
   `
 }
 
