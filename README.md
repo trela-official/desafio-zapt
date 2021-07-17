@@ -1,47 +1,105 @@
-# Desafio Zapt
+<h1 align="center">Desafio Zapt</h1>
 
-> Repositório onde tem o desafio para o processo seletivo da Zapt.
+<br />
 
-## Introdução
+# :memo: Sobre o Projeto
 
-A ideia é que você aprenda, se divirta e mostre o seu melhor nesse exercício.
+Este projeto foi desenvolvido para o processo de seleção da Empresa Zapt.
 
-## Exercício
+<br />
 
-Segue [um link para o Figma](https://www.figma.com/file/MYVq6CfqgFkEAhcFcNmvGy/Public-File?node-id=0%3A1), onde terão 3 pequenas seções para serem feitas.
+---
 
-Vocês podem escolher **1, 2 ou 3** para fazer, lembrando que aqui **Qualidade é melhor que Quantidade!**
+# :globe_with_meridians: Tecnologias Usadas
 
-## Requisitos - o que será analisado?
+⚛ Next.js
 
-- Escrita (HTML, CSS e JavaScript) e suas boas práticas
-- Organização e qualidade de código
-- Estrutura do projeto e escalabilidade
-- Commits organizados e bem escritos
+🔥 TypeScript
 
-## Como deve ser feito?
+💅 Styled-Components
 
-- Você pode utilizar qualquer tecnologia que se sentir confortável
-- Você pode utilizar qualquer plugin se achar necessário (no dia-a-dia a gente não reinventa roda, aqui também não precisa)
-- Você pode entregar cada componente como uma página separada
-- Você pode entregar todos os componentes numa mesma página
-- Você precisa deixar claro todos os passos para rodar o projeto
-- Enfim, nos surpreenda!
+🚩 Lints — ESlint/Prettier/EditorConfig
 
-## O que usamos por aqui?
+✅ Jest
 
-Caso você tenha interesse em se aproximar da nossa Stack, usamos:
+📝 Storybook
 
-- Typescript em basicamente tudo
-- React e styled-components para construção das nossas interfaces
-- ESLint, Prettier e Jest para garantir padronização e qualidade de código
+<br />
 
-## Como entregar o teste?
+---
 
-1. Crie um fork deste projeto
-2. Faça as devidas modificações
-3. Envie um PR para esse repositório
+# :triangular_flag_on_post: Pré-Requisitos
 
-## Dúvidas?
+- yarn
 
-Qualquer dúvida, não deixe de nos enviar um email em admin@zapt.com.br ou wj@zapt.com.br.
+- node
+
+<br />
+
+---
+
+# :question: Como instalar e executar o projeto
+
+## Clonar Repositório:
+
+```bash
+git clone https://github.com/everton-dgn/desafio-zapt.git
+```
+
+## Instalar Dependências:
+
+```bash
+yarn
+```
+
+## Inciar Ambiente de Desenvolvimento:
+
+```bash
+yarn dev
+```
+
+Disponível em http://localhost:3000
+
+## Executar Build de Produção:
+
+```bash
+yarn build
+```
+
+## Inciar Ambiente de Produção:
+
+```bash
+yarn start
+```
+
+Disponível em http://localhost:3000
+
+## Executar Testes:
+
+```bash
+yarn test
+```
+
+## Inciar Storybook em Modo de Desenvolvimento:
+
+```bash
+yarn sb
+```
+
+Disponível em http://localhost:6006
+
+## Executar Build de Produção do Storybook:
+
+```bash
+yarn build-sb
+```
+
+## Executar lints:
+
+```bash
+yarn lint
+```
+
+```bash
+yarn next:lint
+```

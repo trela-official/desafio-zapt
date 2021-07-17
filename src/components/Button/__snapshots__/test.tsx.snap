@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> should render a small blue button with text 1`] = `
+.c0 {
+  cursor: pointer;
+  border-radius: 0.4rem;
+  font-weight: 400;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  border: 0.1rem solid transparent;
+  text-shadow: 0 0 0.3rem rgb(0 0 0 / 60%);
+  -webkit-transition: background-color 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #334BC8;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  font-size: 1.2rem;
+  padding: 0.8rem 1.2rem;
+}
+
+.c0:focus {
+  box-shadow: 0 0 0 0.2rem #5872ff,0 0.1rem 1.5rem #3e396b80;
+}
+
+.c0:hover {
+  background-color: #5872ff;
+}
+
+.c0:active {
+  box-shadow: none;
+}
+
+.c0:disabled,
+.c0:disabled:hover {
+  opacity: 0.5;
+  cursor: not-allowed;
+  background-color: #a1a4b0;
+}
+
+.c0 span {
+  color: #fff;
+}
+
+.c0 svg + span {
+  margin-left: 1rem;
+}
+
+.c0 svg {
+  width: 2rem;
+  min-width: 2rem;
+  height: 2rem;
+  min-height: 2rem;
+  color: #fff;
+}
+
+<div>
+  <button
+    class="c0"
+    color="blue"
+  >
+    <span>
+      Mais Informações
+    </span>
+  </button>
+</div>
+`;

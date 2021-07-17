@@ -1,0 +1,23 @@
+import { Canvas, Meta, Story } from '@storybook/addon-docs'
+import {{pascalCase name}} from '.'
+import * as stories from './stories'
+
+<Meta
+  title="Design System/{{pascalCase name}}"
+  component={{{pascalCase name}}}
+  parameters=\{{
+    controls: { sort: 'requiredFirst' }
+  }}
+/>
+
+# {{pascalCase name}}
+
+Description general.
+
+## Default
+
+Component description.
+
+<Canvas>
+  <Story story={stories.Default} />
+</Canvas>

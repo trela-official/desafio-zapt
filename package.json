@@ -1,0 +1,84 @@
+{
+  "name": "desafio_zapt",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint src --max-warnings=0",
+    "next:lint": "next lint",
+    "prepare": "husky install",
+    "test": "jest --maxWorkers=50%",
+    "test:w": "jest --watch --maxWorkers=25%",
+    "sb": "start-storybook -s ./public -p 6006",
+    "build-sb": "build-storybook -s ./public",
+    "generate": "yarn plop --plopfile componentGenerator/plopfile.js"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{ts,tsx}": [
+      "yarn lint --fix",
+      "yarn test --findRelatedTests --bail"
+    ]
+  },
+  "dependencies": {
+    "@styled-icons/bootstrap": "^10.34.0",
+    "next": "^11.0.0",
+    "next-pwa": "^5.2.23",
+    "nprogress": "^0.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-typescript": "^7.14.5",
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "@next/eslint-plugin-next": "^11.0.1",
+    "@storybook/addon-a11y": "^6.3.2",
+    "@storybook/addon-essentials": "^6.3.2",
+    "@storybook/react": "^6.3.2",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/user-event": "^13.1.9",
+    "@types/jest": "^26.0.24",
+    "@types/node": "^16.0.0",
+    "@types/nprogress": "^0.2.0",
+    "@types/react": "^17.0.13",
+    "@types/styled-components": "^5.1.11",
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "@typescript-eslint/parser": "^4.28.2",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-dynamic-import-node": "^2.3.3",
+    "babel-plugin-inline-react-svg": "^2.0.1",
+    "babel-plugin-styled-components": "^1.13.1",
+    "eslint": "^7.30.0",
+    "eslint-config-next": "^11.0.1",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": "^7.0.0",
+    "jest": "^27.0.6",
+    "jest-next-dynamic": "^1.0.1",
+    "jest-styled-components": "^7.0.4",
+    "lint-staged": "^11.0.0",
+    "plop": "^2.7.4",
+    "prettier": "^2.3.2",
+    "storybook-addon-next-router": "^2.0.4",
+    "storybook-dark-mode": "^1.0.8",
+    "storybook-mobile": "^0.1.32",
+    "typescript": "^4.3.5"
+  }
+}

@@ -1,0 +1,62 @@
+*.css                       text eol=lf
+*.htm                       text eol=lf
+*.html                      text eol=lf
+*.ini                       text eol=lf
+*.js                        text eol=lf
+*.jsx                       text eol=lf
+*.json                      text eol=lf
+*.less                      text eol=lf
+*.php                       text eol=lf
+*.sass                      text eol=lf
+*.scm                       text eol=lf
+*.scss                      text eol=lf
+*.sh                        text eol=lf
+*.sql                       text eol=lf
+*.ts                        text eol=lf
+*.tsx                       text eol=lf
+*.xml                       text eol=lf
+*.xhtml                     text eol=lf
+*.vue                       text eol=lf
+
+## Documentation
+*.markdown                  text eol=lf
+*.md                        text eol=lf
+*.MD                        text eol=lf
+*.mdwn                      text eol=lf
+*.mdown                     text eol=lf
+*.mkd                       text eol=lf
+*.mkdn                      text eol=lf
+*.mdtxt                     text eol=lf
+*.mdtext                    text eol=lf
+*.txt                       text eol=lf
+license                     text eol=lf
+LICENSE                     text eol=lf
+
+## Templates
+*.dot                       text eol=lf
+*.ejs                       text eol=lf
+*.haml                      text eol=lf
+*.handlebars                text eol=lf
+*.hbs                       text eol=lf
+*.hbt                       text eol=lf
+*.jade                      text eol=lf
+*.latte                     text eol=lf
+*.mustache                  text eol=lf
+*.njk                       text eol=lf
+*.phtml                     text eol=lf
+*.tmpl                      text eol=lf
+*.tpl                       text eol=lf
+*.twig                      text eol=lf
+
+## Configs
+.editorconfig               text eol=lf
+.babelrc                    text eol=lf
+.eslintrc                   text eol=lf
+.gitattributes              text eol=lf
+.gitconfig                  text eol=lf
+.gitignore                  text eol=lf
+.watchmanconfig             text eol=lf
+*.npmignore                 text eol=lf
+Makefile                    text eol=lf
+makefile                    text eol=lf
+*yml                        text eol=lf
