@@ -11,7 +11,7 @@ export const DropImg = styled.div`
   }
 `
 export const Wrapper = styled.div`
-  width: 100%;
+  width: calc(100% - 90px);
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
@@ -26,6 +26,7 @@ export const Container = styled.div`
 `
 export const WelcomeUser = styled.div`
   padding: 0 95px;
+  width: 100%;
   @media (max-width: 1024px){
     padding: 15px 30px;
   }
