@@ -18,11 +18,12 @@ export const theme = {
     }
   },
   colors: {
-    primary: '#011FBB ',
-    cardBg: '#2196F3',
+    primary: '#011FBB',
+    secondary: '#E9F4FE',
     white: '#FAFAFA',
     black: '#000000',
-    darkBlue: '#001C33'
+    darkBlue: '#001C33',
+    neutral: '#5C5B5B'
   },
   spacings: {
     xxsmall: '0.8rem',
