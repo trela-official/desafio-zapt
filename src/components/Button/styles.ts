@@ -19,7 +19,9 @@ export const Wrapper = styled.button<WrapperProps>`
     color: #fff;
     border-radius: 4px;
     font-size: 1.4rem;
+    height: 5.1rem;
+    cursor: pointer;
 
-    ${!!size && wrapperModifiers[size]}
+    ${!!size && wrapperModifiers[size]};
   `}
 `;
