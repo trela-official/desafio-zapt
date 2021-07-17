@@ -2,7 +2,7 @@ import React from 'react';
 import * as Styled from './styles';
 
 export type TypographyProps = {
-  children: string;
+  children: React.ReactNode;
   size?: 'small' | 'medium' | 'large';
   color?: 'black' | 'darkgray' | 'white' | 'primary';
   bold?: '400' | '500';
