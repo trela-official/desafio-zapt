@@ -1,6 +1,7 @@
 export const theme = {
   border: {
-    radius: '0.4rem'
+    radius: '0.4rem',
+    circle: '50%'
   },
   font: {
     family:
@@ -33,5 +34,10 @@ export const theme = {
     large: '4.0rem',
     xlarge: '4.8rem',
     xxlarge: '5.6rem'
+  },
+  imageSizes: {
+    small: '6.4rem',
+    medium: '8rem',
+    large: '15rem'
   }
 } as const
