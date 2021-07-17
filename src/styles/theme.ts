@@ -2,12 +2,16 @@ export default {
   colors: {
     primary: '#011FBB',
     primaryLight: '#334BC8',
-    lightBg: '#2196F3',
     black: '#000000',
     white: '#ffffff',
     background: '#E5E5E5',
     bacgrounCard: '#FAFAFA',
     darkgray: '#7B7B7B',
+
+    gradients: {
+      lightBg:
+        'linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), #2196F3;',
+    },
   },
 
   border: {

@@ -4,7 +4,7 @@ import { Story, Meta } from '@storybook/react/types-6-0';
 import UserProfile, { UserProfileProps } from '.';
 
 export default {
-  title: 'UserProfile',
+  title: 'Social Comments/UserProfile',
   component: UserProfile,
 } as Meta;
 
