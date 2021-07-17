@@ -47,7 +47,7 @@ const Welcome = () => {
           </Styled.DropBlue>
         </Styled.CardWrapper>
 
-        <Typography color="darkgray">
+        <Typography color="darkgray" size="small">
           Qualquer dúvida que você tiver é só nos chamar no nosso número de
           <span> WhatsApp.</span>
         </Typography>
