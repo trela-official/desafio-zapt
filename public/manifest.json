@@ -1,0 +1,86 @@
+{
+  "name": "Zapt | Junte seus amigos para comprar com desconto",
+  "short_name": "Zapt",
+  "description": "Economize até 50% nos melhores produtos comprando junto com seus grupos de WhatsApp. Convide amigos para comprar junto e ganhe cashback",
+  "theme_color": "#334bc8",
+  "background_color": "#ffffff",
+  "start_url": "/",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "/img/android-icon-192x192-dunplab-manifest-33422.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/apple-icon-180x180-dunplab-manifest-33422.png",
+      "type": "image/png",
+      "sizes": "180x180"
+    },
+    {
+      "src": "/img/apple-icon-152x152-dunplab-manifest-33422.png",
+      "type": "image/png",
+      "sizes": "152x152"
+    },
+    {
+      "src": "/img/apple-icon-144x144-dunplab-manifest-33422.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "/img/apple-icon-120x120-dunplab-manifest-33422.png",
+      "type": "image/png",
+      "sizes": "120x120"
+    },
+    {
+      "src": "/img/apple-icon-114x114-dunplab-manifest-33422.png",
+      "type": "image/png",
+      "sizes": "114x114"
+    },
+    {
+      "src": "/img/favicon-96x96-dunplab-manifest-33422.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "/img/apple-icon-76x76-dunplab-manifest-33422.png",
+      "type": "image/png",
+      "sizes": "76x76"
+    },
+    {
+      "src": "/img/apple-icon-72x72-dunplab-manifest-33422.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "/img/apple-icon-60x60-dunplab-manifest-33422.png",
+      "type": "image/png",
+      "sizes": "60x60"
+    },
+    {
+      "src": "/img/apple-icon-57x57-dunplab-manifest-33422.png",
+      "type": "image/png",
+      "sizes": "57x57"
+    },
+    {
+      "src": "/img/favicon-32x32-dunplab-manifest-33422.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "/img/favicon-16x16-dunplab-manifest-33422.png",
+      "type": "image/png",
+      "sizes": "16x16"
+    },
+    {
+      "src": "/img/pwa-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/pwa-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
