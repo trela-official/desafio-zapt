@@ -1,6 +1,6 @@
-<center><h1>Desafio Zapt</h1></center>
+<center><h1 style="text-align: center">Desafio Zapt</h1></center>
 
-## 🌎 Veja online
+## 🌎 Preview
 
 https://desafio-zapt-henna.vercel.app/
 
