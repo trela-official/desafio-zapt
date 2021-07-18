@@ -26,7 +26,7 @@ $ yarn dev
 
 ## 🥳 Informações adicionais
 
-Alguns pontos em destaque para esse projeto:
+#### Pontos em destaque para esse projeto:
 
 - Componentes prontos para receber informações de alguma API
 - Componentes acoplados em uma estrutura (`Layout`)
@@ -36,8 +36,38 @@ Alguns pontos em destaque para esse projeto:
 - Pequenas interações nos botões
 - Padronização de código com `ESLint` e `Prettier`
 
+#### Comandos
+
+Todos os comandos abaixo só vão funcionar dentro da pasta do projeto.
+
+Para rodar o projeto em `localhost` no `modo de desenvolvimento`, execute o comando abaixo:
+
+```shell
+$ yarn dev
+```
+
+Se quiser testar o projeto em `localhost` no `modo de produção` (`server`), execute o comando abaixo. Mas lembre-se: é necessário rodar o comando `yarn build` antes!
+
+```shell
+$ yarn start
+```
+
+Para 'fechar' o projeto (`build`), execute o comando abaixo:
+
+```shell
+$ yarn build
+```
+
+Tente encontrar erros/verificar a qualidade do código executando o comando abaixo:
+
+```shell
+$ yarn lint
+```
+
+---
+
 <details>
-<summary>Conteúdo informado</summary>
+<summary>Conteúdo informado para o desafio</summary>
 
 ## Desafio Zapt
 
