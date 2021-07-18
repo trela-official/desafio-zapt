@@ -1,4 +1,4 @@
-<center><h1 style="text-align: center">Desafio Zapt</h1></center>
+<h1 align="center">Desafio Zapt</h1>
 
 ## 🌎 Preview
 
