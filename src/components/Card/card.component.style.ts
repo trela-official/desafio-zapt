@@ -7,7 +7,7 @@ export const Wrapper = styled.div<CardProps>`
     display: block;
     padding: ${noGutter
       ? 0
-      : `${theme.spacings.large} ${theme.spacings.large}`};
+      : `${theme.spacings.xsmall} ${theme.spacings.small}`};
     border-radius: ${theme.border.radius};
     background-color: ${color ? theme.colors[color] : theme.colors.secondary};
   `}
