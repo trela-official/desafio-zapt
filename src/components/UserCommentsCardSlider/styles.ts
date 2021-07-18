@@ -7,9 +7,10 @@ export const Wrapper = styled.div`
       display: flex;
     }
 
-    .slick-slide {
-      height: 40rem;
+    .slick-slider {
+      overflow: hidden;
     }
+
     .slick-slide > div {
       margin: 0 ${theme.spacings.xxsmall};
       flex: 1 0 auto;
@@ -26,16 +27,29 @@ export const Wrapper = styled.div`
       cursor: pointer;
       position: absolute;
       top: 50%;
-      width: 2.5rem;
-      height: 2.5rem;
+      height: 8.3rem;
+      width: 8.3rem;
+      border-radius: 50%;
+      border: 0;
+      background: ${theme.colors.white};
       padding: 0;
       transform: translate(0, -50%);
+
+      svg {
+        width: 100%;
+        max-width: 1.6rem;
+      }
     }
     .slick-prev {
-      left: -${theme.spacings.small};
+      left: -4rem;
+      text-align: right;
+      padding-right: 2rem;
+      z-index: 1;
     }
     .slick-next {
-      right: -${theme.spacings.small};
+      right: -4rem;
+      text-align: left;
+      padding-left: 2rem;
     }
     .slick-prev.slick-disabled,
     .slick-next.slick-disabled {
@@ -69,13 +83,7 @@ export const Wrapper = styled.div`
         cursor: pointer;
       }
     }
-
-    .slick-next {
-      right: -1.4rem;
-    }
-    .slick-prev {
-      left: -1.4rem;
-      z-index: 1;
-    }
   `}
 `;
+
+export const SlickArrows = styled.button``;
