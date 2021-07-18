@@ -110,6 +110,7 @@ export const ImageWrapper = styled.div<ImageWrapperProps>`
 export const Title = styled.h2`
   ${({ theme }) => css`
     font-size: calc(${theme.font.sizes.xlarge} - 0.2rem);
+    font-weight: ${theme.font.normal};
     margin-bottom: ${theme.spacings.xxsmall};
 
     &:after {
