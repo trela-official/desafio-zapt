@@ -1,3 +1,5 @@
+import NextLink from 'next/link';
+
 import Container from 'components/Container';
 import Heading from 'components/Heading';
 import Button from 'components/Button';
@@ -24,12 +26,12 @@ const WelcomeTemplate = () => (
         <S.BoldText>O que você prefere?</S.BoldText>
 
         <S.ActionsContainer>
-          <Button as="a" href="/">
-            Criar um grupo
-          </Button>
-          <Button as="a" href="/">
-            Entrar em um grupo
-          </Button>
+          <NextLink href="/" passHref>
+            <Button as="a">Criar um grupo</Button>
+          </NextLink>
+          <NextLink href="/" passHref>
+            <Button as="a">Entrar em um grupo</Button>
+          </NextLink>
         </S.ActionsContainer>
       </S.InfoContentContainer>
 
