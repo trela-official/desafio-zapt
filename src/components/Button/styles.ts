@@ -6,10 +6,10 @@ type WrapperProps = Pick<ButtonProps, 'color' | 'fullWidth'>
 
 const wrapperModifiers = {
   primary: (theme: DefaultTheme) => css`
-    background: ${theme.colors.primary};
+    background: ${theme.colors.primaryLight};
 
     &:hover {
-      background: ${darken(0.05, theme.colors.primary)};
+      background: ${darken(0.05, theme.colors.primaryLight)};
     }
   `,
 

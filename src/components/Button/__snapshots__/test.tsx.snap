@@ -23,11 +23,11 @@ exports[`<Button /> should render primary button 1`] = `
   font-size: 1.4rem;
   -webkit-text-decoration: none;
   text-decoration: none;
-  background: #011fbb;
+  background: #334bc8;
 }
 
 .c0:hover {
-  background: #011ba2;
+  background: #2e43b4;
 }
 
 <button

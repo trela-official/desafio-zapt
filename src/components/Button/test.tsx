@@ -8,7 +8,7 @@ describe('<Button />', () => {
 
     expect(screen.getByRole('button', { name: /criar um grupo/i })).toHaveStyle(
       {
-        background: '#011fbb'
+        background: '#334bc8'
       }
     )
 
