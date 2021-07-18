@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserCommentCard /> should math snapshot 1`] = `
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c6 {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  border: 0.15rem solid #ffffff;
+}
+
+.c7 {
+  color: #ffffff;
+  margin-left: 1.6rem;
+}
+
+.c8 {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.c9 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.c0 {
+  max-width: 58.8rem;
+  max-height: 40rem;
+  position: relative;
+}
+
+.c1 {
+  border-radius: 0.4rem;
+  width: 100%;
+  height: 100%;
+  -webkit-filter: brightness(70%);
+  filter: brightness(70%);
+}
+
+.c2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  padding: 2.4rem;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.c3 {
+  width: 85%;
+  margin-bottom: 1.6rem;
+  font-size: 1.2rem;
+}
+
+.c4 {
+  color: #ffffff;
+}
+
+@media (min-width:450px) {
+  .c3 {
+    font-size: 2.0rem;
+  }
+}
+
+<div
+  class="c0"
+>
+  <img
+    alt="Senhora cozinhando"
+    class="c1"
+    src="https://i.imgur.com/ci2Eulu.png"
+  />
+  <div
+    class="c2"
+  >
+    <p
+      class="c3"
+    >
+      <q
+        class="c4"
+      >
+        Não consigo mais viver sem os produtos do Sítio, a diferença do que eu comprava antes e agora é abissal
+      </q>
+    </p>
+    <div
+      class="c5"
+    >
+      <img
+        alt="Patricia Godoy"
+        class="c6"
+        src="https://i.imgur.com/8RP8XA9.png"
+      />
+      <div
+        class="c7"
+      >
+        <h3
+          class="c8"
+        >
+          Patricia Godoy
+        </h3>
+        <p
+          class="c9"
+        >
+          São Paulo
+           • 
+          São Paulo
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
