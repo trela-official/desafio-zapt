@@ -1,12 +1,23 @@
 import styled, { css } from 'styled-components'
 
-export const Container = styled.section`
+export const Container = styled.main`
   ${({ theme }) => css`
-    width: 100%;
-    max-width: ${theme.grid.container};
     margin-left: auto;
     margin-right: auto;
+    max-width: ${theme.grid.container};
+    width: 100%;
+  `}
+`
 
-    margin-top: 30px;
+export const BannerWrapper = styled.section`
+  ${({ theme }) => css`
+    margin-top: 120px;
+  `}
+`
+
+export const TestmonialsWrapper = styled.section`
+  ${({ theme }) => css`
+    margin-bottom: 80px;
+    margin-top: 80px;
   `}
 `
