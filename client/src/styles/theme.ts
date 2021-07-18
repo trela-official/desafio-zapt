@@ -28,7 +28,10 @@ export default {
     white: '#FFFFFF',
     black: '#000000',
     drWhite: '#FAFAFA',
-    namaraGrey: '#7B7B7B'
+    namaraGrey: '#7B7B7B',
+    arcadeGlow: '#011FBB',
+    midnightDreams: '#001C33',
+    moonWhite: '#EBF4FD'
   },
   spacings: {
     xxsmall: '0.8rem',
