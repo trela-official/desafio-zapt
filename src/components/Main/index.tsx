@@ -1,8 +1,14 @@
+import SocialComments from 'components/SocialComments'
+import mock from 'components/SocialComments/mock'
+
 import * as S from './styles'
 
 const Main = () => (
   <S.Wrapper>
-    <h1>Main</h1>
+    <SocialComments
+      title="O que estão falando nas redes sociais"
+      comments={mock}
+    />
   </S.Wrapper>
 )
 

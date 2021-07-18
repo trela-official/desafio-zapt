@@ -35,7 +35,9 @@ export default {
     small: '1.6rem',
     medium: '2.4rem',
     large: '3.2rem',
-    xlarge: '4.8rem'
+    xlarge: '4.8rem',
+    xxlarge: '8rem',
+    huge: '12rem'
   },
   layers: {
     base: 10,

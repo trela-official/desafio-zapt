@@ -1,6 +1,18 @@
 import styled, { css } from 'styled-components'
+import media from 'styled-media-query'
 
-export const Wrapper = styled.section``
+export const Wrapper = styled.section`
+  ${({ theme }) => css`
+    padding: ${theme.spacings.small} ${theme.spacings.xsmall};
+
+    ${media.greaterThan('small')`
+      padding: ${theme.spacings.large} ${theme.spacings.xlarge};
+    `}
+    ${media.greaterThan('large')`
+      padding: ${theme.spacings.xxlarge} ${theme.spacings.huge};
+    `}
+  `}
+`
 
 export const Title = styled.h2`
   ${({ theme }) => css`
