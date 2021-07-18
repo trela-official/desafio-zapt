@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserInfo /> should match snapshot 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  border: 0.15rem solid #ffffff;
+}
+
+.c2 {
+  color: #ffffff;
+  margin-left: 1.6rem;
+}
+
+.c3 {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.c4 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+<div
+  class="c0"
+>
+  <img
+    alt="Patricia Godoy"
+    class="c1"
+    src="https://i.imgur.com/8RP8XA9.png"
+  />
+  <div
+    class="c2"
+  >
+    <h3
+      class="c3"
+    >
+      Patricia Godoy
+    </h3>
+    <p
+      class="c4"
+    >
+      São Paulo
+       • 
+      São Paulo
+    </p>
+  </div>
+</div>
+`;
