@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TestimonyCard /> should render correctly 1`] = `
+.c0 {
+  position: relative;
+  width: 100%;
+  max-width: 58.8rem;
+  height: 40rem;
+  border-radius: 0.4rem;
+  background: #FAFAFA;
+  overflow: hidden;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.c0::before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: radial-gradient( 112.99% 451.94% at 0% 100%,rgba(0,0,0,0.7) 0%,rgba(0,0,0,0) 100% ),url('/img/noise-overlay.png');
+  z-index: 10;
+}
+
+.c0:hover {
+  -webkit-transform: scale(1.005);
+  -ms-transform: scale(1.005);
+  transform: scale(1.005);
+}
+
+.c0:hover .c1 > span {
+  -webkit-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  transform: scale(1.02);
+}
+
+.c4 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.c2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 50;
+  color: #FFFFFF;
+  padding: 2.4rem;
+  max-width: 460px;
+}
+
+.c2 > span {
+  display: block;
+  font-size: 2.0rem;
+  line-height: calc(2.4rem + 0.2rem);
+  -webkit-letter-spacing: -0.01em;
+  -moz-letter-spacing: -0.01em;
+  -ms-letter-spacing: -0.01em;
+  letter-spacing: -0.01em;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.c2 > span::after {
+  content: '”';
+}
+
+.c2 > span::before {
+  content: '“';
+}
+
+.c3 {
+  display: grid;
+  grid-template-areas: 'avatar name' 'avatar city';
+  grid-template-columns: 40px auto;
+  -webkit-column-gap: 1.6rem;
+  column-gap: 1.6rem;
+  margin-top: 1.6rem;
+  color: #FFFFFF;
+}
+
+.c3 img {
+  grid-area: avatar;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 100%;
+  border: 1.5px solid #FFFFFF;
+}
+
+.c3 p {
+  grid-area: name;
+  font-size: 1.6rem;
+  -webkit-letter-spacing: -0.01em;
+  -moz-letter-spacing: -0.01em;
+  -ms-letter-spacing: -0.01em;
+  letter-spacing: -0.01em;
+  color: currentColor;
+}
+
+.c3 span {
+  grid-area: city;
+  font-size: 1.2rem;
+  opacity: 0.8;
+  -webkit-letter-spacing: -0.01em;
+  -moz-letter-spacing: -0.01em;
+  -ms-letter-spacing: -0.01em;
+  letter-spacing: -0.01em;
+}
+
+@media (max-width:450px) {
+  .c0 {
+    height: 30rem;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1 c2"
+  >
+    <span>
+      Depois que entrei pra Zapt consegui ter clareza sobre o futuro da minha carreira
+    </span>
+    <div
+      class="c3"
+    >
+      <img
+        alt="Alan Gabriel"
+        src="/img/profile.jpg"
+      />
+      <p>
+        Alan Gabriel
+      </p>
+      <span>
+        Arinos
+         • 
+        Minas Gerais
+      </span>
+    </div>
+  </div>
+  <img
+    alt="Imagem de capa do depoimento de Alan Gabriel"
+    class="c4"
+    src="/img/IMG_1756.jpg"
+  />
+</div>
+`
