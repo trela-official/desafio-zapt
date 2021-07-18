@@ -1,0 +1,189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SliderArrow /> should render left arrow 1`] = `
+.c0 {
+  background-color: #ffffff;
+  color: #011fbb;
+  width: 6.3rem;
+  height: 3rem;
+  border-top-left-radius: 6.4rem;
+  border-top-right-radius: 6.4rem;
+  cursor: pointer;
+  border: 0;
+  outline: none;
+  position: absolute;
+  top: 35%;
+  bottom: 0;
+  -webkit-transition: background-color 0.3s ease-in-out,color 0.1s ease-in-out,visibility 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out,color 0.1s ease-in-out,visibility 0.3s ease-in-out;
+  z-index: 10;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  left: -0.4rem;
+}
+
+.c0:hover {
+  background-color: #334bc8;
+  color: #ffffff;
+}
+
+.c0:focus {
+  box-shadow: 0 0 0 3px #8291df;
+}
+
+.c0:active {
+  background: #8291df;
+}
+
+.c0 svg {
+  width: 2rem;
+  height: 2rem;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.c0 svg {
+  margin-top: 0.8rem;
+}
+
+@media (min-width:1170px) {
+  .c0 {
+    width: 8.4rem;
+    height: 4.2rem;
+    border-top-left-radius: 8.5rem;
+    border-top-right-radius: 8.5rem;
+  }
+
+  .c0 svg {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+}
+
+@media (min-width:1170px) {
+  .c0 {
+    left: -0.9rem;
+  }
+
+  .c0 svg {
+    margin-top: 1.5rem;
+  }
+}
+
+<button
+  class="c0"
+  direction="left"
+>
+  <svg
+    fill="none"
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      aria-label="arrow left"
+      d="M8.625 5.25l6.75 6.75-6.75 6.75"
+      role="img"
+      stroke="currentColor"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2"
+    />
+  </svg>
+</button>
+`;
+
+exports[`<SliderArrow /> should render right arrow 1`] = `
+.c0 {
+  background-color: #ffffff;
+  color: #011fbb;
+  width: 6.3rem;
+  height: 3rem;
+  border-top-left-radius: 6.4rem;
+  border-top-right-radius: 6.4rem;
+  cursor: pointer;
+  border: 0;
+  outline: none;
+  position: absolute;
+  top: 35%;
+  bottom: 0;
+  -webkit-transition: background-color 0.3s ease-in-out,color 0.1s ease-in-out,visibility 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out,color 0.1s ease-in-out,visibility 0.3s ease-in-out;
+  z-index: 10;
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  right: -0.4rem;
+}
+
+.c0:hover {
+  background-color: #334bc8;
+  color: #ffffff;
+}
+
+.c0:focus {
+  box-shadow: 0 0 0 3px #8291df;
+}
+
+.c0:active {
+  background: #8291df;
+}
+
+.c0 svg {
+  width: 2rem;
+  height: 2rem;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.c0 svg {
+  margin-top: 0.8rem;
+}
+
+@media (min-width:1170px) {
+  .c0 {
+    width: 8.4rem;
+    height: 4.2rem;
+    border-top-left-radius: 8.5rem;
+    border-top-right-radius: 8.5rem;
+  }
+
+  .c0 svg {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+}
+
+@media (min-width:1170px) {
+  .c0 {
+    right: -0.9rem;
+  }
+
+  .c0 svg {
+    margin-top: 1.5rem;
+  }
+}
+
+<button
+  class="c0"
+  direction="right"
+>
+  <svg
+    fill="none"
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      aria-label="arrow right"
+      d="M8.625 5.25l6.75 6.75-6.75 6.75"
+      role="img"
+      stroke="currentColor"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2"
+    />
+  </svg>
+</button>
+`;

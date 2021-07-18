@@ -24,6 +24,7 @@ export default {
   },
   colors: {
     primary: '#334bc8',
+    primaryDarken: '#011fbb',
     secondary: '#ff5b58',
     mainBackground: '#ffffff',
     darkenBackground: '#fafafa',
