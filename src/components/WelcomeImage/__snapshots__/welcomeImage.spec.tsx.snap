@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WelcomeImage /> should render WelcomeImage 1`] = `
+.c0 {
+  background: #ffff url(image.svg) no-repeat;
+  width: 100%;
+  min-height: 31rem;
+  max-width: 41rem;
+  position: relative;
+}
+
+.c2 {
+  width: 100%;
+}
+
+.c3 {
+  position: absolute;
+  bottom: 4rem;
+  right: 4rem;
+}
+
+.c1 {
+  position: absolute;
+  top: 1.6rem;
+  left: 7rem;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <img
+      alt="circle"
+      class="c2"
+      src="circle_img.svg"
+    />
+  </div>
+  <div
+    class="c3"
+  >
+    <img
+      alt="bow"
+      class="c2"
+      src="bow_image.svg"
+    />
+  </div>
+</div>
+`;

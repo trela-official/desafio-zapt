@@ -7,10 +7,10 @@ import circleImg from '../../assets/circle_img.svg';
 const WelcomeImage = () => (
   <Styled.Wrapper>
     <Styled.CircleWrapper>
-      <Styled.Image src={circleImg} />
+      <Styled.Image src={circleImg} alt="circle" />
     </Styled.CircleWrapper>
     <Styled.BowWrapper>
-      <Styled.Image src={bow} />
+      <Styled.Image src={bow} alt="bow" />
     </Styled.BowWrapper>
   </Styled.Wrapper>
 );
