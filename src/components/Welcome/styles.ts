@@ -5,6 +5,7 @@ export const WelcomeContainer = styled.div`
   height: 590px;
   background-color: #fff;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 `;
@@ -12,7 +13,12 @@ export const WelcomeContainer = styled.div`
 export const ContentContainer = styled.div`
   width: 80%;
   display: flex;
+  flex-direction: column;
 `;
+
+export const HandleContent = styled.div`
+display: flex;
+`
 
 export const SVGred = styled.svg`
   left: 30px;
@@ -64,3 +70,14 @@ export const ImageContainer = styled.div`
     border-radius: 0px 4px 4px 0px;
   }
 `;
+
+export const BottomText = styled.p`
+  font-size: 16px;
+  font-weight: 500;
+  color: #7b7b7b;
+  margin-left: 30px;
+
+  a {
+      text-decoration: none;
+  }
+`

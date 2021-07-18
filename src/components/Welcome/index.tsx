@@ -7,6 +7,8 @@ export const Welcome = () => {
   return (
     <S.WelcomeContainer>
       <S.ContentContainer>
+        <S.HandleContent>
+
         <S.SVGred
           viewBox="0 0 62 62"
           fill="none"
@@ -40,6 +42,11 @@ export const Welcome = () => {
             fill="#334BC8"
           />
         </S.SVGBlue>
+        </S.HandleContent>
+        <S.BottomText>
+          Qualquer dúvida que você tiver é só nos chamar no nosso número de{" "}
+          <a href='#'>WhatsApp</a>.
+        </S.BottomText>
       </S.ContentContainer>
     </S.WelcomeContainer>
   );
