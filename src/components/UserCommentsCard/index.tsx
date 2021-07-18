@@ -13,10 +13,10 @@ export type UserCommentsCardProps = {
 };
 
 const UserCommentsCard = ({
-  backgroundImage = '',
-  comment = '',
-  username = '',
-  image = '',
+  backgroundImage,
+  comment,
+  username,
+  image,
   userSubtext = '',
 }: UserCommentsCardProps) => (
   <Styled.Wrapper backgroundImage={backgroundImage}>

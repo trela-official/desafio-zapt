@@ -20,9 +20,9 @@ export type SocialCardProps = {
 };
 
 const SocialCard = ({
-  image = '',
-  username = '',
-  comment = '',
+  image,
+  username,
+  comment,
   transparent = false,
   fullSize = false,
   textColor = 'primary',

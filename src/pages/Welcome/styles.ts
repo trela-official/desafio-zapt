@@ -35,6 +35,7 @@ export const CardWrapper = styled.div`
     max-width: 120rem;
     display: flex;
     position: relative;
+    border-radius: 0 0 0 ${theme.border.radius};
   `}
 `;
 export const Content = styled.div`
@@ -66,5 +67,8 @@ export const ContentText = styled.div`
   `}
 `;
 export const ImageWrapper = styled.div`
-  flex: 0.6;
+  ${({ theme }) => css`
+    flex: 0.6;
+    border-radius: 0 ${theme.border.radius} 0 0;
+  `}
 `;
