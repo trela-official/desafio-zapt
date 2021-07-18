@@ -97,11 +97,17 @@ exports[`<UserComment /> should render an user comment correctly 1`] = `
 
 @media (min-width:450px) {
   .c1 {
-    padding-right: 9.5rem;
+    padding-right: 4.5rem;
   }
 }
 
 @media (min-width:768px) {
+  .c1 {
+    padding-right: 7.5rem;
+  }
+}
+
+@media (min-width:1170px) {
   .c1 {
     padding-right: 14.5rem;
   }

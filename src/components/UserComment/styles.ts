@@ -43,10 +43,14 @@ export const CommentWrapper = styled.div`
     z-index: ${theme.layers.overlay};
 
     ${media.greaterThan('small')`
-      padding-right: 9.5rem;
+      padding-right: 4.5rem;
     `}
 
     ${media.greaterThan('medium')`
+      padding-right: 7.5rem;
+    `}
+
+    ${media.greaterThan('large')`
       padding-right: 14.5rem;
     `}
   `}

@@ -1,0 +1,712 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserCommentSlider /> should render the slider 1`] = `
+.c1 .slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.c1 .slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.c1 .slick-list:focus {
+  outline: none;
+}
+
+.c1 .slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.c1 .slick-slider .slick-track,
+.c1 .slick-slider .slick-list {
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+  -o-transform: translate3d(0,0,0);
+  -webkit-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.c1 .slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+}
+
+.c1 .slick-track:before,
+.c1 .slick-track:after {
+  display: table;
+  content: '';
+}
+
+.c1 .slick-track:after {
+  clear: both;
+}
+
+.c1 .slick-loading .slick-track {
+  visibility: hidden;
+}
+
+.c1 .slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+
+.c1 [dir='rtl'] .slick-slide {
+  float: right;
+}
+
+.c1 .slick-slide img {
+  display: block;
+}
+
+.c1 .slick-slide.slick-loading img {
+  display: none;
+}
+
+.c1 .slick-slide.dragging img {
+  pointer-events: none;
+}
+
+.c1 .slick-initialized .slick-slide {
+  display: block;
+}
+
+.c1 .slick-loading .slick-slide {
+  visibility: hidden;
+}
+
+.c1 .slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+
+.c1 .slick-arrow.slick-hidden {
+  display: none;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  height: 40rem;
+  position: relative;
+  background-image: url(/img/promo/patricia-godoy.jpg);
+  background-position: center center;
+  background-size: cover;
+  border-radius: 0.4rem;
+}
+
+.c4::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url('/img/noisy-overlay.png'),radial-gradient( 112.99% 451.94% at 0% 100%,#000000 0%,rgba(0,0,0,0) 100% );
+  border-radius: 0.4rem;
+  opacity: 0.8;
+}
+
+.c15 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  height: 40rem;
+  position: relative;
+  background-image: url(/img/promo/marcinho-ribeiro.jpeg);
+  background-position: center center;
+  background-size: cover;
+  border-radius: 0.4rem;
+}
+
+.c15::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url('/img/noisy-overlay.png'),radial-gradient( 112.99% 451.94% at 0% 100%,#000000 0%,rgba(0,0,0,0) 100% );
+  border-radius: 0.4rem;
+  opacity: 0.8;
+}
+
+.c16 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  height: 40rem;
+  position: relative;
+  background-image: url(/img/promo/luana-melo.jpeg);
+  background-position: center center;
+  background-size: cover;
+  border-radius: 0.4rem;
+}
+
+.c16::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url('/img/noisy-overlay.png'),radial-gradient( 112.99% 451.94% at 0% 100%,#000000 0%,rgba(0,0,0,0) 100% );
+  border-radius: 0.4rem;
+  opacity: 0.8;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 1.6rem;
+  padding: 2.4rem;
+  z-index: 30;
+}
+
+.c6 {
+  color: #ffffff;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.c11 {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+
+.c13 {
+  color: #ffffff;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  opacity: 0.8;
+}
+
+.c10 {
+  border-radius: 50%;
+  object-fit: cover;
+  color: #ffffff;
+  box-shadow: 0 0 0 2px;
+  width: 3.6rem;
+  height: 3.6rem;
+}
+
+.c7 .c9 {
+  width: 4rem;
+  height: 4rem;
+}
+
+.c12 {
+  display: none;
+}
+
+.c14 {
+  display: none;
+}
+
+.c3 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c0 {
+  position: relative;
+  overflow: hidden;
+}
+
+.c0 .slick-dots {
+  display: -webkit-box !important;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  list-style: none;
+  padding-top: 1.6rem;
+}
+
+.c0 .slick-dots li {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 0.6rem;
+  height: 0.6rem;
+  margin: 0 calc(0.8rem / 2);
+  background: #e9f5fe;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-transition: background-color 0.7s ease-in-out;
+  transition: background-color 0.7s ease-in-out;
+}
+
+.c0 .slick-dots li.slick-active {
+  background: #334bc8;
+}
+
+.c0 .slick-dots button {
+  width: 0.6rem;
+  height: 0.6rem;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.c0 .slick-slide > div {
+  margin: 0 calc(2.4rem / 2);
+}
+
+.c0 .slick-list {
+  margin: 0 calc(-2.4rem / 2);
+}
+
+.c0 .slick-prev.slick-disabled,
+.c0 .slick-next.slick-disabled {
+  visibility: hidden;
+}
+
+.c2 {
+  display: -webkit-box !important;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  top: calc(50% - 2.4rem);
+  -webkit-transform: translate(0,-50%);
+  -ms-transform: translate(0,-50%);
+  transform: translate(0,-50%);
+  z-index: 20;
+  width: 4.2rem;
+  height: 8.4rem;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+.c2 svg {
+  width: 2.4rem;
+  height: 2.4rem;
+  color: #011fbb;
+}
+
+.c2.slick-prev {
+  left: 0;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  border-bottom-right-radius: 8.4rem;
+  border-top-right-radius: 8.4rem;
+}
+
+.c2.slick-next {
+  right: 0;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  border-bottom-left-radius: 8.4rem;
+  border-top-left-radius: 8.4rem;
+}
+
+@media (min-width:450px) {
+  .c5 {
+    padding-right: 4.5rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c5 {
+    padding-right: 7.5rem;
+  }
+}
+
+@media (min-width:1170px) {
+  .c5 {
+    padding-right: 14.5rem;
+  }
+}
+
+@media (min-width:450px) {
+  .c6 {
+    font-size: 2rem;
+    line-height: 2.6rem;
+  }
+}
+
+@media (min-width:450px) {
+  .c13 {
+    line-height: 2rem;
+  }
+}
+
+@media (max-width:450px) {
+  .c12 {
+    display: block;
+  }
+}
+
+@media (min-width:450px) {
+  .c14 {
+    display: block;
+  }
+}
+
+@media (min-width:768px) {
+  .c0 .slick-dots {
+    padding-top: 4.0rem;
+  }
+}
+
+<section
+  class="c0"
+>
+  <section
+    class="c1"
+  >
+    <div
+      class="slick-slider slick-initialized"
+      dir="ltr"
+    >
+      <span
+        class="c2 slick-arrow slick-prev slick-disabled"
+        data-role="none"
+        style="display: block;"
+      >
+        <svg
+          aria-hidden="true"
+          aria-label="previous comments"
+          class="c3"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 512 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M328 112L184 256l144 144"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="48"
+          />
+        </svg>
+      </span>
+      <div
+        class="slick-list"
+      >
+        <div
+          class="slick-track"
+          style="opacity: 1; transform: translate3d(0px, 0px, 0px);"
+        >
+          <div
+            aria-hidden="false"
+            class="slick-slide slick-active slick-current"
+            data-index="0"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="c4"
+              >
+                <div
+                  class="c5"
+                >
+                  <div
+                    class="c6"
+                  >
+                    ”Não consigo mais viver sem os produtos do Sítio, a diferença do que eu comprava antes e agora é abissal”
+                  </div>
+                  <div
+                    class="c7 c8"
+                  >
+                    <img
+                      alt="User Avatar"
+                      aria-label="User Avatar"
+                      class="c9 c10"
+                      src="/img/users/patricia_godoy.jpeg"
+                    />
+                    <div
+                      class=""
+                    >
+                      <h3
+                        class="c11"
+                      >
+                        Patrícia Godoy
+                      </h3>
+                      <div
+                        class="c12"
+                      >
+                        <p
+                          class="c13"
+                        >
+                          São Paulo
+                           
+                          <br />
+                           
+                          São Paulo
+                        </p>
+                      </div>
+                      <div
+                        class="c14"
+                      >
+                        <p
+                          class="c13"
+                        >
+                          São Paulo • São Paulo
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="false"
+            class="slick-slide slick-active"
+            data-index="1"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="c15"
+              >
+                <div
+                  class="c5"
+                >
+                  <div
+                    class="c6"
+                  >
+                    ”Depois que você começa a usar produtos de qualidade é bem difícil voltar atrás...”
+                  </div>
+                  <div
+                    class="c7 c8"
+                  >
+                    <img
+                      alt="User Avatar"
+                      aria-label="User Avatar"
+                      class="c9 c10"
+                      src="/img/users/marcinho_ribeiro.jpeg"
+                    />
+                    <div
+                      class=""
+                    >
+                      <h3
+                        class="c11"
+                      >
+                        Marcinho Ribeiro
+                      </h3>
+                      <div
+                        class="c12"
+                      >
+                        <p
+                          class="c13"
+                        >
+                          Belo Horizonte
+                           
+                          <br />
+                           
+                          Minas Gerais
+                        </p>
+                      </div>
+                      <div
+                        class="c14"
+                      >
+                        <p
+                          class="c13"
+                        >
+                          Belo Horizonte • Minas Gerais
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            class="slick-slide"
+            data-index="2"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="c16"
+              >
+                <div
+                  class="c5"
+                >
+                  <div
+                    class="c6"
+                  >
+                    ”Amigas indicaram a Zapt para a compra de cervejas artesanais... preços muito abaixo de outras lojas virtuais!”
+                  </div>
+                  <div
+                    class="c7 c8"
+                  >
+                    <img
+                      alt="User Avatar"
+                      aria-label="User Avatar"
+                      class="c9 c10"
+                      src="/img/users/duque.jpg"
+                    />
+                    <div
+                      class=""
+                    >
+                      <h3
+                        class="c11"
+                      >
+                        Luana Melo
+                      </h3>
+                      <div
+                        class="c12"
+                      >
+                        <p
+                          class="c13"
+                        >
+                          São José do Vale do Rio Preto
+                           
+                          <br />
+                           
+                          Rio de Janeiro
+                        </p>
+                      </div>
+                      <div
+                        class="c14"
+                      >
+                        <p
+                          class="c13"
+                        >
+                          São José do Vale do Rio Preto • Rio de Janeiro
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <span
+        class="c2 slick-arrow slick-next"
+        data-role="none"
+        style="display: block;"
+      >
+        <svg
+          aria-hidden="true"
+          aria-label="next comments"
+          class="c3"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 512 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M184 112l144 144-144 144"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="48"
+          />
+        </svg>
+      </span>
+      <ul
+        class="slick-dots"
+        style="display: block;"
+      >
+        <li
+          class="slick-active"
+        >
+          <button>
+            1
+          </button>
+        </li>
+        <li
+          class=""
+        >
+          <button>
+            2
+          </button>
+        </li>
+      </ul>
+    </div>
+  </section>
+</section>
+`
