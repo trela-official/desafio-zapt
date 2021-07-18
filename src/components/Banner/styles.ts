@@ -5,6 +5,7 @@ export const Wrapper = styled.section`
   ${({ theme }) => css`
     display: grid;
     grid-template-columns: 1fr auto;
+    place-items: center;
     background: ${theme.colors.bgBanner};
     border-radius: ${theme.border.radius};
     position: relative;
@@ -19,24 +20,11 @@ export const Wrapper = styled.section`
       top: -19px;
       left: -25px;
     }
-
-    &:after {
-      content: '';
-      width: 100px;
-      height: 100px;
-      background: ${theme.colors.primary};
-      position: absolute;
-      border-radius: 50% 50% 50% 0% / 50% 50% 50% 0%;
-      bottom: -30px;
-      right: -43px;
-    }
   `}
 `
 
 export const Content = styled.div`
-  ${({ theme }) => css`
-    margin: ${theme.spacings.xxlarge} auto;
-  `}
+  ${({ theme }) => css``}
 `
 
 export const Title = styled.h2`
@@ -67,8 +55,7 @@ export const ActionQuestion = styled.p`
   ${({ theme }) => css`
     font-size: ${theme.font.sizes.medium};
     font-weight: ${theme.font.semibold};
-
-    padding-bottom: ${theme.spacings.xsmall};
+    margin-bottom: ${theme.spacings.xsmall};
     color: ${theme.colors.black};
   `}
 `
@@ -113,20 +100,31 @@ export const ImageWrapper = styled.div`
       top: 16px;
       left: 71px;
     }
+
+    &:after {
+      content: '';
+      width: 100px;
+      height: 100px;
+      background: ${theme.colors.primary};
+      position: absolute;
+      border-radius: 50% 50% 50% 0% / 50% 50% 50% 0%;
+      bottom: -30px;
+      right: -43px;
+    }
   `}
 `
 
 export const SemicircleWrapper = styled.div`
   position: absolute;
   right: 38px;
-  bottom: 37px;
+  bottom: 35px;
 `
 
 export const BannerImage = styled.img`
   ${({ theme }) => css`
     display: block;
     max-width: 100%;
-    max-height: 337px;
+    max-height: 313px;
     object-fit: cover;
     border-radius: ${theme.border.radius};
   `}
@@ -134,11 +132,12 @@ export const BannerImage = styled.img`
 
 export const Footer = styled.footer`
   ${({ theme }) => css`
-    grid-column: 1/-1;
-    margin-top: ${theme.spacings.small};
     font-size: ${theme.font.sizes.small};
     color: ${theme.colors.gray};
-    background: white;
+    padding: ${theme.spacings.small} 0;
+    grid-column: 1/-1;
+    background: ${theme.colors.white};
+    width: 100%;
   `}
 `
 
