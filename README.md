@@ -1,10 +1,35 @@
+<div align="center">
+
+<a href="./LICENSE">![GitHub](https://img.shields.io/github/license/everton-dgn/desafio-zapt?style=plastic)</a>
+![GitHub repo size](https://img.shields.io/github/repo-size/everton-dgn/desafio-zapt?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/everton-dgn/desafio-zapt?color=yellow&style=plastic)
+</div>
+
+<br />
+
+<div align="center">
+
+  ![Imagem do projeto](public/imgs/logo.png)
+</div>
+
+<br />
+<br />
+
 <h1 align="center">Desafio Zapt</h1>
 
 <br />
 
+# :camera_flash: Screenshots do Projeto
+
+![Imagem do projeto](screenshots/desktop.png)
+
+![Imagem do projeto](screenshots/mobile.png)
+
 # :memo: Sobre o Projeto
 
-Este projeto foi desenvolvido para o processo de seleção da Empresa Zapt.
+Este projeto foi desenvolvido para o processo de seleção da Empresa [Zapt](https://github.com/Zapt-com-br).
+
+Para visualizar o projeto ‘online’ [clique aqui](https://desafio-zapt.querocriarsite.com/).
 
 <br />
 
@@ -18,7 +43,7 @@ Este projeto foi desenvolvido para o processo de seleção da Empresa Zapt.
 
 💅 Styled-Components
 
-🚩 Lints — ESlint/Prettier/EditorConfig
+🚩 Lints — ESlint/Prettier/EditorConfig/Commitlint
 
 ✅ Jest
 
@@ -30,9 +55,9 @@ Este projeto foi desenvolvido para o processo de seleção da Empresa Zapt.
 
 # :triangular_flag_on_post: Pré-Requisitos
 
-- yarn
-
 - node
+
+- yarn
 
 <br />
 
@@ -60,7 +85,7 @@ yarn dev
 
 Disponível em http://localhost:3000
 
-## Executar Build de Produção:
+## Gerar Build de Produção:
 
 ```bash
 yarn build
@@ -80,6 +105,12 @@ Disponível em http://localhost:3000
 yarn test
 ```
 
+## Executar Testes em Modo Watch:
+
+```bash
+yarn test:w
+```
+
 ## Inciar Storybook em Modo de Desenvolvimento:
 
 ```bash
@@ -88,7 +119,7 @@ yarn sb
 
 Disponível em http://localhost:6006
 
-## Executar Build de Produção do Storybook:
+## Gerar Build de Produção do Storybook:
 
 ```bash
 yarn build-sb
@@ -103,3 +134,13 @@ yarn lint
 ```bash
 yarn next:lint
 ```
+
+<br />
+
+---
+
+# :closed_book: Autor
+
+Feito por [Éverton Toffanetto](https://querocriarsite.com).
+
+### :link: LinkedIn: https://www.linkedin.com/in/everton-toffanetto/
