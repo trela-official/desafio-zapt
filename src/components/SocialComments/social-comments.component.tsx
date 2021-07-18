@@ -12,7 +12,7 @@ export const SocialComments = () => (
     </Header>
 
     <Masonry>
-      {mockCardData.map(({ id, description, avatar, name }) => (
+      {mockCardData.map(({ id, description, avatarUrl, name }) => (
         <Card key={id}>
           <Body color="primarymain">
             <q>{description}</q>
@@ -20,7 +20,7 @@ export const SocialComments = () => (
           <S.Separator />
           <S.Hbox>
             <S.HboxItem vAlign="center" noGrow>
-              <Avatar borderColor="primarylight" imageUrl={avatar} />
+              <Avatar borderColor="primarylight" imageUrl={avatarUrl} />
             </S.HboxItem>
             <S.HboxSeparator />
             <S.HboxItem vAlign="center">
