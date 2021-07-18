@@ -6,6 +6,7 @@ export const Wrapper = styled.section`
     .slick-track,
     .slick-list {
       display: flex;
+      height: 100% !important;
     }
 
     .slick-slide > div {

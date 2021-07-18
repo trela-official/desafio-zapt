@@ -1,13 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<WelcomeImage /> should render correctly 1`] = `
-.c3 {
+.c4 {
   color: #ffffff;
   width: 8rem;
   height: 8rem;
 }
 
-.c5 {
+.c6 {
   color: #ffffff;
   width: 17.2rem;
   height: 10.5rem;
@@ -16,22 +16,25 @@ exports[`<WelcomeImage /> should render correctly 1`] = `
 .c0 {
   position: relative;
   max-height: 31.3rem;
-  max-width: 41.8rem;
 }
 
 .c1 {
-  border-radius: 0 0.4rem 0.4rem 0;
+  position: relative;
   width: 100%;
-  height: 100%;
+  height: 31.3rem;
 }
 
 .c2 {
+  border-radius: 0 0.4rem 0.4rem 0;
+}
+
+.c3 {
   position: absolute;
   top: 1.6rem;
   left: 7.1rem;
 }
 
-.c4 {
+.c5 {
   position: absolute;
   bottom: 3.7rem;
   right: 3.8rem;
@@ -40,16 +43,21 @@ exports[`<WelcomeImage /> should render correctly 1`] = `
 <div
   class="c0"
 >
-  <img
-    alt="Grupo de amigos"
-    class="c1"
-    src="/img/group.png"
-  />
   <div
-    class="c2"
+    class="c1"
+  >
+    <img
+      alt="Grupo de amigos"
+      class="c2"
+      layout="fill"
+      src="/img/group.png"
+    />
+  </div>
+  <div
+    class="c3"
   >
     <div
-      class="c3"
+      class="c4"
     >
       <svg
         aria-label="Circle"
@@ -68,10 +76,10 @@ exports[`<WelcomeImage /> should render correctly 1`] = `
     </div>
   </div>
   <div
-    class="c4"
+    class="c5"
   >
     <div
-      class="c5"
+      class="c6"
     >
       <svg
         aria-label="Quarter Circumference"

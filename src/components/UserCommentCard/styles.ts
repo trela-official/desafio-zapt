@@ -1,3 +1,4 @@
+import NextImage from 'next/image';
 import styled, { css } from 'styled-components';
 import media from 'styled-media-query';
 
@@ -7,12 +8,20 @@ export const Wrapper = styled.div`
   position: relative;
 `;
 
-export const Image = styled.img`
+export const ImageWrapper = styled.div`
+  position: relative;
+  width: 100%;
+  height: 30rem;
+  filter: brightness(70%);
+
+  ${media.greaterThan('medium')`
+    height: 40rem;
+  `}
+`;
+
+export const Image = styled(NextImage)`
   ${({ theme }) => css`
     border-radius: ${theme.border.radius};
-    width: 100%;
-    height: 100%;
-    filter: brightness(70%);
   `}
 `;
 

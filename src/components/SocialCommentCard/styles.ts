@@ -1,3 +1,4 @@
+import NextImage from 'next/image';
 import styled, { css } from 'styled-components';
 
 export const Wrapper = styled.div`
@@ -23,14 +24,19 @@ export const AuthorInfoContent = styled.footer`
   `}
 `;
 
-export const AuthorAvatar = styled.img`
+export const AuthorAvatarWrapper = styled.div`
   ${({ theme }) => css`
+    position: relative;
     width: 3.6rem;
     height: 3.6rem;
     border-radius: 50%;
     background-color: ${theme.colors.primaryDarken};
     border: 0.15rem solid ${theme.colors.primaryDarken};
   `}
+`;
+
+export const AuthorAvatar = styled(NextImage)`
+  border-radius: 50%;
 `;
 
 export const AuthorNickname = styled.p`

@@ -15,7 +15,16 @@ const SocialCommentCard = ({
     <S.Comment>{comment}</S.Comment>
 
     <S.AuthorInfoContent>
-      <S.AuthorAvatar src={authorAvatarUrl} alt={authorNickname} />
+      <S.AuthorAvatarWrapper>
+        <S.AuthorAvatar
+          src={authorAvatarUrl}
+          alt={authorNickname}
+          layout="fill"
+          placeholder="blur"
+          blurDataURL={authorAvatarUrl}
+        />
+      </S.AuthorAvatarWrapper>
+
       <S.AuthorNickname>{authorNickname}</S.AuthorNickname>
     </S.AuthorInfoContent>
   </S.Wrapper>

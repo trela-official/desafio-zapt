@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<UserCommentCard /> should math snapshot 1`] = `
-.c5 {
+.c6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -12,24 +12,29 @@ exports[`<UserCommentCard /> should math snapshot 1`] = `
   align-items: center;
 }
 
-.c6 {
+.c7 {
+  position: relative;
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
   border: 0.15rem solid #ffffff;
 }
 
-.c7 {
+.c8 {
+  border-radius: 50%;
+}
+
+.c9 {
   color: #ffffff;
   margin-left: 1.6rem;
 }
 
-.c8 {
+.c10 {
   font-size: 1.4rem;
   font-weight: 400;
 }
 
-.c9 {
+.c11 {
   font-size: 1.0rem;
   font-weight: 400;
 }
@@ -41,14 +46,18 @@ exports[`<UserCommentCard /> should math snapshot 1`] = `
 }
 
 .c1 {
-  border-radius: 0.4rem;
+  position: relative;
   width: 100%;
-  height: 100%;
+  height: 30rem;
   -webkit-filter: brightness(70%);
   filter: brightness(70%);
 }
 
 .c2 {
+  border-radius: 0.4rem;
+}
+
+.c3 {
   position: absolute;
   top: 0;
   right: 0;
@@ -70,49 +79,55 @@ exports[`<UserCommentCard /> should math snapshot 1`] = `
   justify-content: flex-end;
 }
 
-.c3 {
+.c4 {
   width: 85%;
   margin-bottom: 1.6rem;
   font-size: 1.2rem;
 }
 
-.c4 {
+.c5 {
   color: #ffffff;
 }
 
 @media (min-width:450px) {
-  .c6 {
+  .c7 {
     width: 4rem;
     height: 4rem;
   }
 }
 
 @media (min-width:450px) {
-  .c8 {
+  .c10 {
     font-size: 1.6rem;
   }
 }
 
 @media (min-width:450px) {
-  .c9 {
+  .c11 {
     font-size: 1.2rem;
   }
 }
 
+@media (min-width:768px) {
+  .c1 {
+    height: 40rem;
+  }
+}
+
 @media (min-width:450px) {
-  .c3 {
+  .c4 {
     font-size: 1.6rem;
   }
 }
 
 @media (min-width:768px) {
-  .c3 {
+  .c4 {
     font-size: 1.8rem;
   }
 }
 
 @media (min-width:1440px) {
-  .c3 {
+  .c4 {
     font-size: 2.0rem;
   }
 }
@@ -120,41 +135,51 @@ exports[`<UserCommentCard /> should math snapshot 1`] = `
 <div
   class="c0"
 >
-  <img
-    alt="Senhora cortante legumes"
-    class="c1"
-    src="https://i.imgur.com/ci2Eulu.png"
-  />
   <div
-    class="c2"
+    class="c1"
+  >
+    <img
+      alt="Senhora cortante legumes"
+      class="c2"
+      layout="fill"
+      src="https://i.imgur.com/ci2Eulu.png"
+    />
+  </div>
+  <div
+    class="c3"
   >
     <p
-      class="c3"
+      class="c4"
     >
       <q
-        class="c4"
+        class="c5"
       >
         Não consigo mais viver sem os produtos do Sítio, a diferença do que eu comprava antes e agora é abissal
       </q>
     </p>
     <div
-      class="c5"
+      class="c6"
     >
-      <img
-        alt="Patricia Godoy"
-        class="c6"
-        src="https://i.imgur.com/8RP8XA9.png"
-      />
       <div
         class="c7"
       >
-        <h3
+        <img
+          alt="Patricia Godoy"
           class="c8"
+          layout="fill"
+          src="https://i.imgur.com/8RP8XA9.png"
+        />
+      </div>
+      <div
+        class="c9"
+      >
+        <h3
+          class="c10"
         >
           Patricia Godoy
         </h3>
         <p
-          class="c9"
+          class="c11"
         >
           São Paulo
            • 

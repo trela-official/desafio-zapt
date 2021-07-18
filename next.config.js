@@ -7,4 +7,8 @@ module.exports = withPWA({
     dest: 'public',
     disable: !isProduction,
   },
+  images: {
+    deviceSizes: [320, 640, 768, 1024, 1600],
+    domains: ['i.imgur.com'],
+  },
 });

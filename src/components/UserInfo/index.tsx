@@ -9,7 +9,15 @@ export type UserInfoProps = {
 
 const UserInfo = ({ avatarUrl, name, city, state }: UserInfoProps) => (
   <S.Wrapper>
-    <S.Avatar src={avatarUrl} alt={name} />
+    <S.AvatarWrapper>
+      <S.Avatar
+        src={avatarUrl}
+        alt={name}
+        layout="fill"
+        placeholder="blur"
+        blurDataURL={avatarUrl}
+      />
+    </S.AvatarWrapper>
 
     <S.Info>
       <S.Name>{name}</S.Name>

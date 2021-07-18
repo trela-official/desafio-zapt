@@ -13,6 +13,7 @@ exports[`<UserInfo /> should match snapshot 1`] = `
 }
 
 .c1 {
+  position: relative;
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
@@ -20,16 +21,20 @@ exports[`<UserInfo /> should match snapshot 1`] = `
 }
 
 .c2 {
+  border-radius: 50%;
+}
+
+.c3 {
   color: #ffffff;
   margin-left: 1.6rem;
 }
 
-.c3 {
+.c4 {
   font-size: 1.4rem;
   font-weight: 400;
 }
 
-.c4 {
+.c5 {
   font-size: 1.0rem;
   font-weight: 400;
 }
@@ -42,13 +47,13 @@ exports[`<UserInfo /> should match snapshot 1`] = `
 }
 
 @media (min-width:450px) {
-  .c3 {
+  .c4 {
     font-size: 1.6rem;
   }
 }
 
 @media (min-width:450px) {
-  .c4 {
+  .c5 {
     font-size: 1.2rem;
   }
 }
@@ -56,21 +61,26 @@ exports[`<UserInfo /> should match snapshot 1`] = `
 <div
   class="c0"
 >
-  <img
-    alt="Patricia Godoy"
-    class="c1"
-    src="https://i.imgur.com/8RP8XA9.png"
-  />
   <div
-    class="c2"
+    class="c1"
+  >
+    <img
+      alt="Patricia Godoy"
+      class="c2"
+      layout="fill"
+      src="https://i.imgur.com/8RP8XA9.png"
+    />
+  </div>
+  <div
+    class="c3"
   >
     <h3
-      class="c3"
+      class="c4"
     >
       Patricia Godoy
     </h3>
     <p
-      class="c4"
+      class="c5"
     >
       São Paulo
        • 

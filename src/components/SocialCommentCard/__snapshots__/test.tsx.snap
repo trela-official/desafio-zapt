@@ -25,6 +25,7 @@ exports[`<SocialCommentCard /> should render with comment 1`] = `
 }
 
 .c3 {
+  position: relative;
   width: 3.6rem;
   height: 3.6rem;
   border-radius: 50%;
@@ -33,6 +34,10 @@ exports[`<SocialCommentCard /> should render with comment 1`] = `
 }
 
 .c4 {
+  border-radius: 50%;
+}
+
+.c5 {
   margin-left: calc(1.6rem - 0.4rem);
 }
 
@@ -47,13 +52,18 @@ exports[`<SocialCommentCard /> should render with comment 1`] = `
   <footer
     class="c2"
   >
-    <img
-      alt="@ferri-gui"
+    <div
       class="c3"
-      src="https://i.imgur.com/PZbgtl8.png"
-    />
+    >
+      <img
+        alt="@ferri-gui"
+        class="c4"
+        layout="fill"
+        src="https://i.imgur.com/PZbgtl8.png"
+      />
+    </div>
     <p
-      class="c4"
+      class="c5"
     >
       @ferri-gui
     </p>

@@ -16,7 +16,16 @@ const UserCommentCard = ({
   user,
 }: UserCommentCardProps) => (
   <S.Wrapper>
-    <S.Image src={imageBackgroundUrl} alt={imageBackgroundAlt} />
+    <S.ImageWrapper>
+      <S.Image
+        src={imageBackgroundUrl}
+        alt={imageBackgroundAlt}
+        layout="fill"
+        placeholder="blur"
+        objectFit="cover"
+        blurDataURL={imageBackgroundUrl}
+      />
+    </S.ImageWrapper>
 
     <S.Content>
       <S.Comment>

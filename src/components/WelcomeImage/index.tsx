@@ -5,7 +5,15 @@ import * as S from './styles';
 
 const WelcomeImage = () => (
   <S.Wrapper>
-    <S.Image src="/img/group.png" alt="Grupo de amigos" />
+    <S.ImageWrapper>
+      <S.Image
+        src="/img/group.png"
+        alt="Grupo de amigos"
+        layout="fill"
+        placeholder="blur"
+        blurDataURL="/img/group.png"
+      />
+    </S.ImageWrapper>
 
     <S.CircleImageContainer>
       <CircleImage />
