@@ -7,7 +7,7 @@ export const Wrapper = styled.div<WrapperProps>`
   ${({ theme, backgroundImage }) => css`
     width: 100%;
     height: 100%;
-    background: url(${backgroundImage});
+    background: url(${backgroundImage}) no-repeat;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
