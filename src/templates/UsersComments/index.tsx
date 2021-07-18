@@ -13,8 +13,6 @@ const UsersCommentsTemplate = () => (
     </S.TitleContainer>
 
     <UsersCommentsSlider comments={usersComments} />
-
-    <div style={{ marginBottom: '2rem' }} />
   </Container>
 );
 
