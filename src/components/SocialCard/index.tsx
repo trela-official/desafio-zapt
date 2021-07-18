@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Typography, UserProfile } from '../../components';
+import { Typography, UserProfile } from 'components';
 
 import * as Styled from './styles';
 

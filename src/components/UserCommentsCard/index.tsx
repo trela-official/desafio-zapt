@@ -1,6 +1,6 @@
 import React from 'react';
 
-import SocialCard from '../SocialCard';
+import { SocialCard } from 'components';
 
 import * as Styled from './styles';
 

@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { Heading, SocialCard, Container } from '../../components';
+import { Heading, SocialCard, Container } from 'components';
+import comments from 'mocks/socialComments';
 
-import comments from '../../mocks/socialComments';
 import * as Styled from './styles';
 
 const SocialComments = () => (

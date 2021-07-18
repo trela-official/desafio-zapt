@@ -1,9 +1,9 @@
 import React from 'react';
-import { Container, Heading, UserCommentsCardSlider } from '../../components';
+import { Container, Heading, UserCommentsCardSlider } from 'components';
 
 import * as Styled from './styles';
 
-import sliderMock from '../../mocks/userSliderMocks';
+import sliderMock from 'mocks/userSliderMocks';
 
 const UserComments = () => {
   return (

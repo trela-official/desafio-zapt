@@ -1,7 +1,7 @@
 import React from 'react';
 import * as Styled from './styles';
 
-import { Typography } from '../index';
+import { Typography } from 'components';
 
 export type ButtonProps = {
   label: string;

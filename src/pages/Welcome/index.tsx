@@ -6,7 +6,7 @@ import {
   Typography,
   WelcomeImage,
   Container,
-} from '../../components';
+} from 'components';
 
 import dropBlue from '../../assets/drop_blue.svg';
 import dropRed from '../../assets/drop_red.svg';

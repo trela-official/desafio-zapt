@@ -1,10 +1,10 @@
 import React from 'react';
 import { screen } from '@testing-library/react';
-import { renderWithTheme } from '../../helpers/renderWithThame';
+import { renderWithTheme } from 'helpers/renderWithThame';
 
 import UserCommentsCard, { UserCommentsCardProps } from '.';
 
-jest.mock('../../components/SocialCard', () => {
+jest.mock('components/SocialCard', () => {
   return {
     __esModule: true,
     default: function Mock() {

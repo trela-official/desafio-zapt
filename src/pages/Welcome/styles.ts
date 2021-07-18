@@ -1,8 +1,8 @@
 import styled, { css } from 'styled-components';
 
-import * as HeadingStyles from '../../components/TextComponents/Heading/styles';
-import * as TypographyStyles from '../../components/TextComponents/Typography/styles';
-import * as ButtonStyles from '../../components/Button/styles';
+import * as HeadingStyles from 'components/TextComponents/Heading/styles';
+import * as TypographyStyles from 'components/TextComponents/Typography/styles';
+import * as ButtonStyles from 'components/Button/styles';
 
 export const Wrapper = styled.section`
   ${({ theme }) => css`

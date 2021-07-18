@@ -1,7 +1,7 @@
 import React from 'react';
-import { renderWithTheme } from '../../helpers/renderWithThame';
 
-import userSliderMocks from '../../mocks/userSliderMocks';
+import { renderWithTheme } from 'helpers/renderWithThame';
+import userSliderMocks from 'mocks/userSliderMocks';
 
 import UserCommentsCardSlider from '.';
 

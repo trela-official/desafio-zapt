@@ -3,8 +3,8 @@ import { Settings } from 'react-slick';
 import { ArrowBackIos as ArrowLeft } from '@styled-icons/material-outlined/ArrowBackIos';
 import { ArrowForwardIos as ArrowRight } from '@styled-icons/material-outlined/ArrowForwardIos';
 
-import { UserCommentsCardProps } from '../../components/UserCommentsCard';
-import { Slider, UserCommentsCard } from '../../components';
+import { UserCommentsCardProps } from 'components/UserCommentsCard';
+import { Slider, UserCommentsCard } from 'components';
 
 import * as Styled from './styles';
 

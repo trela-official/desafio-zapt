@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Typography from '../TextComponents/Typography';
+import { Typography } from 'components';
 
 import * as Styled from './styles';
 

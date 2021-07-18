@@ -1,9 +1,9 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
-import Welcome from '../pages/Welcome';
-import SocialComments from '../pages/SocialComments';
-import UserComments from '../pages/UserComments';
+import Welcome from 'pages/Welcome';
+import SocialComments from 'pages/SocialComments';
+import UserComments from 'pages/UserComments';
 
 const Routes = () => {
   const routes = [

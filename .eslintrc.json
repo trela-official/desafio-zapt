@@ -5,12 +5,6 @@
       "jest": true
     },
 
-    "settings": {
-			"react": {
-				"version": "detect"
-			}
-    },
-
     "extends": [
 			"eslint:recommended",
 			"plugin:react/recommended",
@@ -36,5 +30,11 @@
 			"react/prop-types": "off",
 			"@typescript-eslint/explicit-module-boundary-types": "off",
       "@typescript-eslint/no-non-null-assertion": "off"
+    },
+
+    "settings": {
+      "react": {
+				"version": "detect"
+			}
     }
 }

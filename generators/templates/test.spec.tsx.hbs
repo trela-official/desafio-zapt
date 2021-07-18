@@ -1,0 +1,14 @@
+import React from 'react';
+import { screen } from '@testing-library/react';
+import { renderWithTheme } from 'helpers/renderWithThame';
+
+import {{pascalCase name}} from '.';
+
+describe('<{{pascalCase name}} />', () => {
+  it('should render button with label', () => {
+    renderWithTheme(<{{pascalCase name}} />);
+
+    expect(screen.getByText()).toBeInTheDocument();
+  });
+});
+

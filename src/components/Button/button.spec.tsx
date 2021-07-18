@@ -1,6 +1,6 @@
 import React from 'react';
 import { screen } from '@testing-library/react';
-import { renderWithTheme } from '../../helpers/renderWithThame';
+import { renderWithTheme } from 'helpers/renderWithThame';
 
 import Button from '.';
 

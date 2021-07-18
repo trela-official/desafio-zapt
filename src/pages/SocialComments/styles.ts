@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components';
-import * as SocialCardStyles from '../../components/SocialCard/styles';
+import * as SocialCardStyles from 'components/SocialCard/styles';
 
 export const Wrapper = styled.div`
   max-width: 120rem;
