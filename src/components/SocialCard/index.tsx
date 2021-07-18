@@ -4,6 +4,8 @@ import { Typography, UserProfile } from '../../components';
 
 import * as Styled from './styles';
 
+type Sizes = 'small' | 'medium' | 'xmedium' | 'large';
+
 export type SocialCardProps = {
   comment: string;
   username: string;
@@ -12,7 +14,8 @@ export type SocialCardProps = {
   transparent?: boolean;
   textColor?: 'black' | 'darkgray' | 'white' | 'primary';
   colorUserProfile?: 'black' | 'darkgray' | 'white' | 'primary';
-  textSize?: 'small' | 'medium' | 'xmedium' | 'large';
+  commentSize?: Sizes;
+  usernameSize?: Sizes;
   fullSize?: boolean;
 };
 
@@ -25,16 +28,18 @@ const SocialCard = ({
   textColor = 'primary',
   colorUserProfile = 'primary',
   userSubtext = '',
-  textSize = 'medium',
+  commentSize = 'medium',
+  usernameSize = 'medium',
 }: SocialCardProps) => (
   <Styled.Wrapper fullSize={fullSize} transparent={transparent}>
     <Styled.Comment>
-      <Typography size={textSize} color={textColor}>
+      <Typography size={commentSize} color={textColor}>
         {comment}
       </Typography>
     </Styled.Comment>
     <Styled.UserInformation>
       <UserProfile
+        usernameSize={usernameSize}
         subtext={userSubtext}
         textColor={colorUserProfile}
         username={username}

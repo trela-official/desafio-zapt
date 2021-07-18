@@ -27,7 +27,8 @@ const UserCommentsCard = ({
         transparent
         textColor="white"
         colorUserProfile="white"
-        textSize="xmedium"
+        usernameSize="medium"
+        commentSize="xmedium"
         comment={comment}
         username={username}
         image={image}

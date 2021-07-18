@@ -17,6 +17,7 @@ const SocialComments = () => (
           comments.map(comment => (
             <SocialCard
               colorUserProfile="black"
+              usernameSize="small"
               key={comment.username}
               username={comment.username}
               comment={comment.comment}

@@ -13,6 +13,7 @@ export const Wrapper = styled.div<WrapperProps>`
     align-items: flex-end;
     border-radius: ${theme.border.radius};
     position: relative;
+    overflow: hidden;
   `}
 `;
 

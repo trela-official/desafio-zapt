@@ -20,7 +20,6 @@ export default {
 
   font: {
     family: 'Inter',
-
     weight: {
       '300': 300,
       '400': 400,
@@ -28,6 +27,7 @@ export default {
     },
 
     sizes: {
+      xsmall: '1.2rem',
       small: '1.4rem',
       medium: '1.6rem',
       xmedium: '2rem',

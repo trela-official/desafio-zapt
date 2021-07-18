@@ -3,7 +3,7 @@ import * as Styled from './styles';
 
 export type TypographyProps = {
   children: React.ReactNode;
-  size?: 'small' | 'medium' | 'xmedium' | 'large';
+  size?: 'xsmall' | 'small' | 'medium' | 'xmedium' | 'large';
   color?: 'black' | 'darkgray' | 'white' | 'primary';
   bold?: '400' | '500';
 };

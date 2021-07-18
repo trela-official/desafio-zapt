@@ -4,7 +4,7 @@ import { ArrowBackIos as ArrowLeft } from '@styled-icons/material-outlined/Arrow
 import { ArrowForwardIos as ArrowRight } from '@styled-icons/material-outlined/ArrowForwardIos';
 
 import { UserCommentsCardProps } from '../../components/UserCommentsCard';
-import { SlideWrapper, UserCommentsCard } from '../../components';
+import { Slider, UserCommentsCard } from '../../components';
 
 import * as Styled from './styles';
 
@@ -30,7 +30,7 @@ const UserCommentsCardSlider = ({ cardsData }: UserCommentsCardSliderProps) => {
   };
   return (
     <Styled.Wrapper>
-      <SlideWrapper settings={settings}>
+      <Slider settings={settings}>
         {Array.isArray(cardsData) &&
           cardsData.length > 0 &&
           cardsData.map(card => (
@@ -43,7 +43,7 @@ const UserCommentsCardSlider = ({ cardsData }: UserCommentsCardSliderProps) => {
               backgroundImage={card.backgroundImage}
             />
           ))}
-      </SlideWrapper>
+      </Slider>
     </Styled.Wrapper>
   );
 };
