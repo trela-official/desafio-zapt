@@ -1,9 +1,10 @@
-import Head from 'next/head'
-import Welcome from '../components/Welcome'
+import Head from 'next/head';
+import UsersComments from '../components/UsersComments';
+import Welcome from '../components/Welcome';
 
-export default function Home({name}) {
-  name = "Marcio"
-  
+export default function Home({ name }) {
+  name = 'Marcio';
+
   return (
     <>
       <Head>
@@ -12,6 +13,7 @@ export default function Home({name}) {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <Welcome name={name} />
+      <UsersComments />
     </>
-  )
+  );
 }

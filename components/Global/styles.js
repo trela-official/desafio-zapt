@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components"
+import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
   :root {
@@ -37,12 +37,11 @@ const GlobalStyle = createGlobalStyle`
   }
   body {
     line-height: 1;
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
+    font: 16px 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
   }
   button {
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
+    font: 16px 'Inter', sans-serif;
     &:focus{
       outline: none;
     }
@@ -97,5 +96,5 @@ const GlobalStyle = createGlobalStyle`
     border-collapse: collapse;
     border-spacing: 0;
   }
-`
-export default GlobalStyle
+`;
+export default GlobalStyle;

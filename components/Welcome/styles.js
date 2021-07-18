@@ -2,19 +2,16 @@ import styled from 'styled-components';
 
 export const DropImg = styled.div`
   position: absolute;
-  top: ${props => props.top ? "-20px" : "unset"};
-  left: ${props => props.left ? "-25px" : "unset"};
-  right: ${props => props.right ? "-45px" : "unset"};
-  bottom: ${props => props.bottom ? "-35px" : "unset"};
-  @media (max-width: 1024px){
+  top: ${(props) => (props.top ? '-20px' : 'unset')};
+  left: ${(props) => (props.left ? '-25px' : 'unset')};
+  right: ${(props) => (props.right ? '-45px' : 'unset')};
+  bottom: ${(props) => (props.bottom ? '-35px' : 'unset')};
+  @media (max-width: 1024px) {
     display: none;
   }
-`
+`;
 export const Wrapper = styled.div`
-  width: calc(100% - 90px);
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
+  margin: 50px auto;
 `;
 export const Container = styled.div`
   background-color: var(--color-neutral);
@@ -23,23 +20,40 @@ export const Container = styled.div`
   align-items: center;
   position: relative;
   margin-bottom: 17px;
-`
+  max-height: 315px;
+  max-width: 1200px;
+  @media (max-width: 768px) {
+    max-height: 100%;
+  }
+`;
 export const WelcomeUser = styled.div`
-  padding: 0 95px;
+  padding: 0 90px;
   width: 100%;
-  @media (max-width: 1024px){
+  @media (max-width: 1260px) {
+    padding: 0 50px;
+  }
+  @media (max-width: 1024px) {
     padding: 15px 30px;
   }
 `;
 export const Texts = styled.div`
   padding-top: 15px;
-`
+`;
 export const BackgroundImg = styled.div`
-  display: flex;
-  img{
+  position: relative;
+  height: 100vh;
+  max-height: inherit;
+  max-width: 425px;
+  width: 100vw;
+  margin-left: auto;
+  img {
     border-radius: 4px;
+    object-position: left;
   }
-  @media (max-width: 1024px){
+  @media (max-width: 1024px) {
+    width: 50%;
+  }
+  @media (max-width: 768px) {
     display: none;
   }
 `;
@@ -54,22 +68,22 @@ export const Choose = styled.div`
   display: flex;
   flex-direction: column;
   padding-bottom: 15px;
-  p{
+  p {
     color: var(--color-dark);
     font-weight: 500;
     margin-bottom: 12px;
   }
-`
+`;
 export const Links = styled.div`
   display: flex;
-  a { 
+  a {
     margin-right: 16px;
   }
-  @media (max-width: 575px){
+  @media (max-width: 575px) {
     flex-direction: column;
-    a { 
+    a {
       margin-right: 0;
       margin-bottom: 16px;
     }
   }
-`
+`;
