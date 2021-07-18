@@ -19,11 +19,12 @@ export const theme = {
     }
   },
   colors: {
-    primary: '#011FBB',
-    secondary: '#E9F4FE',
+    primarymain: '#011FBB',
+    primarylight: '#334BC8',
+    primaryxlight: '#E9F4FE',
+    primaryxdark: '#001C33',
     white: '#FAFAFA',
     black: '#000000',
-    darkBlue: '#001C33',
     neutral: '#5C5B5B'
   },
   spacings: {

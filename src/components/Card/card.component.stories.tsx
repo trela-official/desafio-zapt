@@ -9,6 +9,6 @@ export default {
 
 export const CardStory: Story = (args) => (
   <Card {...args}>
-    <Body color="primary">Sou o conteúdo do card!</Body>
+    <Body color="primarymain">Sou o conteúdo do card!</Body>
   </Card>
 )

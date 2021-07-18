@@ -6,7 +6,7 @@ export const H2 = styled.h2`
     color: ${theme.colors.black};
     font-size: ${theme.font.sizes.xxlarge};
     font-family: ${theme.font.family};
-    font-weight: ${theme.font.normal};
+    font-weight: ${theme.font.light};
     margin-bottom: ${theme.spacings.medium};
     margin-top: ${theme.spacings.medium};
     line-height: ${theme.spacings.small};
