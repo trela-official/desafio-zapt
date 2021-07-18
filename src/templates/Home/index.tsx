@@ -1,10 +1,14 @@
-import Banner from '../../components/Banner'
+import Banner, { BannerProps } from '../../components/Banner'
 
 import * as S from './styles'
 
-const Home = () => (
+export type HomeTemplateProps = {
+  banner: BannerProps
+}
+
+const Home = ({ banner }: HomeTemplateProps) => (
   <S.Container>
-    <Banner />
+    <Banner {...banner} />
   </S.Container>
 )
 
