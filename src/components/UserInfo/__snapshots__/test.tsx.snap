@@ -13,8 +13,8 @@ exports[`<UserInfo /> should match snapshot 1`] = `
 }
 
 .c1 {
-  width: 4rem;
-  height: 4rem;
+  width: 3rem;
+  height: 3rem;
   border-radius: 50%;
   border: 0.15rem solid #ffffff;
 }
@@ -25,13 +25,32 @@ exports[`<UserInfo /> should match snapshot 1`] = `
 }
 
 .c3 {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 400;
 }
 
 .c4 {
-  font-size: 1.2rem;
+  font-size: 1.0rem;
   font-weight: 400;
+}
+
+@media (min-width:450px) {
+  .c1 {
+    width: 4rem;
+    height: 4rem;
+  }
+}
+
+@media (min-width:450px) {
+  .c3 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width:450px) {
+  .c4 {
+    font-size: 1.2rem;
+  }
 }
 
 <div

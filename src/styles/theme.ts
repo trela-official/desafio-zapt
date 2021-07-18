@@ -13,6 +13,7 @@ export default {
     normal: 400,
     medium: 500,
     sizes: {
+      xxsmall: '1.0rem',
       xsmall: '1.2rem',
       small: '1.4rem',
       medium: '1.6rem',
