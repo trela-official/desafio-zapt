@@ -1,16 +1,6 @@
-import {
-  createGlobalStyle,
-  css,
-  DefaultTheme,
-  GlobalStyleComponent
-} from 'styled-components'
+import { createGlobalStyle, css } from 'styled-components'
 
-type GlobalStylesProps = {}
-
-const GlobalStyles: GlobalStyleComponent<
-  GlobalStylesProps,
-  DefaultTheme
-> = createGlobalStyle`
+const GlobalStyles = createGlobalStyle`
   @font-face {
     font-family: 'Inter';
     font-style: normal;
