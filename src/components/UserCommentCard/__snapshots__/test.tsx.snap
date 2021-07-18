@@ -82,6 +82,18 @@ exports[`<UserCommentCard /> should math snapshot 1`] = `
 
 @media (min-width:450px) {
   .c3 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c3 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width:1440px) {
+  .c3 {
     font-size: 2.0rem;
   }
 }
@@ -90,7 +102,7 @@ exports[`<UserCommentCard /> should math snapshot 1`] = `
   class="c0"
 >
   <img
-    alt="Senhora cozinhando"
+    alt="Senhora cortante legumes"
     class="c1"
     src="https://i.imgur.com/ci2Eulu.png"
   />

@@ -37,6 +37,14 @@ export const Comment = styled.p`
     font-size: ${theme.font.sizes.xsmall};
 
     ${media.greaterThan('small')`
+      font-size: ${theme.font.sizes.medium};
+    `}
+
+    ${media.greaterThan('medium')`
+      font-size: ${theme.font.sizes.large};
+    `}
+
+    ${media.greaterThan('huge')`
       font-size: ${theme.font.sizes.xlarge};
     `}
   `}
