@@ -4,7 +4,7 @@ import { Story, Meta } from '@storybook/react/types-6-0';
 import UserCommentsCard, { UserCommentsCardProps } from '.';
 
 export default {
-  title: 'UserCommentsCard',
+  title: 'User Comments/UserCommentsCard',
   component: UserCommentsCard,
 } as Meta;
 

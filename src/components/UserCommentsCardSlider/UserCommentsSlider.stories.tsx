@@ -5,7 +5,7 @@ import UserCommentsCardSlider, { UserCommentsCardSliderProps } from '.';
 import userSliderMocks from 'mocks/userSliderMocks';
 
 export default {
-  title: 'UserCommentsSlider',
+  title: 'User Comments/UserCommentsSlider',
   component: UserCommentsCardSlider,
 } as Meta;
 
