@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SocialCommentCard /> should render with comment 1`] = `
+.c0 {
+  background-color: #e9f5fe;
+  border-radius: 0.4rem;
+  padding: 2.4rem 1.6rem;
+}
+
+.c1 {
+  color: #011fbb;
+  font-weight: 400;
+}
+
+.c2 {
+  margin-top: 1.6rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  width: 3.6rem;
+  height: 3.6rem;
+  border-radius: 50%;
+  background-color: #011fbb;
+  border: 0.15rem solid #011fbb;
+}
+
+.c4 {
+  margin-left: calc(1.6rem - 0.4rem);
+}
+
+<div
+  class="c0"
+>
+  <q
+    class="c1"
+  >
+    Não da para parar de comer.. esse final de semana pedi 20 pasteis da Ilma e acabaram TODOS em um só dia... O pessoal aqui de casa ficou viciado de um nível que terei que comprar toda semana... Assim não tem academia que secura rsrsrsrs Obrigado Zapt.
+  </q>
+  <footer
+    class="c2"
+  >
+    <img
+      alt="@ferri-gui"
+      class="c3"
+      src="https://i.imgur.com/PZbgtl8.png"
+    />
+    <p
+      class="c4"
+    >
+      @ferri-gui
+    </p>
+  </footer>
+</div>
+`;

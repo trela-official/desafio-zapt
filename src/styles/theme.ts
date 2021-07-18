@@ -28,6 +28,7 @@ export default {
     primaryDarken: '#011fbb',
     secondary: '#ff5b58',
     mainBackground: '#ffffff',
+    bluishBackground: '#e9f5fe',
     darkenBackground: '#fafafa',
     white: '#ffffff',
     black: '#000000',
