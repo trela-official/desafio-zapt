@@ -1,5 +1,10 @@
-import Main from 'components/Main'
+import { SocialComments } from 'components/SocialComments'
+import { Layout } from 'components/Layout'
 
 export default function Home() {
-  return <Main />
+  return (
+    <Layout>
+      <SocialComments />
+    </Layout>
+  )
 }

@@ -1,5 +1,6 @@
 import { Color } from 'model/commom-style-types'
 import styled, { css } from 'styled-components'
+import media from 'styled-media-query'
 
 export const H2 = styled.h2`
   ${({ theme }) => css`
@@ -10,6 +11,20 @@ export const H2 = styled.h2`
     margin-bottom: ${theme.spacings.medium};
     margin-top: ${theme.spacings.medium};
     line-height: ${theme.spacings.small};
+    ${media.lessThan('medium')`
+    font-size: ${theme.font.sizes.xlarge};
+    `}
+  `}
+`
+
+export const H4 = styled.h4<BodyProps>`
+  ${({ theme, color }) => css`
+    color: ${color ? theme.colors[color] : theme.colors.black};
+    font-size: ${theme.font.sizes.small};
+    font-family: ${theme.font.family};
+    font-weight: ${theme.font.normal};
+    line-height: ${theme.spacings.small};
+    margin: 0;
   `}
 `
 
@@ -25,16 +40,8 @@ export const Body = styled.p<BodyProps>`
     font-weight: ${theme.font.normal};
     line-height: ${theme.spacings.small};
     margin: 0;
-  `}
-`
-
-export const BodySecondary = styled.label<BodyProps>`
-  ${({ theme, color }) => css`
-    color: ${color ? theme.colors[color] : theme.colors.black};
+    ${media.lessThan('medium')`
     font-size: ${theme.font.sizes.small};
-    font-family: ${theme.font.family};
-    font-weight: ${theme.font.normal};
-    line-height: ${theme.spacings.small};
-    margin: 0;
+    `}
   `}
 `

@@ -1,5 +1,5 @@
 import { Row, Col } from 'components/Grid'
-import { H2, Body, BodySecondary } from 'components/Typography'
+import { H2, Body, H4 } from 'components/Typography'
 import { Card } from 'components/Card'
 import { Masonry } from 'components/Masonry'
 import { Avatar } from 'components/Avatar'
@@ -7,7 +7,7 @@ import * as S from 'components/Hbox'
 import { mockCardData } from './mock-card.data'
 
 export const SocialComments = () => (
-  <>
+  <section>
     <Row center="xs">
       <Col>
         <H2>O que estão falando nas redes sociais</H2>
@@ -25,11 +25,11 @@ export const SocialComments = () => (
             </S.HboxItem>
             <S.HboxSeparator />
             <S.HboxItem vAlign="center">
-              <BodySecondary color="primaryxdark">{name}</BodySecondary>
+              <H4 color="primaryxdark">{name}</H4>
             </S.HboxItem>
           </S.Hbox>
         </Card>
       ))}
     </Masonry>
-  </>
+  </section>
 )
