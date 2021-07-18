@@ -29,6 +29,7 @@ export default {
     darkenBackground: '#fafafa',
     white: '#ffffff',
     black: '#000000',
+    gray: '#7b7b7b',
   },
   spacings: {
     xxsmall: '0.8rem',

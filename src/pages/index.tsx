@@ -1,3 +1,5 @@
-export default function Home() {
-  return <h1>Desafio Zapt</h1>;
+import WelcomeTemplate from 'templates/Welcome';
+
+export default function HomePage() {
+  return <WelcomeTemplate />;
 }
