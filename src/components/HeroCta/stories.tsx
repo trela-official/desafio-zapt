@@ -1,9 +1,21 @@
 import { Story, Meta } from '@storybook/react'
-import HeroCta from '.'
+import mockHeroCtaArgs from './mock'
+import HeroCta, { HeroCtaProps } from '.'
 
 export default {
   title: 'HeroCta',
-  component: HeroCta
+  component: HeroCta,
+  argTypes: {
+    heroTitle: { type: 'string ' },
+    heroSubtitle: { type: 'string ' },
+    ctaTitle: { type: 'string ' },
+    firstOptionLabel: { type: 'string ' },
+    secondOptionLabel: { type: 'string ' }
+  }
 } as Meta
 
-export const Default: Story = () => <HeroCta />
+export const Default: Story<HeroCtaProps> = (args) => <HeroCta {...args} />
+
+Default.args = {
+  ...mockHeroCtaArgs
+}

@@ -3,20 +3,30 @@ import Cta from 'components/Cta'
 
 import * as S from './styles'
 
-const title = 'Bem vindo Marcio,'
-const subtitle =
-  'Para você aproveitar nossas oportunidades primeiro você precisa estar dentro de um grupo, estamos aqui para lhe ajudar.'
+export type HeroCtaProps = {
+  heroTitle: string
+  heroSubtitle: string
+  ctaTitle: string
+  firstOptionLabel: string
+  secondOptionLabel: string
+}
 
-const HeroCta = () => (
+const HeroCta = ({
+  heroTitle,
+  heroSubtitle,
+  ctaTitle,
+  firstOptionLabel,
+  secondOptionLabel
+}: HeroCtaProps) => (
   <>
     <S.TitleWrapper>
-      <HeroTitle title={title} subtitle={subtitle} />
+      <HeroTitle title={heroTitle} subtitle={heroSubtitle} />
     </S.TitleWrapper>
     <Cta
       hasTwoOptions
-      title="O que você prefere?"
-      firstOptionLabel="Criar um grupo"
-      secondOptionLabel="Entrar em um grupo"
+      title={ctaTitle}
+      firstOptionLabel={firstOptionLabel}
+      secondOptionLabel={secondOptionLabel}
     />
   </>
 )
