@@ -4,7 +4,7 @@ import { renderWithTheme } from 'helpers/renderWithThame';
 
 import WelcomeImage from '.';
 
-import image from '../../assets/image.svg';
+import image from 'assets/image.svg';
 
 describe('<WelcomeImage />', () => {
   it('should render WelcomeImage', () => {

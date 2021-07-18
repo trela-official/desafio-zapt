@@ -1,8 +1,8 @@
 import React from 'react';
 import * as Styled from './styles';
 
-import bow from '../../assets/bow_image.svg';
-import circleImg from '../../assets/circle_img.svg';
+import bow from 'assets/bow_image.svg';
+import circleImg from 'assets/circle_img.svg';
 
 const WelcomeImage = () => (
   <Styled.Wrapper>

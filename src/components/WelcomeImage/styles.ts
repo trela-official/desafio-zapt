@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import image from '../../assets/image.svg';
+import image from 'assets/image.svg';
 
 export const Wrapper = styled.div`
   background: #ffff url(${image}) no-repeat;

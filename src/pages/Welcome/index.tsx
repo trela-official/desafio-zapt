@@ -8,8 +8,8 @@ import {
   Container,
 } from 'components';
 
-import dropBlue from '../../assets/drop_blue.svg';
-import dropRed from '../../assets/drop_red.svg';
+import dropBlue from 'assets/drop_blue.svg';
+import dropRed from 'assets/drop_red.svg';
 
 import * as Styled from './styles';
 
