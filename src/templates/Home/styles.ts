@@ -21,7 +21,7 @@ export const BannerWrapper = styled.section`
   `}
 `
 
-export const TestmonialsWrapper = styled.section`
+export const TestimonialsWrapper = styled.section`
   ${({ theme }) => css`
     margin-bottom: 80px;
     margin-top: 80px;

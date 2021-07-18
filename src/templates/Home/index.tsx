@@ -1,22 +1,22 @@
 import Banner, { BannerProps } from '../../components/Banner'
-import Testmonials, { TestmonialsProps } from '../../components/Testmonials'
+import Testimonials, { TestimonialsProps } from '../../components/Testimonials'
 
 import * as S from './styles'
 
 export type HomeTemplateProps = {
   banner: BannerProps
-  testmonials: TestmonialsProps
+  testimonials: TestimonialsProps
 }
 
-const Home = ({ banner, testmonials }: HomeTemplateProps) => (
+const Home = ({ banner, testimonials }: HomeTemplateProps) => (
   <S.Container>
     <S.BannerWrapper>
       <Banner {...banner} />
     </S.BannerWrapper>
 
-    <S.TestmonialsWrapper>
-      <Testmonials testmonials={testmonials} />
-    </S.TestmonialsWrapper>
+    <S.TestimonialsWrapper>
+      <Testimonials {...testmonials} />
+    </S.TestimonialsWrapper>
   </S.Container>
 )
 
