@@ -6,8 +6,9 @@ const Layouts = {
       display: flex;
       flex-direction: column;
       width: 100%;
-      padding: 0 ${theme.spacings.large};
       max-width: ${theme.grid.container};
+      margin: 0 auto;
+      padding: 0 2rem;
     `}
   `,
   Col: styled.div`
