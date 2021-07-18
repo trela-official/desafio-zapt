@@ -1,0 +1,181 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Typography /> should render Typography correctly 1`] = `
+.c0 {
+  font-weight: 400;
+  color: #000000;
+  font-size: 1.6rem;
+}
+
+<span
+  class="c0"
+  color="black"
+>
+  text
+</span>
+`;
+
+exports[`<Typography /> should render Typography whith bold 400 for default 1`] = `
+.c0 {
+  font-weight: 400;
+  color: #000000;
+  font-size: 1.6rem;
+}
+
+<span
+  class="c0"
+  color="black"
+>
+  text
+</span>
+`;
+
+exports[`<Typography /> should render Typography whith bold 500 if passed 1`] = `
+.c0 {
+  font-weight: 500;
+  color: #000000;
+  font-size: 1.6rem;
+}
+
+<span
+  class="c0"
+  color="black"
+>
+  text
+</span>
+`;
+
+exports[`<Typography /> should render Typography whith color black for default 1`] = `
+.c0 {
+  font-weight: 400;
+  color: #000000;
+  font-size: 1.6rem;
+}
+
+<span
+  class="c0"
+  color="black"
+>
+  text
+</span>
+`;
+
+exports[`<Typography /> should render Typography whith colors correctly [darkgray] 1`] = `
+.c0 {
+  font-weight: 400;
+  color: #7B7B7B;
+  font-size: 1.6rem;
+}
+
+<span
+  class="c0"
+  color="darkgray"
+>
+  text
+</span>
+`;
+
+exports[`<Typography /> should render Typography whith colors correctly [primary] 1`] = `
+.c0 {
+  font-weight: 400;
+  color: #011FBB;
+  font-size: 1.6rem;
+}
+
+<span
+  class="c0"
+  color="primary"
+>
+  text
+</span>
+`;
+
+exports[`<Typography /> should render Typography whith colors correctly [white] 1`] = `
+.c0 {
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 1.6rem;
+}
+
+<span
+  class="c0"
+  color="white"
+>
+  text
+</span>
+`;
+
+exports[`<Typography /> should render Typography whith font size large is passed 1`] = `
+.c0 {
+  font-weight: 400;
+  color: #000000;
+  font-size: 2.8rem;
+}
+
+<span
+  class="c0"
+  color="black"
+>
+  text
+</span>
+`;
+
+exports[`<Typography /> should render Typography whith font size medium for default 1`] = `
+.c0 {
+  font-weight: 400;
+  color: #000000;
+  font-size: 1.6rem;
+}
+
+<span
+  class="c0"
+  color="black"
+>
+  text
+</span>
+`;
+
+exports[`<Typography /> should render Typography whith font size small is passed 1`] = `
+.c0 {
+  font-weight: 400;
+  color: #000000;
+  font-size: 1.4rem;
+}
+
+<span
+  class="c0"
+  color="black"
+>
+  text
+</span>
+`;
+
+exports[`<Typography /> should render Typography whith font size xmedium is passed 1`] = `
+.c0 {
+  font-weight: 400;
+  color: #000000;
+  font-size: 2rem;
+}
+
+<span
+  class="c0"
+  color="black"
+>
+  text
+</span>
+`;
+
+exports[`<Typography /> should render Typography whith font size xsmall is passed 1`] = `
+.c0 {
+  font-weight: 400;
+  color: #000000;
+  font-size: 1.2rem;
+}
+
+<span
+  class="c0"
+  color="black"
+>
+  text
+</span>
+`;
