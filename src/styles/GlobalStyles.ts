@@ -5,7 +5,7 @@ export default createGlobalStyle`
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    text-decoration: none !important;
+    text-decoration: none;
     -webkit-font-smoothing: antialiased !important;
     -moz-osx-font-smoothing: grayscale !important;
     list-style: none !important;
@@ -28,8 +28,7 @@ export default createGlobalStyle`
 
   body, #root, input, select, textarea, button {
     ${({ theme }) => css`
-      font: ${theme.font.normal} ${theme.font.sizes.medium} 'Poppins',
-        sans-serif;
+      font: ${theme.font.normal} ${theme.font.sizes.medium} 'Inter', sans-serif;
     `}
   }
 
@@ -63,7 +62,7 @@ export default createGlobalStyle`
 
   ::-webkit-scrollbar-thumb {
     ${({ theme }) => css`
-      background-color: ${theme.colors.gray};
+      background-color: ${theme.colors.primary};
       border-radius: 2rem;
       border: 0.3rem solid ${theme.colors.white};
     `}
@@ -71,7 +70,7 @@ export default createGlobalStyle`
 
   :root {
     ${({ theme }) => css`
-      scrollbar-color: ${theme.colors.gray} ${theme.colors.white} !important;
+      scrollbar-color: ${theme.colors.primary} ${theme.colors.white} !important;
       scrollbar-width: 1.2rem !important;
     `}
   }
