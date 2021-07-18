@@ -24,6 +24,7 @@ export default {
   colors: {
     primary: '#334BC8',
     blue: '#011FBB',
+    red: '#FF5B58',
     darkBlue: '#001C33',
     white: '#FFF',
     black: '#000',
