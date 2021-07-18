@@ -9,5 +9,10 @@ export const Wrapper = styled.h1.attrs<HeadingProps>(({ level }) => ({
     color: ${color};
     font-weight: ${fontWeight};
     line-height: ${lineHeight};
+
+    @media (max-width: 550px) {
+      font-size: calc(${theme.font.sizes[size!]} / 1.3);
+      line-height: 1.3;
+    }
   `}
 `

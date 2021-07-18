@@ -6,7 +6,7 @@ import IconThree from './icons/IconThree'
 import IconTwo from './icons/IconTwo'
 import * as S from './styles'
 
-type UserType = {
+export type UserType = {
   name: string
   gender: 'male' | 'female'
 }

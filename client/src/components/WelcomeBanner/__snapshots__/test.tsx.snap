@@ -146,6 +146,20 @@ exports[`<WelcomeBanner /> should render the username on the banner 1`] = `
   right: -43px;
 }
 
+@media (max-width:550px) {
+  .c2 {
+    font-size: calc(2.8rem / 1.3);
+    line-height: 1.3;
+  }
+}
+
+@media (max-width:550px) {
+  .c4 {
+    font-size: calc(1.6rem / 1.3);
+    line-height: 1.3;
+  }
+}
+
 @media (max-width:955px) {
   .c0 {
     margin: 0 auto;

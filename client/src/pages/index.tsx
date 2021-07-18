@@ -1,3 +1,12 @@
+import HomeTemplate from 'templates/pages/Home'
+
 export default function Home() {
-  return <h1>Hello Zapt</h1>
+  return (
+    <HomeTemplate
+      user={{
+        name: 'Alan Gabriel',
+        gender: 'male'
+      }}
+    />
+  )
 }

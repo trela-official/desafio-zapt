@@ -5,7 +5,7 @@ export const Wrapper = styled.div`
   ${({ theme }) => css`
     width: 100%;
     max-width: ${theme.grid.container};
-    margin: 30px auto 0;
+    margin: 0 auto;
     padding: 0 ${theme.spacings.xxsmall};
     position: relative;
 
