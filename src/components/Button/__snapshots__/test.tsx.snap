@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> should render primary button 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 1.6rem 2.4rem;
+  height: 5.1rem;
+  border: 0;
+  border-radius: 0.4rem;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 1.4rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background: #011fbb;
+}
+
+.c0:hover {
+  background: #011ba2;
+}
+
+<button
+  class="c0"
+  color="primary"
+>
+  Criar um grupo
+</button>
+`
