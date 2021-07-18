@@ -15,7 +15,7 @@ const Home = ({ banner, testimonials }: HomeTemplateProps) => (
     </S.BannerWrapper>
 
     <S.TestimonialsWrapper>
-      <Testimonials {...testmonials} />
+      <Testimonials {...testimonials} />
     </S.TestimonialsWrapper>
   </S.Container>
 )
