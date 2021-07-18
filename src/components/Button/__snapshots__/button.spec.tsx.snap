@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> should render button with label 1`] = `
+.c0 {
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 1.4rem;
+}
+
+<span
+  class="c0"
+  color="white"
+>
+  button label
+</span>
+`;
