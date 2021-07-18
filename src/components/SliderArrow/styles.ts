@@ -52,7 +52,7 @@ export const Wrapper = styled.button<SliderArrowProps>`
     border: 0;
     outline: none;
     position: absolute;
-    top: 35%;
+    top: 40%;
     bottom: 0;
     transition: background-color ${theme.transition.default},
       color ${theme.transition.fast}, visibility ${theme.transition.default};
