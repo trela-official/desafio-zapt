@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 import * as S from './styles'
 
 type TestimonialProps = {
@@ -24,17 +26,29 @@ const TestimonyCard = ({ testimonial, user }: TestimonyCardProps) => (
     <S.WrapperTestimonial>
       <span>{testimonial.text}</span>
       <S.WrapperUser>
-        <img src={user.avatar_url} alt={user.name} />
+        <S.Avatar>
+          <Image
+            src={user.avatar_url}
+            alt={user.name}
+            width={40}
+            height={40}
+            objectFit="cover"
+          />
+        </S.Avatar>
         <p>{user.name}</p>
         <span>
           {user.address.city} &bull; {user.address.state}
         </span>
       </S.WrapperUser>
     </S.WrapperTestimonial>
-    <S.Thumbnail
-      src={testimonial.thumbnail}
-      alt={`Imagem de capa do depoimento de ${user.name}`}
-    />
+    <S.Thumbnail>
+      <Image
+        src={testimonial.thumbnail}
+        alt={`Imagem de capa do depoimento de ${user.name}`}
+        layout="fill"
+        objectFit="cover"
+      />
+    </S.Thumbnail>
   </S.Wrapper>
 )
 

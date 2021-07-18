@@ -43,11 +43,13 @@ export const Wrapper = styled.div`
   `}
 `
 
-export const Thumbnail = styled.img`
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: 0;
+export const Thumbnail = styled.div`
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+  }
 `
 
 export const WrapperTestimonial = styled.div`
@@ -94,16 +96,6 @@ export const WrapperUser = styled.div`
 
     color: ${theme.colors.white};
 
-    img {
-      grid-area: avatar;
-      width: 40px;
-      height: 40px;
-      object-fit: cover;
-      border-radius: 100%;
-
-      border: 1.5px solid ${theme.colors.white};
-    }
-
     p {
       grid-area: name;
 
@@ -119,6 +111,26 @@ export const WrapperUser = styled.div`
       font-size: ${theme.font.sizes.xsmall};
       opacity: 0.8;
       letter-spacing: -0.01em;
+    }
+  `}
+`
+
+export const Avatar = styled.div`
+  ${({ theme }) => css`
+    grid-area: avatar;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 100%;
+    overflow: hidden;
+
+    border: 1.5px solid ${theme.colors.white};
+
+    img {
+      margin-left: -2px !important;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
   `}
 `
