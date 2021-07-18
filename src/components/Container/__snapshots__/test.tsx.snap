@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Container /> should render the heading 1`] = `
+.c0 {
+  width: 100%;
+}
+
+.c1 {
+  width: 90%;
+  max-width: 120rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      data-testid="mock children"
+    >
+      Desafio Zapt
+    </div>
+  </div>
+</div>
+`;

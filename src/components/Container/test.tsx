@@ -1,4 +1,4 @@
-import { render } from 'utils/test-utils';
+import { render, screen } from 'utils/test-utils';
 
 import theme from 'styles/theme';
 
@@ -8,32 +8,15 @@ describe('<Container />', () => {
   it('should render the heading', () => {
     const { container } = render(
       <Container>
-        <span>Desafio Zapt</span>
+        <div data-testid="mock children">Desafio Zapt</div>
       </Container>
     );
 
-    expect(container.firstChild).toHaveStyleRule(
+    expect(screen.getByTestId('mock children').parentElement).toHaveStyleRule(
       'max-width',
       theme.grid.container
     );
 
-    expect(container.firstChild).toMatchInlineSnapshot(`
-      .c0 {
-        width: 100%;
-        max-width: 120rem;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: calc(3.2rem / 2);
-        padding-right: calc(3.2rem / 2);
-      }
-
-      <div
-        class="c0"
-      >
-        <span>
-          Desafio Zapt
-        </span>
-      </div>
-    `);
+    expect(container.firstChild).toMatchSnapshot();
   });
 });

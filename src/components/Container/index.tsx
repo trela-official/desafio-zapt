@@ -1,14 +1,14 @@
-import styled, { css } from 'styled-components';
+import * as S from './styles';
 
-const Container = styled.div`
-  ${({ theme }) => css`
-    width: 100%;
-    max-width: ${theme.grid.container};
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: calc(${theme.grid.gutter} / 2);
-    padding-right: calc(${theme.grid.gutter} / 2);
-  `}
-`;
+export type ContainerProps = {
+  children: React.ReactNode;
+  as?: React.ElementType;
+};
+
+const Container = ({ children, as }: ContainerProps) => (
+  <S.Wrapper as={as}>
+    <S.Container>{children}</S.Container>
+  </S.Wrapper>
+);
 
 export default Container;
