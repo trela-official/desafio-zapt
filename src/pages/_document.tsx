@@ -19,12 +19,12 @@ export default class MyDocument extends Document {
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
             rel="preload"
-            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
             as="style"
           />
           <link
             rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
           />
           <link rel="apple-touch-icon" href="/favicon.png" />
           <link rel="icon" href="/favicon.png" />
