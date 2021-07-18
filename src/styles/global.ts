@@ -1,4 +1,5 @@
 import { createGlobalStyle, css } from 'styled-components';
+import { lighten } from 'polished';
 
 const GlobalStyles = createGlobalStyle`
   @font-face {
@@ -46,6 +47,24 @@ const GlobalStyles = createGlobalStyle`
     body {
       font-family: ${theme.font.family};
       font-size: ${theme.font.sizes.medium};
+
+      &::-webkit-scrollbar {
+        width: 1rem;
+      }
+
+      &::-webkit-scrollbar-track {
+        background: transparent;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background-color: ${lighten(0.2, theme.colors.gray)};
+        border-radius: ${theme.border.radius};
+      }
+
+      &::-webkit-scrollbar-thumb:hover,
+      &::-webkit-scrollbar-thumb:active {
+        background-color: ${theme.colors.gray};
+      }
     }
 
     ::-moz-selection {
