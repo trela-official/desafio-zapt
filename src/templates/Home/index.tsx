@@ -2,9 +2,12 @@ import Masonry from 'react-masonry-css'
 
 import Base from 'templates/Base'
 import SocialComment, { SocialCommentProps } from 'components/SocialComment'
+import { UserCommentProps } from 'components/UserComment'
+import UserCommentSlider from 'components/UserCommentSlider'
 
 export type HomeTemplateProps = {
-  comments?: SocialCommentProps[]
+  socialComments?: SocialCommentProps[]
+  userComments?: UserCommentProps[]
 }
 
 const masonryBreakpoints = {
@@ -15,15 +18,23 @@ const masonryBreakpoints = {
 
 import * as S from './styles'
 
-const Home = ({ comments }: HomeTemplateProps) => (
+const Home = ({ socialComments, userComments }: HomeTemplateProps) => (
   <Base>
-    {!!comments && (
+    {!!userComments && (
+      <S.SectionUserComments>
+        <S.SectionTitle>O que as pessoas estão achando</S.SectionTitle>
+
+        <UserCommentSlider items={userComments} />
+      </S.SectionUserComments>
+    )}
+
+    {!!socialComments && (
       <S.SectionSocialComments>
         <S.SectionTitle>O que estão falando nas redes sociais</S.SectionTitle>
 
         <S.SocialCommentsWrapper>
           <Masonry breakpointCols={masonryBreakpoints} className="masonry-grid">
-            {comments.map((item) => (
+            {socialComments.map((item) => (
               <SocialComment key={item.name} {...item} />
             ))}
           </Masonry>

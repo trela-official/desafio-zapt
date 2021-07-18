@@ -1,6 +1,6 @@
 import Home, { HomeTemplateProps } from 'templates/Home'
 
-import { socialCommentsMock } from 'templates/Home/mock'
+import { socialCommentsMock, userCommentsMock } from 'templates/Home/mock'
 
 export default function Index(props: HomeTemplateProps) {
   return <Home {...props} />
@@ -8,9 +8,10 @@ export default function Index(props: HomeTemplateProps) {
 
 export async function getStaticProps() {
   return {
-    revalidate: 1,
+    revalidate: 60,
     props: {
-      comments: socialCommentsMock
+      socialComments: socialCommentsMock,
+      userComments: userCommentsMock
     }
   }
 }

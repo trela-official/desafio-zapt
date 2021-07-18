@@ -34,3 +34,5 @@ export const SocialCommentsWrapper = styled.div`
     }
   `}
 `
+
+export const SectionUserComments = styled(Section)``
