@@ -11,7 +11,7 @@ export type UserProfileProps = {
   subtext?: string;
   imageProfile: string;
   textColor?: 'black' | 'darkgray' | 'white' | 'primary';
-  usernameSize: Sizes;
+  usernameSize?: Sizes;
 };
 
 const UserProfile = ({
