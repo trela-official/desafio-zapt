@@ -7,7 +7,7 @@ import * as S from 'components/Hbox'
 import { mockCardData } from './mock-card.data'
 
 export const SocialComments = () => (
-  <section>
+  <article>
     <Row center="xs">
       <Col>
         <H2>O que estão falando nas redes sociais</H2>
@@ -17,7 +17,9 @@ export const SocialComments = () => (
     <Masonry>
       {mockCardData.map(({ id, description, avatar, name }) => (
         <Card key={id}>
-          <Body color="primarymain">{description}</Body>
+          <Body color="primarymain">
+            <q>{description}</q>
+          </Body>
           <S.Separator />
           <S.Hbox>
             <S.HboxItem vAlign="center" noGrow>
@@ -31,5 +33,5 @@ export const SocialComments = () => (
         </Card>
       ))}
     </Masonry>
-  </section>
+  </article>
 )
