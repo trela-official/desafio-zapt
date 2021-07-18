@@ -1,47 +1,62 @@
 import styled, { css } from 'styled-components'
 import { darken } from 'polished'
+import media from 'styled-media-query'
 
 export const Wrapper = styled.section`
   ${({ theme }) => css`
+    background: ${theme.colors.bgBanner};
+    border-radius: ${theme.border.radius};
     display: grid;
     grid-template-columns: 1fr auto;
     place-items: center;
-    background: ${theme.colors.bgBanner};
-    border-radius: ${theme.border.radius};
     position: relative;
 
+    ${media.lessThan('medium')`
+      gap:  ${theme.grid.gutter};
+      grid-template-columns: 1fr;
+    `}
+
     &:before {
-      content: '';
-      width: 62px;
-      height: 62px;
       background: ${theme.colors.secondary};
-      position: absolute;
       border-radius: 50% 50% 50% 0% / 50% 50% 50% 0%;
-      top: -19px;
+      content: '';
+      height: 62px;
       left: -25px;
+      position: absolute;
+      top: -19px;
+      width: 62px;
+
+      ${media.lessThan('medium')`
+        height: 31px;
+        left: -8px;
+        top: -10px;
+        width: 31px;
+      `}
     }
   `}
 `
 
-export const Content = styled.div`
-  ${({ theme }) => css``}
-`
+export const Content = styled.div``
 
 export const Title = styled.h2`
   ${({ theme }) => css`
+    color: ${theme.colors.black};
     font-size: ${theme.font.sizes.xlarge};
     font-weight: ${theme.font.normal};
-    color: ${theme.colors.black};
     margin-bottom: ${theme.spacings.xxsmall};
+
+    ${media.lessThan('medium')`
+        margin-left: 30px;
+      `}
   `}
 `
 
 export const Description = styled.p`
   ${({ theme }) => css`
-    font-size: ${theme.font.sizes.medium};
     color: ${theme.colors.gray};
-    max-width: 58.8rem;
+    font-size: ${theme.font.sizes.medium};
     line-height: ${theme.font.line.medium};
+    max-width: 58.8rem;
   `}
 `
 
@@ -53,36 +68,36 @@ export const ContentAction = styled.div`
 
 export const ActionQuestion = styled.p`
   ${({ theme }) => css`
+    color: ${theme.colors.black};
     font-size: ${theme.font.sizes.medium};
     font-weight: ${theme.font.semibold};
     margin-bottom: ${theme.spacings.xsmall};
-    color: ${theme.colors.black};
   `}
 `
 
 export const ButtonAction = styled.button`
   ${({ theme }) => css`
     background: ${theme.colors.primary};
-    color: ${theme.colors.white};
-    border: ${theme.border.none};
     border-radius: ${theme.border.radius};
-    padding: ${theme.spacings.small} ${theme.spacings.large};
+    border: ${theme.border.none};
+    color: ${theme.colors.white};
     cursor: pointer;
+    padding: ${theme.spacings.small} ${theme.spacings.large};
     transition: all ${theme.transition.default};
 
     &:hover {
-      color: ${darken(0.05, theme.colors.white)};
       background: ${darken(0.05, theme.colors.primary)};
+      color: ${darken(0.05, theme.colors.white)};
     }
   `}
 `
 
 export const ButtonWrapper = styled.div`
   ${({ theme }) => css`
-    width: fit-content;
     display: grid;
-    grid-template-columns: auto auto;
     gap: ${theme.spacings.small};
+    grid-template-columns: auto auto;
+    width: fit-content;
   `}
 `
 
@@ -91,62 +106,90 @@ export const ImageWrapper = styled.div`
     position: relative;
 
     &:before {
-      content: '';
-      width: 80px;
-      height: 80px;
       background: ${theme.colors.white};
-      position: absolute;
       border-radius: 50%;
-      top: 16px;
+      content: '';
+      height: 80px;
       left: 71px;
+      position: absolute;
+      top: 16px;
+      width: 80px;
+
+      ${media.lessThan('medium')`
+        height: 40px;
+        width: 40px;
+        top: 40px;
+      `}
     }
 
     &:after {
-      content: '';
-      width: 100px;
-      height: 100px;
       background: ${theme.colors.primary};
-      position: absolute;
       border-radius: 50% 50% 50% 0% / 50% 50% 50% 0%;
       bottom: -30px;
+      content: '';
+      height: 100px;
+      position: absolute;
       right: -43px;
+      width: 100px;
+
+      ${media.lessThan('medium')`
+        bottom: -15px;
+        height: 50px;
+        right: -10px;
+        width: 50px;
+      `}
     }
   `}
 `
 
 export const SemicircleWrapper = styled.div`
+  bottom: 35px;
   position: absolute;
   right: 38px;
-  bottom: 35px;
+
+  ${media.lessThan('medium')`
+    svg {
+      width: 80px;
+  }
+    `}
 `
 
 export const BannerImage = styled.img`
   ${({ theme }) => css`
-    display: block;
-    max-width: 100%;
-    max-height: 313px;
-    object-fit: cover;
     border-radius: ${theme.border.radius};
+    display: block;
+    max-height: 313px;
+    max-width: 100%;
+    object-fit: cover;
+
+    ${media.lessThan('medium')`
+      width: 100%;
+    `}
   `}
 `
 
 export const Footer = styled.footer`
   ${({ theme }) => css`
-    font-size: ${theme.font.sizes.small};
-    color: ${theme.colors.gray};
-    padding: ${theme.spacings.small} 0;
-    grid-column: 1/-1;
     background: ${theme.colors.white};
+    color: ${theme.colors.gray};
+    font-size: ${theme.font.sizes.small};
+    grid-column: 1/-1;
+    padding: ${theme.spacings.small} 0;
     width: 100%;
+
+    ${media.lessThan('medium')`
+      text-align: center;
+      padding: ${theme.spacings.xxsmall} 0;
+    `}
   `}
 `
 
 export const Link = styled.a`
   ${({ theme }) => css`
     color: ${theme.colors.primary};
+    cursor: pointer;
     margin-left: 0.4rem;
     text-decoration: underline;
     text-underline-position: under;
-    cursor: pointer;
   `}
 `

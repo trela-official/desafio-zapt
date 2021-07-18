@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components'
+import media from 'styled-media-query'
 
 export const Wrapper = styled.section``
 export const Content = styled.section``
@@ -10,6 +11,11 @@ export const Title = styled.h2`
     line-height: ${theme.font.line.xlarge};
     margin-bottom: ${theme.spacings.xlarge};
     text-align: center;
+
+    ${media.lessThan('medium')`
+      font-size: ${theme.font.sizes.xlarge};
+      margin-bottom: ${theme.spacings.large};
+    `}
   `}
 `
 
