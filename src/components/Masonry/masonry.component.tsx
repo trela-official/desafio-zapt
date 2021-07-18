@@ -7,7 +7,7 @@ interface MasonryProps {
   tablet?: number
   desktop?: number
   largeDesktop?: number
-  gutter?: number
+  gutter?: string
 }
 
 export const Masonry = ({
@@ -16,7 +16,7 @@ export const Masonry = ({
   tablet = 2,
   desktop = 2,
   largeDesktop = 3,
-  gutter = 16
+  gutter = '16px'
 }: MasonryProps) => (
   <ResponsiveMasonry
     columnsCountBreakPoints={buildResponsiveObject({
