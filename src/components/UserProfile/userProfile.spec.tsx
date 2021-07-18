@@ -12,13 +12,14 @@ const props: UserProfileProps = {
 
 describe('<UserProfile />', () => {
   it('should render UserProfile', () => {
-    renderWithTheme(<UserProfile {...props} />);
+    const { container } = renderWithTheme(<UserProfile {...props} />);
 
     const imgProfile = screen.getByRole('img', { name: /image profile/i });
     const username = screen.getByText(props.username);
 
     expect(imgProfile).toBeInTheDocument();
     expect(username).toBeInTheDocument();
+    expect(container.firstChild).toMatchSnapshot();
   });
 
   it('should render UserProfile whith subtext', () => {
