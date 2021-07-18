@@ -1,6 +1,6 @@
 export default {
   grid: {
-    container: '130rem',
+    container: '120rem',
     gutter: '2.4rem'
   },
   border: {
@@ -15,6 +15,7 @@ export default {
         "PlusJakarta, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif"
     },
 
+    light: 300,
     normal: 400,
     semibold: 500,
     sizes: {
@@ -25,9 +26,11 @@ export default {
       xlarge: '2.8rem',
       xxlarge: '4.0rem'
     },
+
     line: {
       medium: '1.5',
-      large: '1.3'
+      large: '1.3',
+      xlarge: '0.9'
     }
   },
   colors: {
@@ -37,7 +40,9 @@ export default {
     white: '#FFFFFF',
     black: '#000000',
     gray: '#7B7B7B',
-    darkBlue: '#001C33'
+    darkBlue: '#001C33',
+    bglight:
+      'linear-gradient( 0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9) ), #2196f3;'
   },
   spacings: {
     xxsmall: '0.8rem',
