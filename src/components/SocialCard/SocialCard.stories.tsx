@@ -14,6 +14,7 @@ export const SocialCardDefault: Story<SocialCardProps> = args => (
 
 SocialCardDefault.args = {
   username: '@LuisCarlos',
+  colorUserProfile: 'black',
   image:
     'https://www.pixsy.com/wp-content/uploads/2021/04/ben-sweet-2LowviVHZ-E-unsplash-1.jpeg',
   comment:
