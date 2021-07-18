@@ -50,6 +50,17 @@ export const H4 = styled.h4<BodyProps>`
   `}
 `
 
+export const H5 = styled.h4<BodyProps>`
+  ${({ theme, color }) => css`
+    color: ${color ? theme.colors[color] : theme.colors.black};
+    font-size: ${theme.font.sizes.xsmall};
+    font-family: ${theme.font.family};
+    font-weight: ${theme.font.normal};
+    line-height: ${theme.spacings.small};
+    margin: 0;
+  `}
+`
+
 interface BodyProps {
   color?: Color
   size?: FontSize
