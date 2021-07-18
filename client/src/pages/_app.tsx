@@ -10,18 +10,20 @@ function App({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider theme={theme}>
       <Head>
-        <title>React - Boilerplate</title>
+        <title>Zapt | Junte seus amigos para comprar com desconto</title>
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         ></meta>
-        <link rel="shortcut icon" href="/img/icon-512.png" />
-        <link rel="apple-touch-icon" href="/img/icon-512.png" />
+        <link
+          rel="shortcut icon"
+          href="/img/fav-512x512.png"
+          type="image/x-icon"
+        />
         <meta
           name="description"
-          content="A simple project starter to work with TypeScript, React, NextJS and Styled Components"
+          content="Economize até 50% nos melhores produtos comprando junto com seus amigos"
         />
-        <link rel="manifest" href="/manifest.json" />
       </Head>
       <GlobalStyles />
       <Component {...pageProps} />
