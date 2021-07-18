@@ -1,25 +1,25 @@
 import * as S from './styles'
 
 type UserProps = {
-  id: String
-  avatar: String
+  id: string
+  avatar: string
 }
 
-type TestmonialProps = {
-  message: String
+type TestimonialProps = {
+  message: string
   user: UserProps
 }
 
-export type TestmonialsProps = {
-  testmonials: TestmonialProps[]
+export type TestimonialsProps = {
+  testimonials: TestimonialProps[]
 }
 
-const Testmonials = ({ testmonials }: TestmonialsProps) => (
+const Testimonials = ({ testimonials }: TestimonialsProps) => (
   <S.Wrapper>
     <S.Content>
       <S.Title>O que estão falando nas redes sociais</S.Title>
-      <S.TestmonialsCards>
-        {testmonials.map(({ message, user }, index) => (
+      <S.TestimonialsCards>
+        {testimonials.map(({ message, user }, index) => (
           <S.Card key={index}>
             <S.MessageUser>{message}</S.MessageUser>
             <S.Author>
@@ -31,9 +31,9 @@ const Testmonials = ({ testmonials }: TestmonialsProps) => (
             </S.Author>
           </S.Card>
         ))}
-      </S.TestmonialsCards>
+      </S.TestimonialsCards>
     </S.Content>
   </S.Wrapper>
 )
 
-export default Testmonials
+export default Testimonials

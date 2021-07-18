@@ -19,7 +19,7 @@ export const Title = styled.h2`
   `}
 `
 
-export const TestmonialsCards = styled.section`
+export const TestimonialsCards = styled.section`
   ${({ theme }) => css`
     column-gap: ${theme.grid.gutter};
     columns: 384px 3;
