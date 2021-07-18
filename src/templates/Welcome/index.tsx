@@ -7,7 +7,7 @@ import Link from 'components/Link';
 import * as S from './styles';
 
 const WelcomeTemplate = () => (
-  <Container>
+  <Container as="section" id="welcome">
     <S.MainContentContainer>
       <S.TopTeardrop size="small" color="secondary" />
       <S.BottomTeardrop />
