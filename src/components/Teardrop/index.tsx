@@ -5,8 +5,12 @@ export type TeardropProps = {
   size?: 'small' | 'normal';
 };
 
-const Teardrop = ({ color = 'primary', size = 'normal' }: TeardropProps) => (
-  <S.Wrapper color={color} size={size}>
+const Teardrop = ({
+  color = 'primary',
+  size = 'normal',
+  ...props
+}: TeardropProps) => (
+  <S.Wrapper color={color} size={size} {...props}>
     <svg
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

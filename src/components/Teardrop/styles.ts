@@ -1,16 +1,27 @@
 import styled, { css } from 'styled-components';
+import media from 'styled-media-query';
 
 import { TeardropProps } from '.';
 
 const wrapperModifiers = {
   small: () => css`
-    width: 6.2rem;
-    height: 6.2rem;
+    width: 5.2rem;
+    height: 5.2rem;
+
+    ${media.greaterThan('medium')`
+      width: 6.2rem;
+      height: 6.2rem;
+    `}
   `,
 
   normal: () => css`
-    width: 10rem;
-    height: 10rem;
+    width: 6.8rem;
+    height: 6.8rem;
+
+    ${media.greaterThan('medium')`
+      width: 10rem;
+      height: 10rem;
+    `}
   `,
 };
 
