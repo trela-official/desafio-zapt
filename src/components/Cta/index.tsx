@@ -3,18 +3,23 @@ import Button from 'components/Button'
 
 import * as S from './styles'
 
+export type TOption = {
+  label: string
+  action?: () => void
+}
+
 export type CtaProps = {
   title: string
   hasTwoOptions?: boolean
-  firstOptionLabel: string
-  secondOptionLabel?: string
+  firstOption: TOption
+  secondOption?: TOption
 }
 
 const Cta = ({
   title,
   hasTwoOptions = false,
-  firstOptionLabel,
-  secondOptionLabel
+  firstOption,
+  secondOption
 }: CtaProps) => (
   <S.CtaWrapper>
     <S.LabelWrapper>
@@ -23,8 +28,10 @@ const Cta = ({
       </Typography>
     </S.LabelWrapper>
     <S.OptionsButtonWrapper hasTwoOptions={hasTwoOptions}>
-      <Button>{firstOptionLabel}</Button>
-      {hasTwoOptions && <Button>{secondOptionLabel}</Button>}
+      <Button onClick={firstOption.action}>{firstOption.label}</Button>
+      {hasTwoOptions && (
+        <Button onClick={secondOption?.action}>{secondOption?.label}</Button>
+      )}
     </S.OptionsButtonWrapper>
   </S.CtaWrapper>
 )

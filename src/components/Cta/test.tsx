@@ -4,7 +4,7 @@ import Cta from '.'
 
 describe('<Cta />', () => {
   it('should render the CTA with one button by default, one button label and title', () => {
-    render(<Cta firstOptionLabel="First Label" title="Title" />)
+    render(<Cta firstOption={{ label: 'First Label' }} title="Title" />)
 
     expect(screen.getAllByRole('button')).toHaveLength(1)
     expect(
@@ -19,8 +19,8 @@ describe('<Cta />', () => {
       <Cta
         title="Title"
         hasTwoOptions
-        firstOptionLabel="First Label"
-        secondOptionLabel="Second Label"
+        firstOption={{ label: 'First Label' }}
+        secondOption={{ label: 'Second Label' }}
       />
     )
 

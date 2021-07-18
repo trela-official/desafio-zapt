@@ -6,8 +6,8 @@ export default {
   component: Cta,
   argTypes: {
     title: { type: 'string' },
-    firstOptionLabel: { type: 'string' },
-    secondOptionLabel: { type: 'string' },
+    firstOption: { type: 'object' },
+    secondOption: { type: 'object' },
     hasTwoOptions: {
       control: {
         type: 'boolean'
@@ -20,14 +20,23 @@ export const Default: Story<CtaProps> = (args) => <Cta {...args} />
 
 Default.args = {
   title: 'Descontos para você e seus amigos',
-  firstOptionLabel: 'Aproveitar oportunidade'
+  firstOption: {
+    label: 'Aproveitar oportunidade',
+    action: () => console.log('first option action')
+  }
 }
 
 export const withTwoOptions: Story<CtaProps> = (args) => <Cta {...args} />
 
 withTwoOptions.args = {
   title: 'O que você prefere?',
-  firstOptionLabel: 'Criar um grupo',
-  secondOptionLabel: 'Entrar em um grupo',
+  firstOption: {
+    label: 'Criar um grupo',
+    action: () => console.log('first option action')
+  },
+  secondOption: {
+    label: 'Entrar em um grupo',
+    action: () => console.log('second option action')
+  },
   hasTwoOptions: true
 }
