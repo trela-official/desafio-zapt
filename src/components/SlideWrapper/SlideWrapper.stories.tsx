@@ -6,7 +6,7 @@ import { Story, Meta } from '@storybook/react/types-6-0';
 import SlideWrapper from '.';
 
 export default {
-  title: 'SlideWrapper',
+  title: 'Generic/SlideWrapper',
   component: SlideWrapper,
 } as Meta;
 
