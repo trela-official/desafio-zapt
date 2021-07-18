@@ -14,7 +14,7 @@ function App({ Component, pageProps }: AppProps) {
 
         <meta
           name="description"
-          content="Desafio para vaga de Fron-End by Poly Tuag"
+          content="Desafio para vaga de Front-End by Polyane Tuag"
         />
       </Head>
       <GlobalStyles />
