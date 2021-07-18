@@ -36,6 +36,8 @@ const GlobalStyles = createGlobalStyle`
     -moz-osx-font-smoothing: grayscale;
   }
 
+
+
   ${({ theme }) => css`
     html {
       font-size: 62.5%;
@@ -44,6 +46,16 @@ const GlobalStyles = createGlobalStyle`
     body {
       font-family: ${theme.font.family};
       font-size: ${theme.font.sizes.medium};
+    }
+
+    ::-moz-selection {
+      background: ${theme.colors.primary};
+      color: ${theme.colors.white};
+    }
+
+    ::selection {
+      background: ${theme.colors.primary};
+      color: ${theme.colors.white};
     }
   `}
 `;
