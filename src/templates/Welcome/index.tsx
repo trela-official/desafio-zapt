@@ -1,5 +1,6 @@
 import Container from 'components/Container';
 import Heading from 'components/Heading';
+import Button from 'components/Button';
 import WelcomeImage from 'components/WelcomeImage';
 import MediaMatch from 'components/MediaMatch';
 import Link from 'components/Link';
@@ -23,8 +24,12 @@ const WelcomeTemplate = () => (
         <S.BoldText>O que você prefere?</S.BoldText>
 
         <S.ActionsContainer>
-          <S.ActionButton>Criar um grupo</S.ActionButton>
-          <S.ActionButton>Entrar em um grupo</S.ActionButton>
+          <Button as="a" href="/">
+            Criar um grupo
+          </Button>
+          <Button as="a" href="/">
+            Entrar em um grupo
+          </Button>
         </S.ActionsContainer>
       </S.InfoContentContainer>
 

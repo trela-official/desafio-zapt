@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
 import media from 'styled-media-query';
 
-import Button from 'components/Button';
+import { Wrapper as ButtonStyles } from 'components/Button/styles';
 import Teardrop from 'components/Teardrop';
 
 export const MainContentContainer = styled.main`
@@ -85,13 +85,11 @@ export const ActionsContainer = styled.div`
   ${media.greaterThan('large')`
     margin-top: 1.2rem;
   `}
-`;
 
-export const ActionButton = styled(Button)`
-  &:not(:first-of-type) {
+  ${ButtonStyles} + ${ButtonStyles} {
     margin-top: 0.4rem;
 
-    ${media.greaterThan('medium')`
+    ${media.greaterThan('small')`
       margin-top: 0rem;
       margin-left: 1.6rem;
     `}

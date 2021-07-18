@@ -30,12 +30,12 @@ describe('<WelcomeTemplate />', () => {
     ).toBeInTheDocument();
   });
 
-  it('should render with two buttons', () => {
+  it('should render with two buttons links', () => {
     expect(
-      screen.getByRole('button', { name: /criar um grupo/i })
+      screen.getByRole('link', { name: /criar um grupo/i })
     ).toBeInTheDocument();
     expect(
-      screen.getByRole('button', { name: /Entrar em um grupo/i })
+      screen.getByRole('link', { name: /Entrar em um grupo/i })
     ).toBeInTheDocument();
   });
 
