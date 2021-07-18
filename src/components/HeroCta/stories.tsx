@@ -9,8 +9,8 @@ export default {
     heroTitle: { type: 'string ' },
     heroSubtitle: { type: 'string ' },
     ctaTitle: { type: 'string ' },
-    firstOptionLabel: { type: 'string ' },
-    secondOptionLabel: { type: 'string ' }
+    firstOption: { type: 'object ' },
+    secondOption: { type: 'object ' }
   }
 } as Meta
 

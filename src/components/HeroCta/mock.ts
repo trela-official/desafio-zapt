@@ -9,6 +9,12 @@ export default {
   heroTitle,
   ctaTitle,
   heroSubtitle,
-  firstOptionLabel,
-  secondOptionLabel
+  firstOption: {
+    label: firstOptionLabel,
+    action: () => console.log('first option action')
+  },
+  secondOption: {
+    label: secondOptionLabel,
+    action: () => console.log('second option action')
+  }
 }
