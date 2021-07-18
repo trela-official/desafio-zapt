@@ -20,7 +20,7 @@ const UserCommentsCard = ({
   userSubtext = '',
 }: UserCommentsCardProps) => (
   <Styled.Wrapper backgroundImage={backgroundImage}>
-    <Styled.Overlay />
+    <Styled.Overlay aria-label="overlay" />
     <Styled.SocialCardWrapper>
       <SocialCard
         fullSize
