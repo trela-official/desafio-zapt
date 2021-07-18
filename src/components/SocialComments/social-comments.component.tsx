@@ -1,5 +1,4 @@
-import { Row, Col } from 'components/Grid'
-import { H2, Body, H4 } from 'components/Typography'
+import { H2, Body, H4, Header } from 'components/Typography'
 import { Card } from 'components/Card'
 import { Masonry } from 'components/Masonry'
 import { Avatar } from 'components/Avatar'
@@ -8,11 +7,9 @@ import { mockCardData } from './mock-card.data'
 
 export const SocialComments = () => (
   <article>
-    <Row center="xs">
-      <Col>
-        <H2>O que estão falando nas redes sociais</H2>
-      </Col>
-    </Row>
+    <Header hAlign="center">
+      <H2>O que estão falando nas redes sociais</H2>
+    </Header>
 
     <Masonry>
       {mockCardData.map(({ id, description, avatar, name }) => (
