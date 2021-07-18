@@ -1,47 +1,41 @@
-# Desafio Zapt
 
-> Repositório onde tem o desafio para o processo seletivo da Zapt.
+<p align="center">
+ <img width= '200' src="./public/assets/logoZapt.png"> 
+</p>
 
-## Introdução
+## 📚 Sobre
 
-A ideia é que você aprenda, se divirta e mostre o seu melhor nesse exercício.
+Desafio proposto para a vaga de desenvolvedor Front-End. 
 
-## Exercício
 
-Segue [um link para o Figma](https://www.figma.com/file/MYVq6CfqgFkEAhcFcNmvGy/Public-File?node-id=0%3A1), onde terão 3 pequenas seções para serem feitas.
 
-Vocês podem escolher **1, 2 ou 3** para fazer, lembrando que aqui **Qualidade é melhor que Quantidade!**
+## ⏱ Começando
 
-## Requisitos - o que será analisado?
+Primeiro, execute o servidor de desenvolvimento:
 
-- Escrita (HTML, CSS e JavaScript) e suas boas práticas
-- Organização e qualidade de código
-- Estrutura do projeto e escalabilidade
-- Commits organizados e bem escritos
+```bash
+# Instalar as dependências
+$ yarn
 
-## Como deve ser feito?
+# Iniciar o servidor
+$ yarn dev
 
-- Você pode utilizar qualquer tecnologia que se sentir confortável
-- Você pode utilizar qualquer plugin se achar necessário (no dia-a-dia a gente não reinventa roda, aqui também não precisa)
-- Você pode entregar cada componente como uma página separada
-- Você pode entregar todos os componentes numa mesma página
-- Você precisa deixar claro todos os passos para rodar o projeto
-- Enfim, nos surpreenda!
+```
 
-## O que usamos por aqui?
+Depois, abra http://localhost:3000 com seu navegador para ver o resultado.
 
-Caso você tenha interesse em se aproximar da nossa Stack, usamos:
+Você pode começar a editar a página modificando `` templates/Home/index.tsx``. A medida que você edita o arquivo, a página é atualizada automaticamente.
 
-- Typescript em basicamente tudo
-- React e styled-components para construção das nossas interfaces
-- ESLint, Prettier e Jest para garantir padronização e qualidade de código
+## 🚀 Tecnologias Aplicadas
 
-## Como entregar o teste?
+- TypeScript
+- NextJs
+- Styled-components
+- Prettier
+  
+## 📋 Licença
 
-1. Crie um fork deste projeto
-2. Faça as devidas modificações
-3. Envie um PR para esse repositório
+Esse projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
-## Dúvidas?
-
-Qualquer dúvida, não deixe de nos enviar um email em admin@zapt.com.br ou wj@zapt.com.br.
+---
+Desenvolvido com 💜 por Polyane Tuag
