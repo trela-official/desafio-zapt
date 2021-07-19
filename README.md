@@ -1,18 +1,15 @@
 <h3 align="center">
-    <img width= '200'  src="./public/assets/logoZapt.png" />
-    <br>Desafio proposto para vaga de Front-End<br/>
-    
+  <img width= '200'  src="./public/assets/logoZapt.png" />
+  <br>Desafio proposto para vaga de Front-End<br/>
 </h3>
 
 <h3 align="center">  
   <p align="center">
-  <a href="#-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-como-executar">Como Executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-licença">Licença</a>
-</p>
- 
-
+    <a href="#-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#-como-executar">Como Executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#-licença">Licença</a>
+  </p>
 </h3>
 
 <p align="center">
@@ -22,8 +19,6 @@
 <p align="center">
   <a href='https://desafio-zapt-polyanetuag.netlify.app/' target="_blank" rel="noopener">Clique aqui para ver a versão Demo</a>
 </p>
-
-
 
 ## 📚 Sobre
 
