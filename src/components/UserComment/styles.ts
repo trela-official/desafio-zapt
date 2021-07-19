@@ -11,7 +11,7 @@ export const Card = styled.div<CardStyle>`
     width: 38.4rem;
 
     padding: ${removePadding
-      ? '0'
+      ? '0px'
       : `${theme.spacings.medium} ${theme.spacings.small}`};
 
     background-color: ${removeBackgroundColor
