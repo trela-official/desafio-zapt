@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components'
 import { AvatarProps } from './avatar.model'
 
 export const Avatar = styled.div<AvatarProps>`
-  ${({ size, imageUrl, borderColor: border, theme }) => css`
+  ${({ size, imageUrl, borderColor, theme }) => css`
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,6 +13,7 @@ export const Avatar = styled.div<AvatarProps>`
     background-size: cover;
     color: ${theme.colors.black};
     border-radius: ${theme.border.circle};
-    border: 1px solid ${border ? theme.colors[border] : theme.colors.white};
+    border: 1px solid
+      ${borderColor ? theme.colors[borderColor] : theme.colors.white};
   `}
 `

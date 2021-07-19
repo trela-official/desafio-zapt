@@ -1,9 +1,8 @@
-import { H2, Body, H4, Header } from 'components/Typography'
-import { Card } from 'components/Card'
-import { Masonry } from 'components/Masonry'
-import { Avatar } from 'components/Avatar'
-import * as S from 'components/Hbox'
+import { H2, Header } from 'components/Typography'
+import { SocialCommentsCard } from 'components/SocialCommentsCard'
 import { mockCardData } from './mock-card.data'
+
+import { Masonry } from 'components/Masonry'
 
 export const SocialComments = () => (
   <article>
@@ -12,22 +11,8 @@ export const SocialComments = () => (
     </Header>
 
     <Masonry>
-      {mockCardData.map(({ id, description, avatarUrl, name }) => (
-        <Card key={id}>
-          <Body color="primarymain">
-            <q>{description}</q>
-          </Body>
-          <S.Separator />
-          <S.Hbox>
-            <S.HboxItem vAlign="center" noGrow>
-              <Avatar borderColor="primarylight" imageUrl={avatarUrl} />
-            </S.HboxItem>
-            <S.HboxSeparator />
-            <S.HboxItem vAlign="center">
-              <H4 color="primaryxdark">{name}</H4>
-            </S.HboxItem>
-          </S.Hbox>
-        </Card>
+      {mockCardData.map((props) => (
+        <SocialCommentsCard key={props.id} {...props} />
       ))}
     </Masonry>
   </article>
