@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components'
+import media from 'styled-media-query'
 
 export const Wrapper = styled.article`
   position: relative;
@@ -25,7 +26,7 @@ export const NoiseOverlay = styled.div<NoiseOverlayProps>`
 export const ImageWrapper = styled.div`
   ${({ theme }) => css`
     position: relative;
-    min-height: 40rem;
+    min-height: 20rem;
     width: 100%;
     height: 100%;
 
@@ -51,13 +52,17 @@ export const ImageWrapper = styled.div`
         transparent
       );
     }
+
+    ${media.greaterThan('medium')`
+      min-height: 40rem;
+    `}
   `}
 `
 
 export const Content = styled.div`
   ${({ theme }) => css`
     position: absolute;
-    max-width: 46.2rem;
+    max-width: 75%;
     left: ${theme.spacings.medium};
     bottom: ${theme.spacings.medium};
     z-index: ${theme.layers.menu};
@@ -68,18 +73,28 @@ export const Content = styled.div`
 export const FeedbackWrapper = styled.blockquote`
   ${({ theme }) => css`
     font-weight: ${theme.font.normal};
-    font-size: ${theme.font.sizes.large};
+    font-size: ${theme.font.sizes.small};
     margin-bottom: ${theme.spacings.small};
+
+    ${media.greaterThan('medium')`
+      font-size: ${theme.font.sizes.large};
+    `}
   `}
 `
 
 export const AuthorAvatar = styled.img`
   ${({ theme }) => css`
-    width: 4rem;
-    height: 4rem;
+    width: 3.2rem;
+    height: 3.2rem;
     border-radius: 50%;
-    margin-right: ${theme.spacings.small};
+    margin-right: ${theme.spacings.xsmall};
     box-shadow: 0 0 0 0.15rem ${theme.colors.white};
+
+    ${media.greaterThan('medium')`
+      width: 4rem;
+      height: 4rem;
+      margin-right: ${theme.spacings.small};
+    `}
   `}
 `
 
@@ -89,12 +104,23 @@ export const AuthorInfo = styled.div`
 `
 
 export const AuthorName = styled.div`
-  margin-bottom: 0.2rem;
+  ${({ theme }) => css`
+    font-size: ${theme.font.sizes.xsmall};
+    margin-bottom: 0.2rem;
+
+    ${media.greaterThan('medium')`
+      font-size: ${theme.font.sizes.medium};
+    `}
+  `}
 `
 
 export const AuthorLocation = styled.span`
   ${({ theme }) => css`
-    font-size: ${theme.font.sizes.xsmall};
+    font-size: 1rem;
     font-weight: ${theme.font.light};
+
+    ${media.greaterThan('medium')`
+      font-size: ${theme.font.sizes.xsmall};
+    `}
   `}
 `
