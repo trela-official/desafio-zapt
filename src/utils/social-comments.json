@@ -1,0 +1,59 @@
+{
+  "title": "O que estão falando nas redes sociais",
+  "comments": [
+    {
+      "id": 1,
+      "comment": "Não da para parar de comer.. esse final de semana pedi 20 pasteis da Ilma e acabaram TODOS em um só dia... O pessoal aqui de casa ficou viciado de um nível que terei que comprar toda semana... Assim não tem academia que secura rsrsrsrs Obrigado Zapt.",
+      "name": "ferri-gui",
+      "image": "/images/social-comments/ferri-gui.svg"
+    },
+    {
+      "id": 2,
+      "comment": "Estava precisando achar algum lugar que vendia produtos que vêem direto da fazenda... a Zapt salvou.. e ainda paquei um preço muito mais barato que supermecado 🙌",
+      "name": "paolaC",
+      "image": "/images/social-comments/paola.svg"
+    },
+    {
+      "id": 3,
+      "comment": "Todos os vinhos da vinícula Bueno estão disponíveis no catalogo da Zapt a um preço incrivél... não percam essa oportunidade...",
+      "name": "Galvão",
+      "image": "/images/social-comments/galvao.svg"
+    },
+    {
+      "id": 4,
+      "comment": "Nunca tinha achado os produtos na Lush depois que ela saiu do Brasil.. só a Zapt para conseguir importalos a preço mais barato do que vendiam aqui! Muito obrigado, recomendo sempre a todos os amigos.",
+      "name": "LiciaR",
+      "image": "/images/social-comments/liciar.svg"
+    },
+    {
+      "id": 5,
+      "comment": "Ontem chegou uma pizza que comprei na Zapt e me lembrou as que minha avó fazia... sensacional!",
+      "name": "shitz",
+      "image": "/images/social-comments/shitz.svg"
+    },
+    {
+      "id": 6,
+      "comment": "Nossa cada dia tem uma oferta mais legal do que a outra.. Além de produtos de qualidade o préco é imbatível",
+      "name": "rafael",
+      "image": "/images/social-comments/rafael.svg"
+    },
+    {
+      "id": 7,
+      "comment": "Achei uma promoção incrível de roupinha de bebê, foi o que salvou o enxoval do Pedro.",
+      "name": "gust",
+      "image": "/images/social-comments/gust.svg"
+    },
+    {
+      "id": 8,
+      "comment": "Meu dono finalmente conseguiu achar uma comida que eu gosto! Agora vou conseguir engordar e ser feliz.",
+      "name": "Cookie",
+      "image": "/images/social-comments/cookie.svg"
+    },
+    {
+      "id": 9,
+      "comment": "Não conhecia a Zapt.. um amigo meu indicou... falou para eu dar uma olhada nos preços das cervejas artesanais.. incrível.",
+      "name": "duque",
+      "image": "/images/social-comments/duque.svg"
+    }
+  ]
+}
