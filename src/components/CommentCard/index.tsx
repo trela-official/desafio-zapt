@@ -31,7 +31,11 @@ const CommentCard = ({ img, title, feedback, author }: CommentCardProps) => {
         </S.FeedbackWrapper>
 
         <Author>
-          <S.AuthorAvatar src={author?.photo} />
+          <S.AuthorAvatar
+            src={author?.photo}
+            role="img"
+            aria-label={`${author.name}`}
+          />
           <S.AuthorInfo>
             <S.AuthorName>{author.name}</S.AuthorName>
             <S.AuthorLocation>
