@@ -11,6 +11,9 @@ export const Container = styled.div`
     transition: all 0.175s ease-in-out;
     opacity: 0;
   }
+  .swiper-container {
+    min-height: 455px;
+  }
   .swiper-wrapper {
     height: 400px;
   }
@@ -30,7 +33,7 @@ export const Container = styled.div`
   }
   .swiper-button-prev,
   .swiper-button-next {
-    top: 33%;
+    top: 35%;
     background-color: var(--color-light);
     width: 83px;
     height: 83px;
@@ -87,6 +90,7 @@ export const Item = styled.div`
   position: relative;
   width: 100%;
   height: calc(100% - 50px);
+  min-height: 400px;
 `;
 export const BgImage = styled.div`
   position: absolute;

@@ -37,7 +37,7 @@ function UsersComments() {
             clickable: true
           }}
           navigation={true}
-          spaceBetween={50}
+          spaceBetween={24}
           breakpoints={{
             675: {
               slidesPerView: 1
