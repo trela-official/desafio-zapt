@@ -21,7 +21,7 @@ export const Content = styled.div`
 
     padding: ${theme.spacings.xxlarge} calc(${theme.spacings.xlarge} * 2);
 
-    background: ${theme.colors.drWhite} url('/img/bg-welcome-banner.svg') right
+    background: ${theme.colors.drWhite} url('/img/bg-welcome-banner.png') right
       no-repeat;
     background-size: contain;
 
