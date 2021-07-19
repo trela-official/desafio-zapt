@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Banner /> should render the banner with 3 texts, 2 buttons and 1 image 1`] = `
+exports[`<Banner /> should render the banner 1`] = `
 .c4 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -284,7 +284,7 @@ exports[`<Banner /> should render the banner with 3 texts, 2 buttons and 1 image
         <div
           class="c4 c7"
         >
-          Description Teste.
+          Para você aproveitar nossas oportunidades primeiro você precisa estar dentro de um grupo, estamos aqui para lhe ajudar.
         </div>
         <div
           class="c4 c8"
