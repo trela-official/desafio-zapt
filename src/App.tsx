@@ -1,9 +1,10 @@
+import { Title } from "./components/Title";
 import GlobalStyles from "./styles/global";
 
 function App() {
   return (
     <>
-      <h1>Desafio zapt</h1>
+      <Title/>
       <GlobalStyles/>
     </>
   )
