@@ -1,0 +1,25 @@
+import { Canvas, Meta, Story } from '@storybook/addon-docs'
+import CardUsersComments from '.'
+import * as stories from './stories'
+
+<Meta
+  title="Design System/CardUsersComments"
+  component={CardUsersComments}
+  parameters={{
+    controls: {
+      sort: 'requiredFirst'
+    }
+  }}
+/>
+
+# CardUsersComments
+
+This is a user feedback component.
+
+## Default
+
+This component renders a card with user comments, including location, image and link of the profile on the social network that originated the comment.
+
+<Canvas>
+  <Story story={stories.Default} />
+</Canvas>
