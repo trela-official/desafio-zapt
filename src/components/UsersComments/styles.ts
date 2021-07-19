@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components'
 
-export const Wrapper = styled.section`
+export const Wrapper = styled.div`
   ${({ theme }) => css`
     .slick-track,
     .slick-list {
@@ -54,6 +54,7 @@ export const Wrapper = styled.section`
       color: ${theme.colors.blue};
       cursor: pointer;
       position: absolute;
+      border: none;
       top: 50%;
       padding: 0;
       z-index: 50;
@@ -76,13 +77,13 @@ export const Wrapper = styled.section`
   `}
 `
 
-export const ArrowRight = styled.div`
+export const ArrowRight = styled.button`
   right: 0;
   justify-content: flex-end;
   clip-path: circle(50% at 100% 50%);
 `
 
-export const ArrowLeft = styled.div`
+export const ArrowLeft = styled.button`
   left: 0;
   justify-content: flex-start;
   clip-path: circle(50% at 0 50%);

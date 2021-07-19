@@ -47,7 +47,12 @@ const Welcome = ({
           </S.Options>
         </S.Content>
 
-        <S.ImageWrapper img={'/img/welcome.png'} mask={'/img/mask.svg'}>
+        <S.ImageWrapper
+          role="img"
+          aria-label="A group of friends having fun"
+          img={'/img/welcome.png'}
+          mask={'/img/mask.svg'}
+        >
           <Circle />
           <Curve />
         </S.ImageWrapper>

@@ -19,7 +19,7 @@ export const Section = styled.section`
   `}
 `
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.article`
   max-width: 120rem;
   display: flex;
   flex-direction: column;
@@ -178,7 +178,7 @@ export const Link = styled.a`
   `}
 `
 
-export const ContactLink = styled.div`
+export const ContactLink = styled.footer`
   ${({ theme }) => css`
     font-size: ${theme.font.sizes.xsmall};
     color: ${theme.colors.gray};
