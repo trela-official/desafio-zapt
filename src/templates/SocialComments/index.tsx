@@ -2,20 +2,24 @@ import Container from 'components/Container';
 import Heading from 'components/Heading';
 import SocialCommentsList from 'components/SocialCommentsList';
 
-import { socialComments } from 'components/SocialCommentsList/mock';
+import { SocialCommentCardProps } from 'components/SocialCommentCard';
+
+export type SocialCommentsTemplateProps = {
+  comments: SocialCommentCardProps[];
+};
 
 import * as S from './styles';
 
-const SocialCommentsTemplate = () => (
-  <Container as="section" id="social-comments">
-    <S.TitleContainer>
-      <Heading>O que estão falando nas redes sociais</Heading>
-    </S.TitleContainer>
+const SocialCommentsTemplate = ({ comments }: SocialCommentsTemplateProps) => (
+  <S.Wrapper>
+    <Container as="section" id="social-comments">
+      <S.TitleContainer>
+        <Heading>O que estão falando nas redes sociais</Heading>
+      </S.TitleContainer>
 
-    <SocialCommentsList comments={socialComments} />
-
-    <div style={{ marginBottom: '8rem' }} />
-  </Container>
+      <SocialCommentsList comments={comments} />
+    </Container>
+  </S.Wrapper>
 );
 
 export default SocialCommentsTemplate;

@@ -1,10 +1,16 @@
 import { render, screen } from 'utils/test-utils';
 
-import SocialComments from '.';
+import SocialComments, { SocialCommentsTemplateProps } from '.';
+
+import { socialComments } from 'components/SocialCommentsList/mock';
+
+const props: SocialCommentsTemplateProps = {
+  comments: socialComments,
+};
 
 describe('<SocialComments />', () => {
   beforeEach(() => {
-    render(<SocialComments />);
+    render(<SocialComments {...props} />);
   });
 
   it('should render the heading', () => {
