@@ -50,6 +50,10 @@ export const BorderBottomImage = styled.img`
 export const HeroWrapper = styled.div`
   ${({ theme }) => css`
     padding: ${theme.spacings.xxxlarge} 10rem;
+
+    ${customMedia.lessThan('medium')`
+      padding: ${theme.spacings.medium} 3rem;
+    `}
   `}
 `
 
