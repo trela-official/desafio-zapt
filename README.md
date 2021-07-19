@@ -12,7 +12,7 @@
 
 <br>
 
-![Site screenshot](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/jj27vabn3jjin8dznm3m.png)
+![Site screenshot](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/t8xdf36rhnpy6b5533t4.png)
 
 <p align="center">
   <a href="https://zapt.alangabriel.dev/" target="_blank">
