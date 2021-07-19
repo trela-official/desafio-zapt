@@ -6,6 +6,13 @@ export const Review = styled.li`
   max-width: 400px;
   padding: 20px;
   border-radius: 4px;
+  transition: transform .7s;
+
+  &:hover{
+    transform: scale(1.2);
+    z-index: 1;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  }
   `
 
 export const TextReview = styled.article`
