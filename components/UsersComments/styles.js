@@ -176,5 +176,3 @@ export const Address = styled.div`
     line-height: inherit;
   }
 `;
-export const State = styled.p``;
-export const City = styled.p``;

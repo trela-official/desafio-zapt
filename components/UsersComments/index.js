@@ -94,9 +94,11 @@ function UsersComments() {
                     <S.Customer>
                       <S.Name>{name}</S.Name>
                       <S.Address>
-                        <S.City>{city}</S.City>
-                        <span>•</span>
-                        <S.State>{state}</S.State>
+                        <p>
+                          {city}
+                          <span>•</span>
+                          {state}
+                        </p>
                       </S.Address>
                     </S.Customer>
                   </S.Details>
