@@ -28,4 +28,56 @@ describe('<UserComment />', () => {
       '/img/users-icon/user-icon1.png'
     )
   })
+
+  it('should render user location', () => {
+    render(<UserComment userComment={userComments[1]} />)
+
+    expect(screen.getByText('São Paulo • São Paulo')).toBeInTheDocument()
+  })
+
+  it('should render without padding', () => {
+    const { container } = render(
+      <UserComment userComment={userComments[1]} removePadding />
+    )
+
+    expect(container.firstChild).toHaveStyle({
+      padding: '0px'
+    })
+  })
+
+  it('should render without background-color', () => {
+    const { container } = render(
+      <UserComment userComment={userComments[1]} removeBackgroundColor />
+    )
+
+    expect(container.firstChild).toHaveStyle({
+      'background-color': 'transparent'
+    })
+  })
+
+  it('should render with white label', () => {
+    render(
+      <UserComment
+        userComment={userComments[1]}
+        contentColor="white"
+        userDataColor="white"
+      />
+    )
+
+    expect(
+      screen.getByText(
+        '”Não consigo mais viver sem os produtos do Sítio, a diferença do que eu comprava antes e agora é abissal”'
+      )
+    ).toHaveStyle({
+      color: 'rgb(255, 255, 255)'
+    })
+
+    expect(screen.getByText('Patricia Godoy')).toHaveStyle({
+      color: 'rgb(255, 255, 255)'
+    })
+
+    expect(screen.getByText('São Paulo • São Paulo')).toHaveStyle({
+      color: 'rgb(255, 255, 255)'
+    })
+  })
 })
