@@ -1,3 +1,4 @@
+import { lighten } from 'polished'
 import styled, { css } from 'styled-components'
 import media from 'styled-media-query'
 
@@ -171,10 +172,15 @@ export const Link = styled.a`
     font-size: ${theme.font.sizes.small};
     padding: ${theme.spacings.xsmall} ${theme.spacings.xxsmall};
     white-space: nowrap;
+    transition: background 0.2s ease-in-out;
 
     ${media.greaterThan('small')`
       padding: ${theme.spacings.small} ${theme.spacings.large} 1.8rem ${theme.spacings.large};
     `};
+
+    &:hover {
+      background: ${lighten(0.1, theme.colors.blue)};
+    }
   `}
 `
 

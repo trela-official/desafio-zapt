@@ -22,6 +22,12 @@ const wrapperModifiers = {
 
 export const Wrapper = styled.div<LogoProps>`
   ${({ theme, color, size }) => css`
+    transition: all 0.2s ease-in;
+
+    &:hover {
+      transform: rotate(20deg);
+    }
+
     ${!!color && wrapperModifiers[color](theme)};
     ${!!size && wrapperModifiers[size]};
   `}
