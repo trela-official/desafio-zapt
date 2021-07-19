@@ -1,4 +1,6 @@
 import styled, { css } from 'styled-components'
+import media from 'styled-media-query'
+
 import { CtaProps } from '.'
 
 export const CtaWrapper = styled.div`
@@ -18,6 +20,9 @@ type OptionsButtonWrapperProps = Pick<CtaProps, 'hasTwoOptions'>
 export const OptionsButtonWrapper = styled.div<OptionsButtonWrapperProps>`
   ${({ theme, hasTwoOptions }) => css`
     display: flex;
+    ${media.lessThan('medium')`
+      flex-direction: column;
+    `}
     gap: ${hasTwoOptions && `${theme.spacings.small}`};
   `}
 `

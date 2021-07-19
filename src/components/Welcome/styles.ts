@@ -1,4 +1,11 @@
 import styled, { css } from 'styled-components'
+import { generateMedia } from 'styled-media-query'
+
+const customMedia = generateMedia({
+  large: '956px',
+  medium: '695px',
+  small: '500px'
+})
 
 export const CardWrapper = styled.div`
   max-width: 120rem;
@@ -22,6 +29,10 @@ export const BorderTopImage = styled.img`
   left: -2rem;
   width: 6.2rem;
   height: 6.2rem;
+
+  ${customMedia.lessThan('medium')`
+    display: none;
+  `}
 `
 
 export const BorderBottomImage = styled.img`
@@ -30,6 +41,10 @@ export const BorderBottomImage = styled.img`
   right: -2rem;
   width: 10rem;
   height: 10rem;
+
+  ${customMedia.lessThan('medium')`
+    display: none;
+  `}
 `
 
 export const HeroWrapper = styled.div`
@@ -44,6 +59,10 @@ export const WelcomeImageWrapper = styled.div`
   background-size: cover;
   background-color: #fafafa;
   width: 42rem;
+
+  ${customMedia.lessThan('large')`
+    display: none;
+  `}
 
   &:before {
     content: '';
