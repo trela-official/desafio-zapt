@@ -1,4 +1,3 @@
-import * as C from 'components'
 import type { AppProps } from 'next/app'
 import Router from 'next/router'
 import NProgress from 'nprogress'
@@ -14,7 +13,6 @@ Router.events.on('routeChangeError', () => NProgress.done())
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider theme={T}>
-      <C.HeadPage />
       <Component {...pageProps} />
       <GlobalStyles />
     </ThemeProvider>
