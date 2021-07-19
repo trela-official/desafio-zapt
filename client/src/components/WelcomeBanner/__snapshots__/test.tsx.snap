@@ -65,7 +65,7 @@ exports[`<WelcomeBanner /> should render the username on the banner 1`] = `
 .c1 {
   border-radius: 0.4rem;
   padding: 5.6rem calc(4.8rem * 2);
-  background: #FAFAFA url('/img/bg-welcome-banner.svg') right no-repeat;
+  background: #FAFAFA url('/img/bg-welcome-banner.png') right no-repeat;
   background-size: contain;
   position: relative;
 }
@@ -331,4 +331,4 @@ exports[`<WelcomeBanner /> should render the username on the banner 1`] = `
     </a>
   </p>
 </div>
-`
+`;
