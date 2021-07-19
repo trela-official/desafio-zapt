@@ -1,6 +1,8 @@
 import Masonry from 'react-masonry-css'
 
 import Base from 'templates/Base'
+import Button from 'components/Button'
+import Callout from 'components/Callout'
 import SocialComment, { SocialCommentProps } from 'components/SocialComment'
 import { UserCommentProps } from 'components/UserComment'
 import UserCommentSlider from 'components/UserCommentSlider'
@@ -18,8 +20,29 @@ const masonryBreakpoints = {
 
 import * as S from './styles'
 
-const Home = ({ socialComments, userComments }: HomeTemplateProps) => (
+const Home = ({ userComments, socialComments }: HomeTemplateProps) => (
   <Base>
+    <S.SectionWelcome>
+      <Callout
+        title="Bem vindo Marcio,"
+        subtitle="Para você aproveitar nossas oportunidades primeiro você precisa estar dentro de um grupo, estamos aqui para lhe ajudar."
+        image="/img/promo/callout.jpeg"
+        imageText="Três mulheres abraçadas e sorrindo"
+      >
+        <S.CalloutContent>
+          <S.ContentTitle>O que você prefere?</S.ContentTitle>
+          <S.ContentButtons>
+            <Button>Criar um grupo</Button>
+            <Button>Entrar em um grupo</Button>
+          </S.ContentButtons>
+        </S.CalloutContent>
+      </Callout>
+      <S.CalloutFooter>
+        Qualquer dúvida que você tiver é só nos chamar no nosso número de{' '}
+        <a href="#">WhatsApp</a>.
+      </S.CalloutFooter>
+    </S.SectionWelcome>
+
     {!!userComments && (
       <S.SectionUserComments>
         <S.SectionTitle>O que as pessoas estão achando</S.SectionTitle>

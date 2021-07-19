@@ -36,6 +36,20 @@ describe('<Home />', () => {
     render(<Home />)
 
     expect(
+      screen.queryByRole('heading', { name: /o que você prefere?/i })
+    ).toBeInTheDocument()
+
+    expect(
+      screen.getByRole('button', { name: /criar um grupo/i })
+    ).toBeInTheDocument()
+
+    expect(
+      screen.getByRole('button', { name: /entrar em um grupo/i })
+    ).toBeInTheDocument()
+
+    expect(screen.getByRole('link', { name: /whatsapp/i })).toBeInTheDocument()
+
+    expect(
       screen.queryByRole('heading', { name: props.socialHeading })
     ).not.toBeInTheDocument()
 
