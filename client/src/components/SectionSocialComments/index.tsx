@@ -8,7 +8,7 @@ const SectionSocialComments = () => (
     <Heading level={2} size="huge">
       O que estão falando nas redes sociais
     </Heading>
-    <S.WrapperCards>
+    <S.WrapperCards data-testid="wraper-social-cards">
       {mock.map((item, index) => (
         <CardSocialComment key={`${item.user.username}-${index}`} {...item} />
       ))}

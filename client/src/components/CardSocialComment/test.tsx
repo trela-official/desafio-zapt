@@ -17,7 +17,7 @@ const props = {
 }
 
 describe('<CardSocialComment />', () => {
-  it('should render the heading', () => {
+  it('should render the button correctly', () => {
     const { container } = renderWithTheme(<CardSocialComment {...props} />)
 
     expect(screen.getByText(props.testimonial.text)).toBeInTheDocument()
