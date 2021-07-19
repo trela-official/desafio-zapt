@@ -14,7 +14,6 @@ export default {
       secondary:
         "PlusJakarta, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif"
     },
-
     light: 300,
     normal: 400,
     semibold: 500,
@@ -50,7 +49,9 @@ export default {
     medium: '2.4rem',
     large: '3.2rem',
     xlarge: '4.8rem',
-    xxlarge: '5.6rem'
+    xxlarge: '5.6rem',
+    mlarge: '8rem',
+    mxlarge: '12rem'
   },
   layers: {
     base: 10,
