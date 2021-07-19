@@ -1,10 +1,16 @@
 import * as S from './styles'
 
-type TFontWeight = 'light' | 'regular' | 'medium'
+export type TFontWeight = 'light' | 'regular' | 'medium'
 
-type TFontSize = 'xsmall' | 'small' | 'medium' | 'large' | 'xlarge' | 'huge'
+export type TFontSize =
+  | 'xsmall'
+  | 'small'
+  | 'medium'
+  | 'large'
+  | 'xlarge'
+  | 'huge'
 
-type TFontColor =
+export type TFontColor =
   | 'primary'
   | 'secondary'
   | 'lightGray'
