@@ -72,6 +72,7 @@ export const WelcomeImageWrapper = styled.div`
   background-image: url('/img/happy-people-image.png');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   background-color: #fafafa;
   width: 42rem;
 

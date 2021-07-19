@@ -35,6 +35,7 @@ const Welcome = ({ username }: WelcomePrps) => {
           <S.Circle />
           <S.Ellipse />
         </S.WelcomeImageWrapper>
+
         <S.BorderBottomImage src="/img/blue-icon.png" />
       </S.ContentWrapper>
       <SubtitleWithLink
