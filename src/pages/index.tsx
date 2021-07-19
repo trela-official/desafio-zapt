@@ -1,5 +1,5 @@
-import Welcome from 'components/Welcome'
+import ShowComponents from 'templates/ShowComponents'
 
 export default function Home() {
-  return <Welcome username="Marcio" />
+  return <ShowComponents />
 }
