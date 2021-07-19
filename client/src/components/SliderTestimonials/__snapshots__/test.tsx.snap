@@ -513,7 +513,7 @@ exports[`<SliderTestimonials /> should render with 4 active items 1`] = `
                   class="c4 c5"
                 >
                   <span>
-                    A oportunidade de ter um mentor que entende de frontend é um passo gigante pra acelerar a carreira
+                    A oportunidade de ter um mentor que é especialista frontend é um passo gigante pra acelerar a carreira
                   </span>
                   <div
                     class="c6"

@@ -19,7 +19,7 @@ export default [
   {
     testimonial: {
       text:
-        'A oportunidade de ter um mentor que entende de frontend é um passo gigante pra acelerar a carreira',
+        'A oportunidade de ter um mentor que é especialista frontend é um passo gigante pra acelerar a carreira',
       thumbnail: '/img/IMG_1756.jpg'
     },
     user
