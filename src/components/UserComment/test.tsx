@@ -1,17 +1,17 @@
 import { render, screen } from 'utils/test-utils'
 
 import userComments from './mock'
-import UserCommentCard from '.'
+import UserComment from '.'
 
-describe('<UserCommentCard />', () => {
+describe('<UserComment />', () => {
   it('should render with right username', () => {
-    render(<UserCommentCard userComment={userComments[0]} />)
+    render(<UserComment userComment={userComments[0]} />)
 
     expect(screen.getByText('@ferri-gui')).toBeInTheDocument()
   })
 
   it('should render user comment', () => {
-    render(<UserCommentCard userComment={userComments[0]} />)
+    render(<UserComment userComment={userComments[0]} />)
 
     expect(
       screen.getByText(
@@ -21,7 +21,7 @@ describe('<UserCommentCard />', () => {
   })
 
   it('should render user picture', () => {
-    render(<UserCommentCard userComment={userComments[0]} />)
+    render(<UserComment userComment={userComments[0]} />)
 
     expect(screen.getByRole('img')).toHaveAttribute(
       'src',

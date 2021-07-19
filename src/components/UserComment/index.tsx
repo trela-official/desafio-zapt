@@ -21,7 +21,7 @@ export type CommentCardProps = {
   userDataColor?: TFontColor
 } & TUserComment
 
-const UserCommentCard = ({
+const UserComment = ({
   userComment,
   contentColor = 'neutralBlue',
   userDataColor = 'darkBlue',
@@ -60,4 +60,4 @@ const UserCommentCard = ({
   )
 }
 
-export default UserCommentCard
+export default UserComment
