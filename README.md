@@ -58,7 +58,7 @@ yarn install
 yarn dev
 ```
 
-A aplicaão vai esta disponivel na porta `3000` do seu sistema, acesse `http://localhost:3000`.
+A aplicação vai esta disponivel na porta `3000` do seu sistema, acesse `http://localhost:3000`.
 
 ---
 <details>
