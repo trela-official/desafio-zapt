@@ -1,0 +1,334 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WelcomeBanner /> should render the username on the banner 1`] = `
+.c5 {
+  padding: 1.6rem 3.2rem;
+  background-color: #334BC8;
+  color: #FFFFFF;
+  border: none;
+  white-space: nowrap;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  font-size: 1.4rem;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  -webkit-letter-spacing: -0.01em;
+  -moz-letter-spacing: -0.01em;
+  -ms-letter-spacing: -0.01em;
+  letter-spacing: -0.01em;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.c5:focus {
+  box-shadow: 0 0 0 2px rgba(255,41,37,0.4);
+}
+
+.c5:hover {
+  background: #495fd1;
+}
+
+.c2 {
+  font-size: 2.8rem;
+  color: #000000;
+  font-weight: 500;
+  line-height: 3.4rem;
+}
+
+.c4 {
+  font-size: 1.6rem;
+  color: #000000;
+  font-weight: 500;
+}
+
+.c0 {
+  width: 100%;
+  max-width: 124.8rem;
+  margin: 20px auto 5px;
+  padding: 0 2.0rem;
+  position: relative;
+}
+
+.c1 {
+  border-radius: 0.4rem;
+  padding: 5.6rem calc(4.8rem * 2);
+  background: #FAFAFA url('/img/bg-welcome-banner.svg') right no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+.c1 p {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  margin-top: 0.8rem;
+  max-width: 590px;
+  -webkit-letter-spacing: -0.01em;
+  -moz-letter-spacing: -0.01em;
+  -ms-letter-spacing: -0.01em;
+  letter-spacing: -0.01em;
+  color: #7B7B7B;
+}
+
+.c3 {
+  margin-top: 2.4rem;
+}
+
+.c3 h3 {
+  margin-bottom: calc(1.6rem - 0.4rem);
+}
+
+.c3 button + button {
+  margin-left: 1.6rem;
+}
+
+.c7 {
+  font-size: 1.4rem;
+  color: #7B7B7B;
+  margin-top: 1.6rem;
+}
+
+.c7 a {
+  color: #334BC8;
+}
+
+.c6 {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.c6 svg:nth-child(1) {
+  width: 62px;
+  height: 62px;
+  position: absolute;
+  top: -19px;
+  left: -25px;
+}
+
+.c6 svg:nth-child(2) {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 16px;
+  right: 265px;
+}
+
+.c6 svg:nth-child(3) {
+  width: 172px;
+  height: 105px;
+  position: absolute;
+  bottom: 37px;
+  right: 38px;
+}
+
+.c6 svg:nth-child(4) {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: -30px;
+  right: -43px;
+}
+
+@media (max-width:550px) {
+  .c2 {
+    font-size: calc(2.8rem / 1.3);
+    line-height: 1.3;
+  }
+}
+
+@media (max-width:550px) {
+  .c4 {
+    font-size: calc(1.6rem / 1.3);
+    line-height: 1.3;
+  }
+}
+
+@media (max-width:955px) {
+  .c0 {
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+
+@media (max-width:1156px) {
+  .c1 p {
+    max-width: 480px;
+  }
+}
+
+@media (max-width:1024px) {
+  .c1 p {
+    max-width: 380px;
+  }
+}
+
+@media (max-width:955px) {
+  .c1 {
+    background: #FAFAFA;
+    padding: 4.0rem 3.2rem;
+  }
+
+  .c1 p {
+    max-width: 80%;
+  }
+}
+
+@media (max-width:550px) {
+  .c1 p {
+    max-width: 100%;
+  }
+}
+
+@media (max-width:440px) {
+  .c3 button {
+    width: 100%;
+    margin-top: 0.8rem;
+  }
+
+  .c3 button + button {
+    margin-left: 0;
+  }
+}
+
+@media (max-width:955px) {
+  .c7 {
+    margin-top: 0.8rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+  }
+}
+
+@media (max-width:550px) {
+  .c7 {
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+  }
+}
+
+@media (max-width:955px) {
+  .c6 {
+    display: none;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <h2
+      class="c2"
+      color="#000000"
+      font-weight="500"
+    >
+      Bem vindo Alan Gabriel!
+    </h2>
+    <p>
+      Para você aproveitar nossas oportunidades primeiro você precisa estar dentro de um grupo, estamos aqui para lhe ajudar.
+    </p>
+    <div
+      class="c3"
+    >
+      <h3
+        class="c4"
+        color="#000000"
+        font-weight="500"
+      >
+        O que você prefere?
+      </h3>
+      <button
+        class="c5"
+      >
+        Criar um grupo
+      </button>
+      <button
+        class="c5"
+      >
+        Entrar em um grupo
+      </button>
+    </div>
+    <div
+      class="c6"
+    >
+      <svg
+        fill="none"
+        viewBox="0 0 62 62"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M0 31C0 13.88 13.88 0 31 0c17.12 0 31 13.88 31 31 0 17.12-13.88 31-31 31H0V31z"
+          fill="#FF5B58"
+        />
+      </svg>
+      <svg
+        fill="none"
+        height="80"
+        viewBox="0 0 80 80"
+        width="80"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle
+          cx="40"
+          cy="40"
+          fill="#fff"
+          r="40"
+        />
+      </svg>
+      <svg
+        fill="none"
+        height="105"
+        viewBox="0 0 172 105"
+        width="172"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M169.115 5.3L128.569.029a3.304 3.304 0 00-3.649 2.513c-1.797 7.762-8.397 29.263-28.145 42.75C77.277 58.603 49.39 61.18 13.84 52.963c-1.769-.41-3.544.658-3.979 2.418L.098 94.936a3.301 3.301 0 002.448 4.007C19.85 102.985 36.09 105 51.236 105c27.976 0 52.174-6.888 72.303-20.632 36.065-24.625 46.109-63.388 48.399-75.176.366-1.865-.936-3.645-2.823-3.891z"
+          fill="#fff"
+        />
+      </svg>
+      <svg
+        fill="none"
+        height="100"
+        viewBox="0 0 100 100"
+        width="100"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M0 50C0 22.386 22.386 0 50 0s50 22.386 50 50-22.386 50-50 50H0V50z"
+          fill="#334BC8"
+        />
+      </svg>
+    </div>
+  </div>
+  <p
+    class="c7"
+  >
+    Qualquer dúvida que você tiver é só nos chamar no nosso número de
+     
+    <a
+      href="https://wa.me/5538998280928"
+      rel="noreferrer"
+      target="_blank"
+    >
+      WhatsApp.
+    </a>
+  </p>
+</div>
+`

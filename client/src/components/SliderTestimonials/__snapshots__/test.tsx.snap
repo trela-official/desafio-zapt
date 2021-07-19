@@ -1,0 +1,693 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SliderTestimonials /> should render with 4 active items 1`] = `
+.c1 .slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.c1 .slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.c1 .slick-list:focus {
+  outline: none;
+}
+
+.c1 .slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.c1 .slick-slider .slick-track,
+.c1 .slick-slider .slick-list {
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+  -o-transform: translate3d(0,0,0);
+  -webkit-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.c1 .slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+}
+
+.c1 .slick-track:before,
+.c1 .slick-track:after {
+  display: table;
+  content: '';
+}
+
+.c1 .slick-track:after {
+  clear: both;
+}
+
+.c1 .slick-loading .slick-track {
+  visibility: hidden;
+}
+
+.c1 .slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+
+.c1 [dir='rtl'] .slick-slide {
+  float: right;
+}
+
+.c1 .slick-slide img {
+  display: block;
+}
+
+.c1 .slick-slide.slick-loading img {
+  display: none;
+}
+
+.c1 .slick-slide.dragging img {
+  pointer-events: none;
+}
+
+.c1 .slick-initialized .slick-slide {
+  display: block;
+}
+
+.c1 .slick-loading .slick-slide {
+  visibility: hidden;
+}
+
+.c1 .slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+
+.c1 .slick-arrow.slick-hidden {
+  display: none;
+}
+
+.c3 {
+  position: relative;
+  width: 100%;
+  max-width: 58.8rem;
+  height: 40rem;
+  border-radius: 0.4rem;
+  background: #FAFAFA;
+  overflow: hidden;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.c3::before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: radial-gradient( 112.99% 451.94% at 0% 100%,rgba(0,0,0,0.7) 0%,rgba(0,0,0,0) 100% ),url('/img/noise-overlay.png');
+  z-index: 10;
+}
+
+.c3:hover {
+  -webkit-transform: scale(1.005);
+  -ms-transform: scale(1.005);
+  transform: scale(1.005);
+}
+
+.c3:hover .c4 > span {
+  -webkit-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  transform: scale(1.02);
+}
+
+.c8 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.c5 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 50;
+  color: #FFFFFF;
+  padding: 2.4rem;
+  max-width: 460px;
+}
+
+.c5 > span {
+  display: block;
+  font-size: 2.0rem;
+  line-height: calc(2.4rem + 0.2rem);
+  -webkit-letter-spacing: -0.01em;
+  -moz-letter-spacing: -0.01em;
+  -ms-letter-spacing: -0.01em;
+  letter-spacing: -0.01em;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.c5 > span::after {
+  content: '”';
+}
+
+.c5 > span::before {
+  content: '“';
+}
+
+.c6 {
+  display: grid;
+  grid-template-areas: 'avatar name' 'avatar city';
+  grid-template-columns: 40px auto;
+  -webkit-column-gap: 1.6rem;
+  column-gap: 1.6rem;
+  margin-top: 1.6rem;
+  color: #FFFFFF;
+}
+
+.c6 p {
+  grid-area: name;
+  font-size: 1.6rem;
+  -webkit-letter-spacing: -0.01em;
+  -moz-letter-spacing: -0.01em;
+  -ms-letter-spacing: -0.01em;
+  letter-spacing: -0.01em;
+  color: currentColor;
+}
+
+.c6 span {
+  grid-area: city;
+  font-size: 1.2rem;
+  opacity: 0.8;
+  -webkit-letter-spacing: -0.01em;
+  -moz-letter-spacing: -0.01em;
+  -ms-letter-spacing: -0.01em;
+  letter-spacing: -0.01em;
+}
+
+.c7 {
+  grid-area: avatar;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 100%;
+  overflow: hidden;
+  border: 1.5px solid #FFFFFF;
+}
+
+.c7 img {
+  margin-left: -2px !important;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.c2 {
+  cursor: pointer;
+  background: #FFFFFF;
+  border: none;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 50;
+  border-radius: 0 50% 50% 0;
+  left: -30px;
+}
+
+.c2 svg {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.c2 svg {
+  left: 8px;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.c9 {
+  cursor: pointer;
+  background: #FFFFFF;
+  border: none;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 50;
+  border-radius: 50% 0 0 50%;
+  right: -30px;
+}
+
+.c9 svg {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.c9 svg {
+  right: 8px;
+  -webkit-transform: rotate(0);
+  -ms-transform: rotate(0);
+  transform: rotate(0);
+}
+
+.c0 {
+  width: 100%;
+  max-width: 124.8rem;
+  margin: 0 auto;
+  padding: 0 0.8rem;
+  position: relative;
+}
+
+.c0 .slick-track,
+.c0 .slick-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 .slick-slide > div {
+  margin: 0 0.8rem;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 .slick-list {
+  margin: 0 -0.8rem;
+}
+
+.c0 .slick-prev.slick-disabled,
+.c0 .slick-next.slick-disabled {
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+  visibility: hidden;
+}
+
+.c0 .slick-dots {
+  list-style: none;
+  display: -webkit-box !important;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 0.8rem;
+  margin-top: 3.2rem;
+}
+
+.c0 .slick-dots li {
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 100%;
+  background: rgba(51,75,200,0.08);
+}
+
+.c0 .slick-dots li.slick-active {
+  background: #334BC8;
+}
+
+.c0 .slick-dots button {
+  opacity: 0;
+  width: 1.2rem;
+  height: 1.2rem;
+  cursor: pointer;
+}
+
+@media (max-width:450px) {
+  .c3 {
+    height: 30rem;
+  }
+}
+
+@media (max-width:450px) {
+  .c2 {
+    width: 60px;
+    height: 60px;
+    top: 25%;
+  }
+}
+
+@media (max-width:450px) {
+  .c9 {
+    width: 60px;
+    height: 60px;
+    top: 25%;
+  }
+}
+
+<div
+  class="c0"
+>
+  <section
+    class="c1"
+  >
+    <div
+      class="slick-slider slick-initialized"
+      dir="ltr"
+    >
+      <button
+        class="c2 slick-arrow slick-prev slick-disabled"
+        data-role="none"
+        direction="left"
+        style="display: block;"
+      >
+        <svg
+          fill="none"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M8.625 5.25l6.75 6.75-6.75 6.75"
+            stroke="#011FBB"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          />
+        </svg>
+      </button>
+      <div
+        class="slick-list"
+      >
+        <div
+          class="slick-track"
+          style="opacity: 1; transform: translate3d(0px, 0px, 0px);"
+        >
+          <div
+            aria-hidden="false"
+            class="slick-slide slick-active slick-current"
+            data-index="0"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="c3"
+              >
+                <div
+                  class="c4 c5"
+                >
+                  <span>
+                    Eu disse que seria a melhor pessoa para ajudar a criar uma ambiente foda, para construir coisas incríveis
+                  </span>
+                  <div
+                    class="c6"
+                  >
+                    <div
+                      class="c7"
+                    >
+                      <div
+                        style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+                      >
+                        <div
+                          style="box-sizing: border-box; display: block; max-width: 100%;"
+                        >
+                          <img
+                            alt=""
+                            aria-hidden="true"
+                            role="presentation"
+                            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                            style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+                          />
+                        </div>
+                        <noscript />
+                        <img
+                          alt="Alan Gabriel"
+                          decoding="async"
+                          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                        />
+                      </div>
+                    </div>
+                    <p>
+                      Alan Gabriel
+                    </p>
+                    <span>
+                      Arinos
+                       • 
+                      Minas Gerais
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="c8"
+                >
+                  <div
+                    style="display: block; overflow: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; margin: 0px;"
+                  >
+                    <noscript />
+                    <img
+                      alt="Imagem de capa do depoimento de Alan Gabriel"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="false"
+            class="slick-slide slick-active"
+            data-index="1"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="c3"
+              >
+                <div
+                  class="c4 c5"
+                >
+                  <span>
+                    A oportunidade de ter um mentor que é especialista frontend é um passo gigante pra acelerar a carreira
+                  </span>
+                  <div
+                    class="c6"
+                  >
+                    <div
+                      class="c7"
+                    >
+                      <div
+                        style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+                      >
+                        <div
+                          style="box-sizing: border-box; display: block; max-width: 100%;"
+                        >
+                          <img
+                            alt=""
+                            aria-hidden="true"
+                            role="presentation"
+                            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                            style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+                          />
+                        </div>
+                        <noscript />
+                        <img
+                          alt="Alan Gabriel"
+                          decoding="async"
+                          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                        />
+                      </div>
+                    </div>
+                    <p>
+                      Alan Gabriel
+                    </p>
+                    <span>
+                      Arinos
+                       • 
+                      Minas Gerais
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="c8"
+                >
+                  <div
+                    style="display: block; overflow: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; margin: 0px;"
+                  >
+                    <noscript />
+                    <img
+                      alt="Imagem de capa do depoimento de Alan Gabriel"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            class="slick-slide"
+            data-index="2"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="c3"
+              >
+                <div
+                  class="c4 c5"
+                >
+                  <span>
+                    Depois que entrei pra Zapt consegui ter clareza sobre o futuro da minha carreira
+                  </span>
+                  <div
+                    class="c6"
+                  >
+                    <div
+                      class="c7"
+                    >
+                      <div
+                        style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+                      >
+                        <div
+                          style="box-sizing: border-box; display: block; max-width: 100%;"
+                        >
+                          <img
+                            alt=""
+                            aria-hidden="true"
+                            role="presentation"
+                            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                            style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+                          />
+                        </div>
+                        <noscript />
+                        <img
+                          alt="Alan Gabriel"
+                          decoding="async"
+                          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                        />
+                      </div>
+                    </div>
+                    <p>
+                      Alan Gabriel
+                    </p>
+                    <span>
+                      Arinos
+                       • 
+                      Minas Gerais
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="c8"
+                >
+                  <div
+                    style="display: block; overflow: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; margin: 0px;"
+                  >
+                    <noscript />
+                    <img
+                      alt="Imagem de capa do depoimento de Alan Gabriel"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="c9 slick-arrow slick-next"
+        data-role="none"
+        direction="right"
+        style="display: block;"
+      >
+        <svg
+          fill="none"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M8.625 5.25l6.75 6.75-6.75 6.75"
+            stroke="#011FBB"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          />
+        </svg>
+      </button>
+      <ul
+        class="slick-dots"
+        style="display: block;"
+      >
+        <li
+          class="slick-active"
+        >
+          <button>
+            1
+          </button>
+        </li>
+        <li
+          class=""
+        >
+          <button>
+            2
+          </button>
+        </li>
+      </ul>
+    </div>
+  </section>
+</div>
+`
