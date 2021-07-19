@@ -1,8 +1,6 @@
 <h1 align="center">Desafio Zapt - Lucas Vieira</h1>
-<div align="center">
-  <img src="https://i.imgur.com/y5jv5Ff.png"  alt="Zapt"/>
-  <br>
-</div>
+
+https://user-images.githubusercontent.com/54550926/126099870-9c02633d-7ca5-4338-b8c8-e16cad7cff7c.mp4
 
 <p align="center">
   <a href="https://desafio-zapt-lucas-vieira.vercel.app/">Web Page</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
