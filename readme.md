@@ -24,7 +24,7 @@
 
   O primeiro a fazer e clonar este repositorio.
   
-      https://github.com/LuisCarlos-git/desafio-zapt.git
+      git clone https://github.com/LuisCarlos-git/desafio-zapt.git
   
   Proximo passo sera a instalação das dependencias rodando o comando abaixo na pasta do projeto.
 
