@@ -15,10 +15,11 @@ export const SectionHeader = styled.section`
     min-height: 6.4rem;
     z-index: ${theme.layers.menu};
 
-    position: sticky;
+    position: fixed;
     top: 0;
     left: auto;
     right: 0;
+    width: 100%;
 
     background-color: ${theme.colors.white};
     border-bottom: 1px solid rgba(0, 0, 0, 0.12);
@@ -32,7 +33,7 @@ export const Logo = styled.img`
 
 export const Content = styled.main`
   ${({ theme }) => css`
-    padding-top: calc(${theme.grid.gutter} * 2);
+    padding-top: calc(6.4rem + (${theme.grid.gutter} * 2));
   `}
 `
 

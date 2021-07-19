@@ -6,21 +6,6 @@ exports[`<Base /> should render base template with logo and footer 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  height: 100vh;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -31,73 +16,27 @@ exports[`<Base /> should render base template with logo and footer 1`] = `
   align-items: center;
   min-height: 6.4rem;
   z-index: 20;
-  position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
   top: 0;
   left: auto;
   right: 0;
+  width: 100%;
   background-color: #ffffff;
   border-bottom: 1px solid rgba(0,0,0,0.12);
 }
 
-.c2 {
+.c1 {
   width: 10rem;
   height: 3rem;
 }
 
-.c3 {
-  padding-top: calc(2.4rem * 2);
-}
-
-.c4 {
-  padding-top: calc(2.4rem * 2);
-}
-
-.c5 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding: 2.4rem 0;
-  min-height: 12rem;
-  color: #7a7a7a;
-}
-
-<div
+<section
   class="c0"
 >
-  <section
+  <img
+    alt="Imagem do logo da Zapt"
     class="c1"
-  >
-    <img
-      alt="Imagem do logo da Zapt"
-      class="c2"
-      src="/img/logo.svg"
-    />
-  </section>
-  <main
-    class="c3"
-  >
-    <h1>
-      Base Template
-    </h1>
-  </main>
-  <section
-    class="c4"
-  >
-    <p
-      class="c5"
-    >
-      Desafio Frontend Zapt 🧑‍💻
-    </p>
-  </section>
-</div>
+    src="/img/logo.svg"
+  />
+</section>
 `
