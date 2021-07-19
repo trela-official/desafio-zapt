@@ -15,7 +15,7 @@ export const Wrapper = styled(Layouts.Col)`
     }
   `}
   display: inline-block;
-  transition: box-shadow 0.7s ease;
+  transition: box-shadow 0.4s ease;
 
   &:hover {
     box-shadow: 0.4rem 0.4rem 2.5rem #a9a8ae91;
