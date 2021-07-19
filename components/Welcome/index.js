@@ -3,8 +3,8 @@ import * as S from './styles';
 import Contact from '../Contact';
 import Image from 'next/image';
 import Link from 'next/link';
-import dropBlue from '../../public/images/drop-blue.png';
-import dropPersimmon from '../../public/images/drop-persimmon.png';
+import dropBlue from '../../public/images/drop-blue.svg';
+import dropPersimmon from '../../public/images/drop-persimmon.svg';
 import imageWelcome from '../../public/images/welcome.png';
 
 function Welcome({ name }) {
@@ -12,7 +12,7 @@ function Welcome({ name }) {
     <S.Wrapper>
       <S.Container>
         <S.DropImg top left>
-          <Image src={dropPersimmon} width={62} height={62} placeholder="blur" alt="Imagem de uma gota na cor caqui" />
+          <Image src={dropPersimmon} width={62} height={62} alt="Imagem de uma gota na cor caqui" />
         </S.DropImg>
         <S.WelcomeUser>
           <S.Texts>
@@ -46,7 +46,7 @@ function Welcome({ name }) {
           />
         </S.BackgroundImg>
         <S.DropImg bottom right>
-          <Image src={dropBlue} width={100} height={100} placeholder="blur" alt="Imagem de uma gota na cor azul" />
+          <Image src={dropBlue} width={100} height={100} alt="Imagem de uma gota na cor azul" />
         </S.DropImg>
       </S.Container>
       <Contact />
