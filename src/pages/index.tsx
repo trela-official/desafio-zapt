@@ -1,5 +1,5 @@
-import Main from 'components/Main'
+import Welcome from 'components/Welcome'
 
 export default function Home() {
-  return <Main />
+  return <Welcome />
 }
