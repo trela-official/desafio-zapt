@@ -11,7 +11,7 @@ export default function Home() {
 
       <S.BtnGroup>
         <Link href="/boas-vindas" passHref>
-          <S.LinkBtn target="_blank" rel="noreferrer">
+          <S.LinkBtn>
             <C.Button
               fullWidth={true}
               color="blue"
@@ -23,7 +23,7 @@ export default function Home() {
         </Link>
 
         <Link href="/comentarios_de_usuarios" passHref>
-          <S.LinkBtn target="_blank" rel="noreferrer">
+          <S.LinkBtn>
             <C.Button
               fullWidth={true}
               color="blue"
@@ -35,7 +35,7 @@ export default function Home() {
         </Link>
 
         <Link href="/comentarios_nas_redes_sociais" passHref>
-          <S.LinkBtn target="_blank" rel="noreferrer">
+          <S.LinkBtn>
             <C.Button
               fullWidth={true}
               color="blue"
