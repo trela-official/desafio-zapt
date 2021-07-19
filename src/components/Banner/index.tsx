@@ -48,7 +48,6 @@ const Banner = ({
                     color="blue"
                     size="large"
                     text={textBtn}
-                    onMouseEnter={() => router.prefetch(route)}
                     onClick={() => router.push(route)}
                     aria-label={textBtn}
                     className={`btn${i}`}
