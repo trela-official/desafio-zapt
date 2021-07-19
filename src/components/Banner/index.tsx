@@ -59,7 +59,13 @@ const Banner = ({
           </S.WrapperInfo>
 
           <S.WrapperImg>
-            <Image src={img} alt="Banner" width="433" height="313" />
+            <Image
+              src={img}
+              alt="Banner"
+              width="433"
+              height="313"
+              priority={true}
+            />
             <S.Waves />
           </S.WrapperImg>
         </S.Row>

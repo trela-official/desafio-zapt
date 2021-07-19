@@ -2,7 +2,7 @@ import * as S from 'components/CarouselUsersComments/styles'
 import * as C from 'components'
 import Slider from 'react-slick'
 
-export interface dataUsersCommentsProps {
+export type dataUsersCommentsProps = {
   dataUsersComments: [
     {
       userName: string

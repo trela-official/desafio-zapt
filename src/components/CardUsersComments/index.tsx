@@ -46,7 +46,12 @@ const CardUsersComments = ({
     </S.WrapperInfoCard>
 
     <S.WrapperImgBackground>
-      <Image src={`/imgs/carousel/${urlUserBg}`} layout="fill" alt={userName} />
+      <Image
+        src={`/imgs/carousel/${urlUserBg}`}
+        layout="fill"
+        alt={userName}
+        priority={true}
+      />
     </S.WrapperImgBackground>
   </S.Container>
 )
