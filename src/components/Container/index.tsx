@@ -17,7 +17,6 @@ const Container = ({
   prevComponentUrl = '',
 }: ContainerProps) => {
   const history = useHistory();
-  const location = useLocation();
   return (
     <Styled.Wrapper>
       {children}
