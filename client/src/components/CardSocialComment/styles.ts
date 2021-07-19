@@ -4,6 +4,7 @@ export const Wrapper = styled.div`
   ${({ theme }) => css`
     width: 100%;
     max-width: 38.4rem;
+    break-inside: avoid-column;
     padding: ${theme.spacings.small} ${theme.spacings.xsmall};
     border-radius: ${theme.border.radius};
 

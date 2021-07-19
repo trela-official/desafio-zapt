@@ -4,6 +4,8 @@ exports[`<CardSocialComment /> should render the heading 1`] = `
 .c0 {
   width: 100%;
   max-width: 38.4rem;
+  -webkit-break-inside: avoid-column;
+  break-inside: avoid-column;
   padding: 2.4rem 1.6rem;
   border-radius: 0.4rem;
   background: #EBF4FD;
