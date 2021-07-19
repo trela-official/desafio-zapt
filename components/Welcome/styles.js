@@ -57,7 +57,7 @@ export const BackgroundImg = styled.div`
     display: none;
   }
 `;
-export const Title = styled.h1`
+export const Title = styled.h2`
   margin-bottom: 10px;
 `;
 export const Description = styled.p`

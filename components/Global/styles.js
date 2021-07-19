@@ -47,6 +47,10 @@ const GlobalStyle = createGlobalStyle`
     }
   }
   h1{
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+  h2{
     font-size: 1.75rem;
     line-height: 1.2;
   }

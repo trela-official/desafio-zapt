@@ -78,7 +78,6 @@ export const Container = styled.div`
 `;
 export const Title = styled.h1`
   text-align: center;
-  font-size: 2.5rem;
   margin-bottom: 48px;
   @media (max-width: 992px) {
     text-align: left;
@@ -97,7 +96,7 @@ export const BgImage = styled.div`
   height: 100%;
   z-index: 1;
   img {
-    border-radius: 4px;
+    border-radius: 8px;
   }
 `;
 export const NoiseOverlay = styled.div`
@@ -107,6 +106,9 @@ export const NoiseOverlay = styled.div`
   width: 100%;
   height: 100%;
   z-index: 2;
+  img {
+    border-radius: 8px;
+  }
 `;
 export const Overlay = styled.div`
   position: absolute;
@@ -118,7 +120,7 @@ export const Overlay = styled.div`
   background: radial-gradient(112.99% 451.94% at 0% 100%, #000000 0%, rgba(0, 0, 0, 0) 100%);
   opacity: 0.7;
   z-index: 3;
-  border-radius: 4px;
+  border-radius: 8px;
   @media (max-width: 675px) {
     background: rgba(0, 0, 0, 0.8);
   }
@@ -133,9 +135,9 @@ export const ItemProfile = styled.div`
   justify-content: flex-end;
   padding: 0 15px 24px 24px;
 `;
-export const Testimony = styled.div`
+export const Testimony = styled.h3`
   color: var(--color-light);
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 26px;
   letter-spacing: -0.01em;
   margin-bottom: 17px;
@@ -151,15 +153,15 @@ export const Customer = styled.div`
   display: flex;
   flex-direction: column;
 `;
-export const Name = styled.div`
-  margin-bottom: 2px;
-  font-size: 16px;
+export const Name = styled.h4`
+  margin: 0 0 2px 0;
+  font-size: 1rem;
   line-height: 20px;
   letter-spacing: -0.01em;
 `;
 export const Address = styled.div`
   display: flex;
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 16px;
   letter-spacing: -0.01em;
   color: var(--color-light);
@@ -167,6 +169,12 @@ export const Address = styled.div`
   span {
     margin: 0 5px;
   }
+  p {
+    font-size: 0.75rem;
+    margin: 0;
+    padding: 0;
+    line-height: inherit;
+  }
 `;
-export const State = styled.div``;
-export const City = styled.div``;
+export const State = styled.p``;
+export const City = styled.p``;
