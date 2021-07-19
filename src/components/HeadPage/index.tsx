@@ -1,6 +1,10 @@
 import Head from 'next/head'
 
-const HeadPage = ({ title = 'Zapt' }) => (
+type TitleProps = {
+  title: string
+}
+
+const HeadPage = ({ title }: TitleProps) => (
   <Head>
     <meta charSet="utf-8" />
     <meta
