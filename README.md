@@ -1,8 +1,24 @@
-# Desafio Zapt
+<p align="center">
+  <a href="https://www.zapt.com.br/" target="_blank">
+    <img src="https://www.zapt.com.br/static/icons/pwa-512x512.png" height="96">
+    <h2 align="center">Desafio Frontend Zapt 👨‍💻</h2>
+  </a>
+</p>
 
-> Repositório onde tem o desafio para o processo seletivo da Zapt.
+Projeto desenvolvido com um [Boilerplate em NextJS](https://github.com/React-Avancado/boilerplate) com **TypeScript**, **StyledComponents**, **Storybook**, **Jest**, **React Testing Library**, **Eslint**, **Prettier** e **Husky**.
 
-## Introdução
+# Ver Projeto
+Para ver a página com todos os componentes, execute o servidor de desenvolvimento:
+- `npm run dev` ou `yarn dev`
+- Abra o endereço [http://localhost:3000](http://localhost:3000) em seu navegador
+
+
+# Commandos
+- `yarn dev`: executa a aplicação em modo desenvolvimento em [http://localhost:3000](http://localhost:3000)
+- `yarn storybook`: executa o Storybook em [http://localhost:6006](http://localhost:6066)
+- `yarn test`: executa todos os testes de componentes e páginas
+
+## O Desafio
 
 A ideia é que você aprenda, se divirta e mostre o seu melhor nesse exercício.
 
@@ -35,13 +51,3 @@ Caso você tenha interesse em se aproximar da nossa Stack, usamos:
 - Typescript em basicamente tudo
 - React e styled-components para construção das nossas interfaces
 - ESLint, Prettier e Jest para garantir padronização e qualidade de código
-
-## Como entregar o teste?
-
-1. Crie um fork deste projeto
-2. Faça as devidas modificações
-3. Envie um PR para esse repositório
-
-## Dúvidas?
-
-Qualquer dúvida, não deixe de nos enviar um email em admin@zapt.com.br ou wj@zapt.com.br.
