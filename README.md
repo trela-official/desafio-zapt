@@ -1,8 +1,25 @@
-## Projeto
+## Como o projeto foi desenvolvido
 
-Olá! Esse projeto foi feito com carinho para o processo seletivo da [Zapt](https://zapt.com.br/).
+Olá! Esse projeto foi feito com carinho para o processo seletivo da [Zapt](https://zapt.com.br/). Você pode visualizar [aqui](https://desafio-zapt-seven.vercel.app/)!
 
-## Libs utilizadas
+Com o intuito de simular uma aplicação escalável, foquei em construir componentes semânticos e que possam ser reutilizados em diferentes contextos. Acredito que isso contribui para a padronização, ajuda a implementar o design system e contribui na diminuição da curva de aprendizado do projeto para novos desenvolvedores. Senco assim, explico o uso de alguns componentes:
+
+- **Typography** - Componentes de tipografia que podem ser usados em outros componentes / páginas. Ex: `H2`, `Body`, `H3`, etc..
+- **Separator** - Componente utilizado para dar espaçamento.
+- **Hbox** - Horizontal Box, ou Hbox, é um componente que permite o uso do flexbox nos elementos filhos. Com isso diminui a necessidade de criarmos `Containers` e `Wrappers` dentro dos componentes.
+- **HboxItem** - Children do Hbox.
+- **HboxSeparator** - Espaçamento entre HboxItems.
+- **Card** - Componente de card que é utilizado como base para o `SocialCommentsCard` e o `UserOpinionCard`
+
+Além disso, abstrai os componentes de libs externas para facilitar uma futura troca de libs (se for o caso) sem impactar muito o uso do componente. Exemplo: `Masonry` e `Carousel`.
+
+Observações:
+
+- Fiz os commits com base no [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/). Acredito que tal padronização deixe o histórico de commits mais didático para qualquer desenvolvedor que precise olhar.
+- Em alguns componentes, senti a necessidade de criar um arquivo `model` para salvar a tipagem das props do componente evitando, assim, referência circular. Utilizei a [madge](https://www.npmjs.com/package/madge) para detectar tal problema. Fiz isso no componente de `Card` por exemplo. *No caso, `CardProps` é utilizada tanto no arquivo do componente quanto no arquivo de estilo.*
+
+
+## Algumas libs utilizadas
 
 - [TypeScript](https://www.typescriptlang.org/)
 - [NextJS](https://nextjs.org/)
