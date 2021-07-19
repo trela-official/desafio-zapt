@@ -45,7 +45,7 @@ Para visualizar o projeto ‘online’ [clique aqui](https://desafio-zapt.queroc
 
 🚩 Lints — ESlint/Prettier/EditorConfig/Commitlint
 
-✅ Jest
+✅ Jest e React Testing Library
 
 📝 Storybook
 
