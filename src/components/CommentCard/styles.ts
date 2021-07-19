@@ -41,6 +41,7 @@ export const ImageWrapper = styled.div`
     &:before {
       content: '';
       position: absolute;
+      z-index: ${theme.layers.menu};
       border-radius: ${theme.border.radius};
       top: 0;
       right: 0;
