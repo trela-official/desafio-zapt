@@ -9,19 +9,19 @@ https://desafio-zapt-henna.vercel.app/
 1. Clone o repositório e abra a pasta dele:
 
 ```shell
-$ git clone https://github.com/guilhermebellotti/desafio-zapt.git && cd desafio-zapt
+git clone https://github.com/guilhermebellotti/desafio-zapt.git && cd desafio-zapt
 ```
 
 1. Instale as dependência com `yarn` ou `npm`:
 
 ```shell
-$ yarn install
+yarn install
 ```
 
 3. Depois de clonar e instalar o repositório, rode o projeto em `localhost`:
 
 ```shell
-$ yarn dev
+yarn dev
 ```
 
 ## 🥳 Informações adicionais
@@ -43,25 +43,25 @@ Todos os comandos abaixo só vão funcionar dentro da pasta do projeto.
 Para rodar o projeto em `localhost` no `modo de desenvolvimento`, execute o comando abaixo:
 
 ```shell
-$ yarn dev
+yarn dev
 ```
 
 Se quiser testar o projeto em `localhost` no `modo de produção` (`server`), execute o comando abaixo. Mas lembre-se: é necessário rodar o comando `yarn build` antes!
 
 ```shell
-$ yarn start
+yarn start
 ```
 
 Para 'fechar' o projeto (`build`), execute o comando abaixo:
 
 ```shell
-$ yarn build
+yarn build
 ```
 
 Tente encontrar erros/verificar a qualidade do código executando o comando abaixo:
 
 ```shell
-$ yarn lint
+yarn lint
 ```
 
 ---

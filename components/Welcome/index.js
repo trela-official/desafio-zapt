@@ -46,7 +46,7 @@ function Welcome({ name }) {
           />
         </S.BackgroundImg>
         <S.DropImg bottom right>
-          <Image src={dropBlue} width={100} height={100} placeholder="blur" alt="Imagem de uma gota na cor caqui" />
+          <Image src={dropBlue} width={100} height={100} placeholder="blur" alt="Imagem de uma gota na cor azul" />
         </S.DropImg>
       </S.Container>
       <Contact />
