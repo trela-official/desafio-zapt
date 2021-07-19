@@ -8,7 +8,6 @@ export const Welcome = () => {
     <S.WelcomeContainer>
       <S.ContentContainer>
         <S.HandleContent>
-
         <S.SVGred
           viewBox="0 0 62 62"
           fill="none"

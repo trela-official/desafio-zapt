@@ -3,20 +3,18 @@ import { IButton } from "../../models/button.model";
 import * as S from "./styles";
 
 export const Button: React.FC<IButton> = ({
-    onClick,
-    variant = "default",
-    size = 'medium',
-    disabled,
-    children,
-    ...rest
+  onClick,
+  variant = "default",
+  size = "medium",
+  disabled,
+  children,
 }) => (
-        <S.Container 
-            onClick={onClick}
-            variant={variant}
-            size={size}
-            disabled={disabled}
-            {...rest}
-        >
-            {children}
-        </S.Container>
-    )
+  <S.Container
+    onClick={onClick}
+    variant={variant}
+    size={size}
+    disabled={disabled}
+  >
+    {children}
+  </S.Container>
+);

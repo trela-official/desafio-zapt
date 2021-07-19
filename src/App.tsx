@@ -1,11 +1,10 @@
-import react from 'react'
 import { GlobalStyles } from './styles/GlobalStyles';
-import { Welcome } from './components/Welcome';
+import Routes from './pages/routes';
 
 function App() {
   return (
     <>
-    <Welcome/>
+    <Routes />
     <GlobalStyles />
     </>    
   );
