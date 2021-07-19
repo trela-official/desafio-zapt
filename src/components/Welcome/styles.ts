@@ -3,7 +3,7 @@ import media from 'styled-media-query'
 
 export const Section = styled.section`
   ${({ theme }) => css`
-    padding: 0;
+    padding: ${theme.spacings.medium} ${theme.spacings.xsmall};
 
     ${media.greaterThan('small')`
       padding: ${theme.spacings.large};

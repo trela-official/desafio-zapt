@@ -54,6 +54,10 @@ export const ImageWrapper = styled.div`
       );
     }
 
+    ${media.greaterThan('small')`
+      min-height: 30rem;
+    `}
+
     ${media.greaterThan('medium')`
       min-height: 40rem;
     `}
