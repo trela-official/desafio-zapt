@@ -1,7 +1,7 @@
 import { Story, Meta } from '@storybook/react'
 
 import comment from './mock'
-import SocialCommentCard, { SocialCommentCardProps } from '.'
+import SocialCommentCard, { TUserComment } from '.'
 
 export default {
   title: 'SocialCommentCard',
@@ -11,6 +11,6 @@ export default {
   }
 } as Meta
 
-export const Default: Story<SocialCommentCardProps> = (args) => (
+export const Default: Story<TUserComment> = (args) => (
   <SocialCommentCard {...args} />
 )

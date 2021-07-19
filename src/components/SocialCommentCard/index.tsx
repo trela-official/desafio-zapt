@@ -2,7 +2,7 @@ import Typography from 'components/Typography'
 
 import * as S from './styles'
 
-export type SocialCommentCardProps = {
+export type TUserComment = {
   comment: {
     content: string
     user: {
@@ -12,7 +12,7 @@ export type SocialCommentCardProps = {
   }
 }
 
-const SocialCommentCard = ({ comment }: SocialCommentCardProps) => (
+const SocialCommentCard = ({ comment }: TUserComment) => (
   <S.Card>
     <Typography as="p" color="neutralBlue" size="medium">
       {comment.content}
