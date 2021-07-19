@@ -1,11 +1,23 @@
 import * as C from 'components'
-import { GetStaticProps, InferGetStaticPropsType } from 'next'
+import { GetStaticProps } from 'next'
 import * as S from 'pages/comentarios_de_usuarios/styles'
 import axios from 'axios'
 
+export type dataUsersCommentsProps = {
+  dataUsersComments: {
+    userName: string
+    city: string
+    state: string
+    urlUserBg: string
+    urlAvatar: string
+    urlProfile: string
+    comment: string
+  }[]
+}
+
 export default function UsersComments({
   dataUsersComments
-}: InferGetStaticPropsType<typeof getStaticProps>) {
+}: dataUsersCommentsProps) {
   return (
     <S.Container>
       <C.HeadPage title="O que as pessoas estão achando" />
@@ -13,7 +25,34 @@ export default function UsersComments({
       <C.TitleSection title="O que as pessoas estão achando" />
 
       <S.ContainerCarousel>
-        <C.CarouselUsersComments dataUsersComments={dataUsersComments} />
+        <C.Carousel>
+          {dataUsersComments.map(
+            (
+              {
+                userName,
+                city,
+                state,
+                urlUserBg,
+                urlAvatar,
+                urlProfile,
+                comment
+              },
+              i
+            ) => (
+              <C.CardUsersComments
+                key={userName + i}
+                userName={userName}
+                city={city}
+                state={state}
+                urlUserBg={urlUserBg}
+                urlAvatar={urlAvatar}
+                urlProfile={urlProfile}
+                heigthREM={40}
+                comment={comment}
+              />
+            )
+          )}
+        </C.Carousel>
       </S.ContainerCarousel>
     </S.Container>
   )
