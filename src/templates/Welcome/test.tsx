@@ -1,10 +1,15 @@
 import { render, screen } from 'utils/test-utils';
 
-import WelcomeTemplate from '.';
+import WelcomeTemplate, { WelcomeTemplateProps } from '.';
+
+const props: WelcomeTemplateProps = {
+  name: 'Márcio',
+  whatsAppNumber: '55119987654321',
+};
 
 describe('<WelcomeTemplate />', () => {
   beforeEach(() => {
-    render(<WelcomeTemplate />);
+    render(<WelcomeTemplate {...props} />);
   });
 
   it('should render with correct heading', () => {
@@ -48,7 +53,7 @@ describe('<WelcomeTemplate />', () => {
   it('should render with WhatsApp link', () => {
     expect(screen.getByRole('link', { name: /WhatsApp\./i })).toHaveAttribute(
       'href',
-      'https://wa.me/5511910898780'
+      `https://wa.me/${props.whatsAppNumber}`
     );
     expect(screen.getByRole('link', { name: /WhatsApp\./i })).toHaveAttribute(
       'target',

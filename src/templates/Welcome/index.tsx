@@ -7,16 +7,21 @@ import WelcomeImage from 'components/WelcomeImage';
 import MediaMatch from 'components/MediaMatch';
 import Link from 'components/Link';
 
+export type WelcomeTemplateProps = {
+  name: string;
+  whatsAppNumber: string;
+};
+
 import * as S from './styles';
 
-const WelcomeTemplate = () => (
+const WelcomeTemplate = ({ name, whatsAppNumber }: WelcomeTemplateProps) => (
   <Container as="section" id="welcome">
     <S.MainContentContainer>
       <S.TopTeardrop size="small" color="secondary" />
       <S.BottomTeardrop />
 
       <S.InfoContentContainer>
-        <Heading>Bem-vindo, Márcio!</Heading>
+        <Heading>Bem-vindo, {name}!</Heading>
 
         <S.Text>
           Para você aproveitar nossas oportunidades primeiro você precisa estar
@@ -45,7 +50,7 @@ const WelcomeTemplate = () => (
         <small>
           Qualquer dúvida que você tiver é só nos chamar no nosso número
           de&nbsp;
-          <Link href="https://wa.me/5511910898780" isExternal>
+          <Link href={`https://wa.me/${whatsAppNumber}`} isExternal>
             WhatsApp.
           </Link>
         </small>
