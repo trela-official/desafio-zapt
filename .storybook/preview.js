@@ -1,3 +1,4 @@
+import '../.jest/next-image.mock'
 import { MINIMAL_VIEWPORTS } from '@storybook/addon-viewport'
 import { addDecorator } from '@storybook/react'
 import { themes } from '@storybook/theming'
