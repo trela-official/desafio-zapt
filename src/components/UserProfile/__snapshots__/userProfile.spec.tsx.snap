@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserProfile /> should render UserProfile 1`] = `
+.c3 {
+  font-weight: 500;
+  color: #000000;
+  font-size: 1.6rem;
+}
+
+.c4 {
+  font-weight: 400;
+  color: #000000;
+  font-size: 1.2rem;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  border-radius: 50%;
+  width: 3.6rem;
+  height: 3.6rem;
+  object-fit: cover;
+  margin-right: 1.2rem;
+}
+
+<div
+  class="c0"
+>
+  <img
+    alt="Image profile"
+    class="c1"
+    src="https://www.pixsy.com/wp-content/uploads/2021/04/ben-sweet-2LowviVHZ-E-unsplash-1.jpeg"
+  />
+  <div
+    class="c2"
+  >
+    <span
+      class="c3"
+      color="black"
+    >
+      @LuisCarlos
+    </span>
+    <span
+      class="c4"
+      color="black"
+    />
+  </div>
+</div>
+`;

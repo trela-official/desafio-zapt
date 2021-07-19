@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SocialCard /> should render SocialCard 1`] = `
+.c2 {
+  font-weight: 400;
+  color: #011FBB;
+  font-size: 1.6rem;
+}
+
+.c0 {
+  max-width: 38rem;
+  padding: 1.6rem 2.4rem;
+  background: linear-gradient(0deg,rgba(255,255,255,0.9),rgba(255,255,255,0.9)),#2196F3;
+  -webkit-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.c1 {
+  margin-bottom: 1.6rem;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <span
+      class="c2"
+      color="primary"
+    >
+      test comment
+    </span>
+  </div>
+  <div
+    class=""
+  >
+    <div
+      data-testid="userProfile"
+    />
+  </div>
+</div>
+`;
