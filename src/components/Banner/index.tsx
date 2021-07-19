@@ -17,7 +17,6 @@ const Banner = ({ title, contactNumber }: BannerProps) => (
 
       <S.ContentAction>
         <S.ActionQuestion>O que você prefere?</S.ActionQuestion>
-
         <S.ButtonWrapper>
           <S.ButtonAction>Criar um grupo</S.ButtonAction>
           <S.ButtonAction>Entrar em um grupo</S.ButtonAction>

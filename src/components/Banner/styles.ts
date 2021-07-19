@@ -46,8 +46,8 @@ export const Title = styled.h2`
     margin-bottom: ${theme.spacings.xxsmall};
 
     ${media.lessThan('medium')`
-        margin-left: 30px;
-      `}
+      margin-left: ${theme.spacings.large};
+    `}
   `}
 `
 
@@ -150,8 +150,8 @@ export const SemicircleWrapper = styled.div`
   ${media.lessThan('medium')`
     svg {
       width: 80px;
-  }
-    `}
+    }
+  `}
 `
 
 export const BannerImage = styled.img`

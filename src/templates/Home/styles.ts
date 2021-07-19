@@ -13,21 +13,21 @@ export const Container = styled.main`
 
 export const BannerWrapper = styled.section`
   ${({ theme }) => css`
-    margin-top: 120px;
+    margin-top: ${theme.spacings.mxlarge};
 
     ${media.lessThan('medium')`
-      margin-top: 40px;
+      margin-top: ${theme.spacings.large};
     `}
   `}
 `
 
 export const TestimonialsWrapper = styled.section`
   ${({ theme }) => css`
-    margin-bottom: 80px;
-    margin-top: 80px;
+    margin-bottom: ${theme.spacings.mlarge};
+    margin-top: ${theme.spacings.mlarge};
 
     ${media.lessThan('medium')`
-      margin-top: 40px;
+      margin-top: ${theme.spacings.large};
     `}
   `}
 `
