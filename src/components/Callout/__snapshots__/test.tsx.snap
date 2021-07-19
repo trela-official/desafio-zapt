@@ -37,7 +37,7 @@ exports[`<Callout /> should render the callout with default values 1`] = `
   justify-content: center;
   padding: 1.84rem 4rem;
   color: #7a7a7a;
-  z-index: 30;
+  z-index: 10;
 }
 
 .c2 {

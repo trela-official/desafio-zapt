@@ -105,7 +105,7 @@ export const ContentWrapper = styled.div`
     padding: 1.84rem 4rem;
 
     color: ${theme.colors.gray};
-    z-index: ${theme.layers.overlay};
+    z-index: ${theme.layers.base};
 
     ${media.greaterThan('small')`
       padding: 2.3rem 5rem;
