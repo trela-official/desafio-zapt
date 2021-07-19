@@ -8,6 +8,6 @@ export default {
 
 export const Default: Story = () => (
   <div style={{ padding: '50px' }}>
-    <Welcome />
+    <Welcome username="Marcio" />
   </div>
 )

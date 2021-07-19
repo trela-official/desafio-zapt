@@ -3,14 +3,18 @@ import SubtitleWithLink from 'components/SubtitleWithLink'
 
 import * as S from './styles'
 
-const Welcome = () => (
+type WelcomePrps = {
+  username: string
+}
+
+const Welcome = ({ username }: WelcomePrps) => (
   <S.CardWrapper>
     <S.ContentWrapper>
       <S.BorderTopImage src="/img/orange-icon.png" />
 
       <S.HeroWrapper>
         <HeroCta
-          heroTitle="Bem vindo Marcio,"
+          heroTitle={`Bem vindo ${username},`}
           heroSubtitle="Para você aproveitar nossas oportunidades primeiro você precisa estar dentro de um grupo, estamos aqui para lhe ajudar."
           ctaTitle="O que você prefere?"
           firstOption={{ label: 'Entrar em um grupo' }}
