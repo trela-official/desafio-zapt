@@ -5,12 +5,13 @@ import { Typography } from 'components';
 import * as Styled from './styles';
 
 type Sizes = 'small' | 'medium' | 'xmedium' | 'large';
+type Colors = 'black' | 'darkgray' | 'white' | 'primary';
 
 export type UserProfileProps = {
   username: string;
   subtext?: string;
   imageProfile: string;
-  textColor?: 'black' | 'darkgray' | 'white' | 'primary';
+  textColor?: Colors;
   usernameSize?: Sizes;
 };
 

@@ -16,7 +16,7 @@ jest.mock('components/UserProfile', () => {
 const props: SocialCardProps = {
   comment: 'test comment',
   username: 'test name',
-  image: 'image ',
+  imageProfile: 'image ',
 };
 
 describe('<SocialCard />', () => {
@@ -35,7 +35,9 @@ describe('<SocialCard />', () => {
   });
 
   it('should render SocialCard with full size if passed', () => {
-    const { container } = renderWithTheme(<SocialCard fullSize {...props} />);
+    const { container } = renderWithTheme(
+      <SocialCard maxSizeCard {...props} />
+    );
 
     expect(container.firstChild).toHaveStyleRule('max-width', '46rem');
   });

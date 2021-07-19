@@ -9,29 +9,29 @@ type Sizes = 'small' | 'medium' | 'xmedium' | 'large';
 export type SocialCardProps = {
   comment: string;
   username: string;
-  image: string;
+  imageProfile: string;
   userSubtext?: string;
   transparent?: boolean;
   textColor?: 'black' | 'darkgray' | 'white' | 'primary';
   colorUserProfile?: 'black' | 'darkgray' | 'white' | 'primary';
   commentSize?: Sizes;
   usernameSize?: Sizes;
-  fullSize?: boolean;
+  maxSizeCard?: boolean;
 };
 
 const SocialCard = ({
-  image,
+  imageProfile,
   username,
   comment,
   transparent = false,
-  fullSize = false,
+  maxSizeCard = false,
   textColor = 'primary',
   colorUserProfile = 'primary',
   userSubtext = '',
   commentSize = 'medium',
   usernameSize = 'medium',
 }: SocialCardProps) => (
-  <Styled.Wrapper fullSize={fullSize} transparent={transparent}>
+  <Styled.Wrapper maxSizeCard={maxSizeCard} transparent={transparent}>
     <Styled.Comment>
       <Typography size={commentSize} color={textColor}>
         {comment}
@@ -43,7 +43,7 @@ const SocialCard = ({
         subtext={userSubtext}
         textColor={colorUserProfile}
         username={username}
-        imageProfile={image}
+        imageProfile={imageProfile}
       />
     </Styled.UserInformation>
   </Styled.Wrapper>

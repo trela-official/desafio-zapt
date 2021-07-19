@@ -21,7 +21,7 @@ const SocialComments = () => (
               key={comment.username}
               username={comment.username}
               comment={comment.comment}
-              image={comment.imageProfile}
+              imageProfile={comment.imageProfile}
             />
           ))}
       </Styled.CommentsWrapper>

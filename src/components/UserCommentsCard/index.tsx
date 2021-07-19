@@ -23,7 +23,7 @@ const UserCommentsCard = ({
     <Styled.Overlay aria-label="overlay" />
     <Styled.SocialCardWrapper>
       <SocialCard
-        fullSize
+        maxSizeCard
         transparent
         textColor="white"
         colorUserProfile="white"
@@ -31,7 +31,7 @@ const UserCommentsCard = ({
         commentSize="xmedium"
         comment={comment}
         username={username}
-        image={image}
+        imageProfile={image}
         userSubtext={userSubtext}
       />
     </Styled.SocialCardWrapper>
