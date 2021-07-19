@@ -22,11 +22,7 @@
 
 ## 📚 Sobre
 
-Foram feitas duas telas (Banner e Testimonials), seguindo o layout proposto no figma.
-
-
-
-
+Para a realização do projeto, foram implementados os componentes  Banner e Testimonials, a partir do <a href='https://www.figma.com/file/MYVq6CfqgFkEAhcFcNmvGy/Public-File?node-id=0%3A1' target="_blank" rel="noopener">Figma</a>.
 
 ## ⏱ Como executar
 
@@ -52,13 +48,11 @@ Você pode começar a editar a página modificando `` templates/Home/index.tsx``
 
 ## 🚀 Tecnologias
 
-- Babel
-- Eslint
 - NextJs
 - Polished
 - Prettier
 - Styled Components
-- Styled-media-query
+- Styled Media Query
 - TypeScript
   
 ## 📝 Licença
