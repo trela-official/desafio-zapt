@@ -1,0 +1,24 @@
+import { Canvas, Meta, Story } from '@storybook/addon-docs'
+import Banner from '.'
+import * as stories from './stories'
+
+<Meta
+  title="Design System/Banner"
+  component={Banner}
+  parameters={{
+    controls: { exclude: ['img'], sort: 'requiredFirst' },
+    layout: "fullscreen"
+  }}
+/>
+
+# Banner
+
+General purpose banner.
+
+## Default
+
+The banner component renders title, description, question, image, buttons, and a children.
+
+<Canvas>
+  <Story story={stories.Default} />
+</Canvas>
