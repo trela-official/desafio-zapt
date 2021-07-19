@@ -1,0 +1,34 @@
+import HeroCta from 'components/HeroCta'
+import SubtitleWithLink from 'components/SubtitleWithLink'
+
+import * as S from './styles'
+
+const Welcome = () => (
+  <S.CardWrapper>
+    <S.ContentWrapper>
+      <S.BorderTopImage src="/img/orange-icon.png" />
+
+      <S.HeroWrapper>
+        <HeroCta
+          heroTitle="Bem vindo Marcio,"
+          heroSubtitle="Para você aproveitar nossas oportunidades primeiro você precisa estar dentro de um grupo, estamos aqui para lhe ajudar."
+          ctaTitle="O que você prefere?"
+          firstOption={{ label: 'Entrar em um grupo' }}
+          secondOption={{ label: 'Criar um grupo' }}
+        />
+      </S.HeroWrapper>
+
+      <S.WelcomeImageWrapper>
+        <S.Circle />
+        <S.Ellipse />
+      </S.WelcomeImageWrapper>
+      <S.BorderBottomImage src="/img/blue-icon.png" />
+    </S.ContentWrapper>
+    <SubtitleWithLink
+      text="Qualquer dúvida que você tiver é só nos chamar no nosso número de"
+      link={{ label: 'Whatsapp.', href: '/' }}
+    />
+  </S.CardWrapper>
+)
+
+export default Welcome
