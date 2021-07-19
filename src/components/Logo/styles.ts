@@ -4,14 +4,10 @@ import { LogoProps } from '.'
 
 const wrapperModifiers = {
   red: (theme: DefaultTheme) => css`
-    path {
-      fill: ${theme.colors.red};
-    }
+    color: ${theme.colors.red};
   `,
   blue: (theme: DefaultTheme) => css`
-    path {
-      fill: ${theme.colors.primary};
-    }
+    color: ${theme.colors.primary};
   `,
   small: () => css`
     width: 6.2rem;

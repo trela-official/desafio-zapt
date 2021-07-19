@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Section /> should render correctly 1`] = `
+.c0 {
+  padding: 1.6rem 1.2rem;
+}
+
+.c1 {
+  font-weight: 300;
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+
+@media (min-width:450px) {
+  .c0 {
+    padding: 3.2rem 4.8rem;
+  }
+}
+
+@media (min-width:1170px) {
+  .c0 {
+    padding: 8rem 12rem;
+  }
+}
+
+<section
+  class="c0"
+>
+  <h2
+    class="c1"
+  >
+    Section Title
+  </h2>
+  <p>
+    Content
+  </p>
+</section>
+`;
