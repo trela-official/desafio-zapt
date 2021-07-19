@@ -40,7 +40,7 @@ describe('<HomeTemplate />', () => {
     renderWithTheme(<HomeTemplate user={user} />)
 
     expect(screen.getByTestId('WelcomeBanner')).toBeInTheDocument()
-    expect(screen.getByTestId('Heading')).toBeInTheDocument()
+    expect(screen.getAllByTestId('Heading')).toHaveLength(2)
     expect(screen.getByTestId('SliderTestimonials')).toBeInTheDocument()
   })
 })

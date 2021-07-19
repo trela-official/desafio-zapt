@@ -1,4 +1,5 @@
 import Heading from 'components/Heading'
+import SectionSocialComments from 'components/SectionSocialComments'
 import SliderTestimonials from 'components/SliderTestimonials'
 import WelcomeBanner, { UserType } from 'components/WelcomeBanner'
 
@@ -18,6 +19,8 @@ const HomeTemplate = ({ user }: HomeTemplate) => {
         </Heading>
         <SliderTestimonials />
       </S.WrapperSlider>
+
+      <SectionSocialComments />
     </S.Wrapper>
   )
 }

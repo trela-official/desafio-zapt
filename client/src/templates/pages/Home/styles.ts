@@ -8,7 +8,7 @@ export const WrapperSlider = styled.div`
   ${({ theme }) => css`
     width: 100%;
     max-width: ${theme.grid.container};
-    margin: 100px auto 0;
+    margin: 100px auto;
     padding: 0 ${theme.spacings.xxsmall};
 
     h2 {
