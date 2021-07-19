@@ -39,6 +39,7 @@ export default {
     large: '3.2rem',
     xlarge: '4rem',
     xxlarge: '4.8rem',
+    xxxlarge: '5.6rem',
     huge: '8rem'
   }
 } as const
