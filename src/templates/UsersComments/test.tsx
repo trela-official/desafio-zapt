@@ -3,11 +3,15 @@ import { render, screen } from 'utils/test-utils';
 
 import { usersComments } from 'components/UsersCommentsSlider/mock';
 
-import UsersCommentsTemplate from '.';
+import UsersCommentsTemplate, { UsersCommentsTemplateProps } from '.';
+
+const props: UsersCommentsTemplateProps = {
+  comments: usersComments,
+};
 
 describe('<UsersCommentsTemplate />', () => {
   beforeEach(() => {
-    render(<UsersCommentsTemplate />);
+    render(<UsersCommentsTemplate {...props} />);
   });
 
   it('should render with the heading', () => {
@@ -18,10 +22,10 @@ describe('<UsersCommentsTemplate />', () => {
 
   it('should render with users comments slider', () => {
     expect(
-      screen.getByRole('heading', { name: usersComments[0].user.name })
+      screen.getByRole('heading', { name: props.comments[0].user.name })
     ).toBeInTheDocument();
     expect(
-      screen.getByRole('heading', { name: usersComments[1].user.name })
+      screen.getByRole('heading', { name: props.comments[1].user.name })
     ).toBeInTheDocument();
   });
 });

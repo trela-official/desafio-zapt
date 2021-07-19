@@ -2,17 +2,21 @@ import Container from 'components/Container';
 import Heading from 'components/Heading';
 import UsersCommentsSlider from 'components/UsersCommentsSlider';
 
-import { usersComments } from 'components/UsersCommentsSlider/mock';
+import { UserCommentCardProps } from 'components/UserCommentCard';
+
+export type UsersCommentsTemplateProps = {
+  comments: UserCommentCardProps[];
+};
 
 import * as S from './styles';
 
-const UsersCommentsTemplate = () => (
+const UsersCommentsTemplate = ({ comments }: UsersCommentsTemplateProps) => (
   <Container as="section" id="users-comments">
     <S.TitleContainer>
       <Heading>O que as pessoas estão achando</Heading>
     </S.TitleContainer>
 
-    <UsersCommentsSlider comments={usersComments} />
+    <UsersCommentsSlider comments={comments} />
   </Container>
 );
 

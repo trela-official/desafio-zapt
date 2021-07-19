@@ -1,14 +1,19 @@
 import { GetStaticProps } from 'next';
 
 import WelcomeTemplate, { WelcomeTemplateProps } from 'templates/Welcome';
-import UsersCommentsTemplate from 'templates/UsersComments';
+import UsersCommentsTemplate, {
+  UsersCommentsTemplateProps,
+} from 'templates/UsersComments';
 import SocialCommentsTemplate from 'templates/SocialComments';
+
+import { usersComments as usersCommentsMock } from 'components/UsersCommentsSlider/mock';
 
 type HomePageProps = {
   welcomeSection: WelcomeTemplateProps;
+  usersCommentsSection: UsersCommentsTemplateProps;
 };
 
-const HomePage = ({ welcomeSection }: HomePageProps) => {
+const HomePage = ({ welcomeSection, usersCommentsSection }: HomePageProps) => {
   return (
     <>
       <WelcomeTemplate
@@ -16,7 +21,8 @@ const HomePage = ({ welcomeSection }: HomePageProps) => {
         whatsAppNumber={welcomeSection.whatsAppNumber}
       />
 
-      <UsersCommentsTemplate />
+      <UsersCommentsTemplate comments={usersCommentsSection.comments} />
+
       <SocialCommentsTemplate />
     </>
   );
@@ -25,6 +31,7 @@ const HomePage = ({ welcomeSection }: HomePageProps) => {
 export const getStaticProps: GetStaticProps = () => ({
   props: {
     welcomeSection: { name: 'Márcio', whatsAppNumber: '5511910898780' },
+    usersCommentsSection: { comments: usersCommentsMock },
   },
 });
 
