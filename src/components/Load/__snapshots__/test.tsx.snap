@@ -67,6 +67,7 @@ exports[`<Load /> should render a load 1`] = `
 <div>
   <div
     class="c0 c1"
+    data-testid="testid"
   >
     <div
       class="c2"
