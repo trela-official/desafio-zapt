@@ -3,6 +3,7 @@
 <a href="./LICENSE">![GitHub](https://img.shields.io/github/license/everton-dgn/desafio-zapt?style=plastic)</a>
 ![GitHub repo size](https://img.shields.io/github/repo-size/everton-dgn/desafio-zapt?style=plastic)
 ![GitHub Repo stars](https://img.shields.io/github/stars/everton-dgn/desafio-zapt?color=yellow&style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/checks-status/everton-dgn/desafio-zapt/main?style=plastic)
 </div>
 
 <br />
