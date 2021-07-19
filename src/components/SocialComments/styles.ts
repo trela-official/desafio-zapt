@@ -7,11 +7,11 @@ export const Grid = styled.div`
     column-gap: ${theme.grid.gutter};
 
     ${media.greaterThan('medium')`
-    column-count: 2;
-  `};
+      column-count: 2;
+    `};
 
     ${media.greaterThan('large')`
-    column-count: 3;
-  `};
+      column-count: 3;
+    `};
   `}
 `
