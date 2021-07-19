@@ -1,39 +1,68 @@
+<h3 align="center">
+    <img width= '200' alt="Logo Zapt" src="./public/assets/logoZapt.png" />
+    <br>Desafio proposto para vaga de Front-End<br/>
+    
+</h3>
+
+<h3 align="center">  
+  <p align="center">
+  <a href="#sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#como-executar">Como Executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">Licença</a>
+</p>
+ 
+
+</h3>
 
 <p align="center">
- <img width= '200' src="./public/assets/logoZapt.png"> 
+ <img width= '500' src="./public/assets/demo-desafio-zapt-poly.gif"> 
+ <a href='https://desafio-zapt-polyanetuag.netlify.app/'>Clique aqui para ver a versão Demo</a>
 </p>
+
 
 ## 📚 Sobre
 
-Desafio proposto para a vaga de desenvolvedor Front-End. 
+Foram feitas duas telas (Banner e Testimonials), seguindo o layout proposto no figma.
 
 
 
-## ⏱ Começando
+
+
+## ⏱ Como executar
 
 Primeiro, execute o servidor de desenvolvimento:
 
 ```bash
+# Clonar o repositório
+$ git clone https://github.com/polyanetuag/desafio-zapt.git
+
+# Entrar na pasta  
+$ cd desafio-zapt
+
 # Instalar as dependências
-$ yarn
+$ yarn 
 
 # Iniciar o servidor
 $ yarn dev
-
 ```
 
 Depois, abra http://localhost:3000 com seu navegador para ver o resultado.
 
 Você pode começar a editar a página modificando `` templates/Home/index.tsx``. A medida que você edita o arquivo, a página é atualizada automaticamente.
 
-## 🚀 Tecnologias Aplicadas
+## 🚀 Tecnologias
 
-- TypeScript
+- Babel
+- Eslint
 - NextJs
-- Styled-components
+- Polished
 - Prettier
+- Styled Components
+- Styled-media-query
+- TypeScript
   
-## 📋 Licença
+## 📝 Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
