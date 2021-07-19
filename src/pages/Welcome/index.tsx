@@ -15,7 +15,7 @@ import * as Styled from './styles';
 
 const Welcome = () => {
   return (
-    <Container>
+    <Container nextComponentUrl="/socialcomments">
       <Styled.Wrapper>
         <Styled.CardWrapper>
           <Styled.DropRed>

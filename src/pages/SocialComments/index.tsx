@@ -6,7 +6,7 @@ import comments from 'mocks/socialComments';
 import * as Styled from './styles';
 
 const SocialComments = () => (
-  <Container>
+  <Container nextComponentUrl="/usercomments" prevComponentUrl="/">
     <Styled.Wrapper>
       <Styled.TextWrapper>
         <Heading size="large" text="O que estão falando nas redes sociais" />

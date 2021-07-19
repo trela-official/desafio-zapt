@@ -7,7 +7,7 @@ import sliderMock from 'mocks/userSliderMocks';
 
 const UserComments = () => {
   return (
-    <Container>
+    <Container prevComponentUrl="/socialcomments">
       <Styled.Wrapper>
         <Styled.TextWrapper>
           <Heading size="large" text="O que as pessoas estão achando" />

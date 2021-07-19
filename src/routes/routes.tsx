@@ -4,18 +4,12 @@ import { Route, Switch } from 'react-router-dom';
 import Welcome from 'pages/Welcome';
 import SocialComments from 'pages/SocialComments';
 import UserComments from 'pages/UserComments';
-import LinkPage from 'pages/LinkPage';
 
 const Routes = () => {
   const routes = [
     {
       path: '/',
       exact: true,
-      component: LinkPage,
-    },
-    {
-      path: '/welcome',
-      exact: false,
       component: Welcome,
     },
     {
