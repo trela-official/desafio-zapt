@@ -1,5 +1,5 @@
 <h3 align="center">
-    <img width= '200' alt="Logo Zapt" src="./public/assets/logoZapt.png" />
+    <img width= '200'  src="./public/assets/logoZapt.png" />
     <br>Desafio proposto para vaga de Front-End<br/>
     
 </h3>
@@ -16,9 +16,13 @@
 </h3>
 
 <p align="center">
- <img width= '500' src="./public/assets/demo-desafio-zapt-poly.gif"> 
- <a href='https://desafio-zapt-polyanetuag.netlify.app/'>Clique aqui para ver a versão Demo</a>
+ <img width= '600' alt="Gif do projeto" src="./public/assets/demo-desafio-zapt-poly.gif"> 
 </p>
+
+<p align="center">
+  <a href='https://desafio-zapt-polyanetuag.netlify.app/' target="_blank" rel="noopener">Clique aqui para ver a versão Demo</a>
+</p>
+
 
 
 ## 📚 Sobre
