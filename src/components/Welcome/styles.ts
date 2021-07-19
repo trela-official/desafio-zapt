@@ -1,6 +1,8 @@
 import styled, { css } from 'styled-components'
 import { generateMedia } from 'styled-media-query'
 
+import * as SubtitleWithLinkStyles from 'components/SubtitleWithLink/styles'
+
 const customMedia = generateMedia({
   large: '956px',
   medium: '695px',
@@ -8,7 +10,16 @@ const customMedia = generateMedia({
 })
 
 export const CardWrapper = styled.div`
-  max-width: 120rem;
+  ${({ theme }) => css`
+    max-width: 120rem;
+
+    ${customMedia.lessThan('medium')`
+      ${SubtitleWithLinkStyles.Wrapper} {
+        margin-left: ${theme.spacings.large};
+        margin-right: ${theme.spacings.large};
+      }
+    `}
+  `}
 `
 
 export const ContentWrapper = styled.div`
