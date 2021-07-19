@@ -4,8 +4,8 @@ import Welcome from '.'
 
 describe('<Welcome />', () => {
   it('should render the Welcome component', () => {
-    render(<Welcome />)
+    render(<Welcome username="Username" />)
 
-    expect(screen.getByText('Bem vindo Marcio,')).toBeInTheDocument()
+    expect(screen.getByText('Bem vindo Username,')).toBeInTheDocument()
   })
 })
