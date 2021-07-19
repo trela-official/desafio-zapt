@@ -25,6 +25,7 @@ export default {
     lightGray: '#FAFAFA',
     gray: '#7B7B7B',
     lightBlue: '#2196F3',
+    lightBlueBg: '#E8F4FE',
     neutralBlue: '#011FBB',
     darkBlue: '#001C33',
     black: '#000000',
