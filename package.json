@@ -2,6 +2,10 @@
   "name": "desafio-zapt-poly",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "email": "pollyportugues@hotmail.com",
+    "name": "Polyane Tuag"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
