@@ -16,8 +16,7 @@ describe('<Heading />', () => {
     ).toHaveStyle({
       color: '#000000',
       'font-size': '1.8rem',
-      'font-weight': 500,
-      'line-height': 1.5
+      'font-weight': 500
     })
 
     expect(container.firstChild).toMatchSnapshot()

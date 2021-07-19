@@ -14,8 +14,8 @@ const Heading = ({
   color = '#000000',
   size = 'normal',
   fontWeight = 500,
-  lineHeight = 1.5,
   level = 1,
+  lineHeight,
   children
 }: HeadingProps) => (
   <S.Wrapper

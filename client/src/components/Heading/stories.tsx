@@ -37,9 +37,7 @@ export default {
       defaultValue: 500
     },
     lineHeight: {
-      name: 'Line Height',
-      type: 'number',
-      defaultValue: 1.5
+      name: 'Line Height'
     }
   }
 } as Meta
