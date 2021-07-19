@@ -1,92 +1,94 @@
-export default [
+const userComments = [
   {
-    comment: {
+    userComment: {
       content:
         '”Não da para parar de comer.. esse final de semana pedi 20 pasteis da Ilma e acabaram TODOS em um só dia... O pessoal aqui de casa ficou viciado de um nível que terei que comprar toda semana... Assim não tem academia que secura rsrsrsrs Obrigado Zapt.”',
       user: {
-        profileIcon: '/img/users-icon/user-icon1.png',
-        username: '@ferri-gui'
+        name: '@ferri-gui',
+        icon: '/img/users-icon/user-icon1.png'
       }
     }
   },
   {
-    comment: {
+    userComment: {
       content:
         '”Estava precisando achar algum lugar que vendia produtos que vêem direto da fazenda... a Zapt salvou.. e ainda paquei um preço muito mais barato que supermecado 🙌”',
       user: {
-        profileIcon: '/img/users-icon/user-icon2.png',
-        username: '@paolaC'
+        icon: '/img/users-icon/user-icon2.png',
+        name: '@paolaC'
       }
     }
   },
   {
-    comment: {
+    userComment: {
       content:
         '”Todos os vinhos da vinícula Bueno estão disponíveis no catalogo da Zapt a um preço incrivél... não percam essa oportunidade...”',
       user: {
-        profileIcon: '/img/users-icon/user-icon3.png',
-        username: '@Galvão'
+        icon: '/img/users-icon/user-icon3.png',
+        name: '@Galvão'
       }
     }
   },
   {
-    comment: {
+    userComment: {
       content:
         '”Nunca tinha achado os produtos na Lush depois que ela saiu do Brasil.. só a Zapt para conseguir importalos a preço mais barato do que vendiam aqui! Muito obrigado, recomendo sempre a todos os amigos.”',
       user: {
-        profileIcon: '/img/users-icon/user-icon4.png',
-        username: '@LiciaR.'
+        icon: '/img/users-icon/user-icon4.png',
+        name: '@LiciaR'
       }
     }
   },
   {
-    comment: {
+    userComment: {
       content:
         '”Ontem chegou uma pizza que comprei na Zapt e me lembrou as que minha avó fazia... sensacional!”',
       user: {
-        profileIcon: '/img/users-icon/user-icon5.png',
-        username: '@shitz'
+        icon: '/img/users-icon/user-icon5.png',
+        name: '@shitz'
       }
     }
   },
   {
-    comment: {
+    userComment: {
       content:
         '”Nossa cada dia tem uma oferta mais legal do que a outra.. Além de produtos de qualidade o préco é imbatível”',
       user: {
-        profileIcon: '/img/users-icon/user-icon6.png',
-        username: '@rafael'
+        icon: '/img/users-icon/user-icon6.png',
+        name: '@rafael'
       }
     }
   },
   {
-    comment: {
+    userComment: {
       content:
         '”Achei uma promoção incrível de roupinha de bebê, foi o que salvou o enxoval do Pedro.”',
       user: {
-        profileIcon: '/img/users-icon/user-icon7.png',
-        username: '@gust'
+        icon: '/img/users-icon/user-icon7.png',
+        name: '@gust'
       }
     }
   },
   {
-    comment: {
+    userComment: {
       content:
         '”Meu dono finalmente conseguiu achar uma comida que eu gosto! Agora vou conseguir engordar e ser feliz.”',
       user: {
-        profileIcon: '/img/users-icon/user-icon8.png',
-        username: '@Cookie'
+        icon: '/img/users-icon/user-icon8.png',
+        name: '@Cookie'
       }
     }
   },
   {
-    comment: {
+    userComment: {
       content:
         '“Não conhecia a Zapt.. um amigo meu indicou... falou para eu dar uma olhada nos preços das cervejas artesanais.. incrível.”',
       user: {
-        profileIcon: '/img/users-icon/user-icon9.png',
-        username: '@duque'
+        icon: '/img/users-icon/user-icon9.png',
+        name: '@duque'
       }
     }
   }
 ]
+
+export default userComments

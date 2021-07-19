@@ -1,13 +1,13 @@
-import SocialCommentCard, { TUserComment } from 'components/SocialCommentCard'
+import UserComment, { TUserComment } from 'components/UserComment'
 import Typography from 'components/Typography'
 
 import * as S from './styles'
 
 type SocialCommentsProps = {
-  comments: TUserComment[]
+  userComments: TUserComment[]
 }
 
-const SocialComments = ({ comments }: SocialCommentsProps) => (
+const SocialComments = ({ userComments }: SocialCommentsProps) => (
   <S.Wrapper>
     <S.TitleWrapper>
       <Typography weight="light" size="huge">
@@ -15,8 +15,8 @@ const SocialComments = ({ comments }: SocialCommentsProps) => (
       </Typography>
     </S.TitleWrapper>
     <S.CommentsWrapper>
-      {comments.map((item, index) => (
-        <SocialCommentCard key={index} comment={item.comment} />
+      {userComments?.map((item, index) => (
+        <UserComment key={index} userComment={item.userComment} />
       ))}
     </S.CommentsWrapper>
   </S.Wrapper>

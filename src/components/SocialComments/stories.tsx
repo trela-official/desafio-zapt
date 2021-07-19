@@ -1,6 +1,6 @@
 import { Story, Meta } from '@storybook/react'
 
-import comments from './mock'
+import userComments from './mock'
 import SocialComments from '.'
 
 export default {
@@ -8,4 +8,6 @@ export default {
   component: SocialComments
 } as Meta
 
-export const Default: Story = () => <SocialComments comments={comments} />
+export const Default: Story = () => (
+  <SocialComments userComments={userComments} />
+)
