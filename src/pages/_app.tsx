@@ -10,7 +10,7 @@ function App({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider theme={theme}>
       <Head>
-        <title>Desafio Zapt</title>
+        <title>Desafio Zapt - Guillermo Angulo</title>
       </Head>
       <GlobalStyles />
       <Component {...pageProps} />
