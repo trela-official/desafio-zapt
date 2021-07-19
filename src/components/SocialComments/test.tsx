@@ -11,7 +11,7 @@ jest.mock('components/SocialReview', () => ({
   }
 }))
 
-describe('<SocialReview />', () => {
+describe('<SocialComments />', () => {
   beforeEach(() => {
     render(<SocialComments title="SocialComments Title" comments={mock} />)
   })
