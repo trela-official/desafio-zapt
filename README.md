@@ -22,11 +22,13 @@
 - [Polished](https://polished.js.org/)
 - [Jest](https://jestjs.io/)
 - [Testing Library](https://testing-library.com/)
+- [Yarn](https://yarnpkg.com/)
 
 ## 📋 Prerequisites
 
 ```
 Node - version 14 or higher
+Yarn
 ```
 
 ## 💻 How to Use
