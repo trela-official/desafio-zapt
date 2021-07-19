@@ -1,8 +1,7 @@
 import { Carousel } from 'components/Carousel'
 
 import { H2, Header } from 'components/Typography'
-import { UserOpinionCard } from 'components/UserOpinionCard'
-import { mockOpinionCard } from 'components/UserOpinionCard/mock-opinion-card.data'
+import { UserOpinionCard, mockOpinionCard } from 'components/UserOpinionCard'
 
 export const UserComments = () => (
   <article>

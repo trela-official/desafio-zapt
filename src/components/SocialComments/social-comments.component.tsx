@@ -1,6 +1,5 @@
 import { H2, Header } from 'components/Typography'
-import { SocialCommentsCard } from 'components/SocialCommentsCard'
-import { mockCardData } from './mock-card.data'
+import { mockCardData, SocialCommentsCard } from 'components/SocialCommentsCard'
 
 import { Masonry } from 'components/Masonry'
 

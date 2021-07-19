@@ -5,13 +5,11 @@ interface CarouselProps {
   children: React.ReactNode
 }
 
-export const Carousel = ({ children }: CarouselProps) => {
-  return (
-    <ElasticCarousel isRTL={false} breakPoints={breakPoints} disableArrowsOnEnd>
-      {children}
-    </ElasticCarousel>
-  )
-}
+export const Carousel = ({ children }: CarouselProps) => (
+  <ElasticCarousel isRTL={false} breakPoints={breakPoints} disableArrowsOnEnd>
+    {children}
+  </ElasticCarousel>
+)
 
 const breakPoints = [
   { width: 768, itemsToShow: 1 },
