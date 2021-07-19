@@ -1,0 +1,23 @@
+import { Canvas, Meta, Story } from '@storybook/addon-docs'
+import TitleSection from '.'
+import * as stories from './stories'
+
+<Meta
+  title="Design System/TitleSection"
+  component={TitleSection}
+  parameters={{
+    controls: { sort: 'requiredFirst' }
+  }}
+/>
+
+# TitleSection
+
+This is a headline component for the main sections of the website.
+
+## Default
+
+This component renders a ```h1``` tag and receives only one text props.
+
+<Canvas>
+  <Story story={stories.Default} />
+</Canvas>
