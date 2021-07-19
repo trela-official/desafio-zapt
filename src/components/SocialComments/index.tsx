@@ -19,7 +19,7 @@ const SocialComments = ({
 
     <S.WrapperUser>
       <Link href={urlProfile} passHref>
-        <S.WrapperLinkProfile>
+        <S.WrapperLinkProfile title={urlProfile}>
           <S.WrapperImgAvatar>
             <S.ImgAvatar
               src={`/imgs/${img}`}

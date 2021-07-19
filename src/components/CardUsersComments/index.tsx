@@ -29,7 +29,7 @@ const CardUsersComments = ({
 
       <S.WrapperUser>
         <Link href={urlProfile} passHref>
-          <S.WrapperLinkUser>
+          <S.WrapperLinkUser title={urlProfile}>
             <S.ContainerImgAvatar>
               <S.ImgAvatarUser src={`/imgs/${urlAvatar}`} alt={userName} />
             </S.ContainerImgAvatar>
@@ -49,7 +49,7 @@ const CardUsersComments = ({
       <Image
         src={`/imgs/carousel/${urlUserBg}`}
         layout="fill"
-        alt={userName}
+        alt={userName + ' - Plano de fundo do card'}
         priority={true}
       />
     </S.WrapperImgBackground>
