@@ -3,7 +3,6 @@
 <a href="./LICENSE">![GitHub](https://img.shields.io/github/license/everton-dgn/desafio-zapt?style=plastic)</a>
 ![GitHub repo size](https://img.shields.io/github/repo-size/everton-dgn/desafio-zapt?style=plastic)
 ![GitHub Repo stars](https://img.shields.io/github/stars/everton-dgn/desafio-zapt?color=yellow&style=plastic)
-![GitHub Repo stars](https://img.shields.io/github/checks-status/everton-dgn/desafio-zapt/main?style=plastic)
 </div>
 
 <br />
@@ -51,6 +50,26 @@ Para visualizar o projeto ‘online’ [clique aqui](https://desafio-zapt.queroc
 📝 Storybook
 
 <br />
+
+---
+
+# :sparkles: Features
+
+- [x] Projeto responsivo;
+
+- [x] Acessível para navegação sem mouse e para leitores de tela;
+  
+- [x] Scroll infinito nos cards de comentários de redes sociais;
+  
+- [x] Componente de comentários que aceita dados de API;
+  
+- [x] Componente de banner para destaque de cards e imagens;
+  
+- [x] Transição entre páginas;
+  
+- [x] Load para aguardar carregamento via API;
+  
+- [x] Carrossel responsivo com animações e bullet indicativo de posição;
 
 ---
 
