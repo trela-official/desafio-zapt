@@ -8,7 +8,7 @@ export default function ShowComponents() {
   return (
     <S.Container>
       <Welcome username="Marcio" />
-      <SocialComments comments={comments} />
+      <SocialComments userComments={comments} />
     </S.Container>
   )
 }
