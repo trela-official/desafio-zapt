@@ -1,10 +1,29 @@
+# Desafio Zapt
+<h1 align="center">
+  <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9gub6o9i11idkf78vl7w.png" />
+    <br>
+    <br>
+    Zapt Componentes
+</h1>
+
+<h4 align="center">
+  Repositório onde tem o desafio para o processo seletivo da Zapt.
+</h4>
+
+<br>
+
+![Site screenshot](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/jj27vabn3jjin8dznm3m.png)
+
+<p align="center">
+  <a href="https://zapt.alangabriel.dev/" target="_blank">
+  Visita pagina em: zapt.alangabriel.dev
+  </a>
+</p>
 
 
-This is a [Next.js](https://nextjs.org/) boilerplate created following the  [React Avançado](https://reactavancado.com.br/) course.
+## Com o que foi feito?
 
-## What is inside?
-
-This project uses lot of stuff as:
+Este projeto usa muitas coisas como:
 
 - [TypeScript](https://www.typescriptlang.org/)
 - [NextJS](https://nextjs.org/)
@@ -16,48 +35,80 @@ This project uses lot of stuff as:
 - [Prettier](https://prettier.io/)
 - [Husky](https://github.com/typicode/husky)
 
-## Getting Started
 
-Create a new project using this boilerplate as an example:
+## Baixando e rodando o projeto
 
-```bash
-yarn create next-app -e https://github.com/alangabrielbs/boilerplate-next
+### Clone este repositório
+```shell
+git clone https://github.com/alangabrielbs/desafio-zapt
 ```
 
-First, run the development server:
+### Vá para o repositório
+```shell
+cd desafio-zapt/client
+```
 
-```bash
-npm run dev
-# or
+### Instale dependências
+```shell
+yarn install
+```
+
+### Execute o projeto
+```shell
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+A aplicaão vai esta disponivel na porta `3000` do seu sistema, acesse `http://localhost:3000`.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+---
+<details>
+<summary>Conteúdo informado para o desafio</summary>
 
-## Commands
+# Desafio Zapt
 
-- `dev`: runs your application on `localhost:3000`
-- `build`: creates the production build version
-- `start`: starts a simple server with the build production code
-- `lint`: runs the linter in all components and pages
-- `test`: runs jest to test all components and pages
-- `test:watch`: runs jest in watch mode
-- `storybook`: runs storybook on `localhost:6006`
-- `build-storybook`: create the build version of storybook
+> Repositório onde tem o desafio para o processo seletivo da Zapt.
 
-## Learn More
+## Introdução
 
-To learn more about Next.js, take a look at the following resources:
+A ideia é que você aprenda, se divirta e mostre o seu melhor nesse exercício.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Exercício
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Segue [um link para o Figma](https://www.figma.com/file/MYVq6CfqgFkEAhcFcNmvGy/Public-File?node-id=0%3A1), onde terão 3 pequenas seções para serem feitas.
 
-## Deploy on Vercel
+Vocês podem escolher **1, 2 ou 3** para fazer, lembrando que aqui **Qualidade é melhor que Quantidade!**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Requisitos - o que será analisado?
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Escrita (HTML, CSS e JavaScript) e suas boas práticas
+- Organização e qualidade de código
+- Estrutura do projeto e escalabilidade
+- Commits organizados e bem escritos
+
+## Como deve ser feito?
+
+- Você pode utilizar qualquer tecnologia que se sentir confortável
+- Você pode utilizar qualquer plugin se achar necessário (no dia-a-dia a gente não reinventa roda, aqui também não precisa)
+- Você pode entregar cada componente como uma página separada
+- Você pode entregar todos os componentes numa mesma página
+- Você precisa deixar claro todos os passos para rodar o projeto
+- Enfim, nos surpreenda!
+
+## O que usamos por aqui?
+
+Caso você tenha interesse em se aproximar da nossa Stack, usamos:
+
+- Typescript em basicamente tudo
+- React e styled-components para construção das nossas interfaces
+- ESLint, Prettier e Jest para garantir padronização e qualidade de código
+
+## Como entregar o teste?
+
+1. Crie um fork deste projeto
+2. Faça as devidas modificações
+3. Envie um PR para esse repositório
+
+## Dúvidas?
+
+Qualquer dúvida, não deixe de nos enviar um email em admin@zapt.com.br ou wj@zapt.com.br.
+</details>
