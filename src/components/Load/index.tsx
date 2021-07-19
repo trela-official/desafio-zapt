@@ -1,7 +1,7 @@
 import * as S from 'components/Load/styles'
 
 const Load = () => (
-  <S.Container>
+  <S.Container data-testid="testid">
     <S.Load>
       <S.Circle />
       <S.Circle />
