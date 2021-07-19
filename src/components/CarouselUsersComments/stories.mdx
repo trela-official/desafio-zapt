@@ -1,0 +1,29 @@
+import { Canvas, Meta, Story } from '@storybook/addon-docs'
+import CarouselUsersComments from '.'
+import * as stories from './stories'
+
+<Meta
+  title="Design System/CarouselUsersComments"
+  component={CarouselUsersComments}
+  parameters={{
+    controls: { sort: 'requiredFirst' }
+  }}
+/>
+
+# CarouselUsersComments
+
+This is a carousel component for rendering image comments from social media users.
+
+## Default
+
+This component can receive data from an api and render an on-screen carousel with comment cards from social media followers.
+
+The carousel has control by scroll arrows, navigation bulets and also by focus event in case of mouseless navigation.
+
+On devices with screens greater than or equal to 768px, two cards are displayed per row in the carousel, on lower resolutions only one card per row is displayed.
+
+To wait for data coming from an api a load is shown until everything can be loaded.
+
+<Canvas>
+  <Story story={stories.Default} />
+</Canvas>
