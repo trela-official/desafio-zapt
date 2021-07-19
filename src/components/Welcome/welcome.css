@@ -3,7 +3,7 @@
   margin: 100px auto;
 }
 
-/* Main */
+/* Content */
 .section-welcome {
   position: relative;
   width: 100%;
@@ -40,13 +40,15 @@
 /* Img */
 .img-welcome {
   position: absolute;
-  object-fit: cover;
   left: 783px;
   top: 0;
+  background-color: #fff;
 }
 
 .img-welcome img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* Icons */
