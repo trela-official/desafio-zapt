@@ -14,7 +14,7 @@ const SocialCommentsTemplate = ({ comments }: SocialCommentsTemplateProps) => (
   <S.Wrapper>
     <Container as="section" id="social-comments">
       <S.TitleContainer>
-        <Heading>O que estão falando nas redes sociais</Heading>
+        <Heading size="huge">O que estão falando nas redes sociais</Heading>
       </S.TitleContainer>
 
       <SocialCommentsList comments={comments} />

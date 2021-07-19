@@ -32,7 +32,7 @@ describe('<Heading />', () => {
       render(<Heading size="huge">Zpat</Heading>);
 
       expect(screen.getByRole('heading', { name: /zpat/i })).toHaveStyle({
-        'font-size': '5.2rem',
+        'font-size': '2.8rem',
       });
     });
   });

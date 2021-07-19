@@ -17,7 +17,11 @@ export const wrapperModifiers = {
   `,
 
   huge: (theme: DefaultTheme) => css`
-    font-size: ${theme.font.sizes.huge};
+    font-size: ${theme.font.sizes.xxlarge};
+
+    ${media.greaterThan('medium')`
+      font-size: ${theme.font.sizes.huge};
+    `}
   `,
 };
 

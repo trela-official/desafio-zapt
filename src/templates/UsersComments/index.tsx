@@ -13,7 +13,7 @@ import * as S from './styles';
 const UsersCommentsTemplate = ({ comments }: UsersCommentsTemplateProps) => (
   <Container as="section" id="users-comments">
     <S.TitleContainer>
-      <Heading>O que as pessoas estão achando</Heading>
+      <Heading size="huge">O que as pessoas estão achando</Heading>
     </S.TitleContainer>
 
     <UsersCommentsSlider comments={comments} />
