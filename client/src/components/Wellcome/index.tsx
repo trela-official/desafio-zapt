@@ -12,11 +12,17 @@ import ElementBig from '../../../public/img/element-big.svg'
 
 export type WellcomeProps = {
   user?: string
-  content?: string
-  ctatext?: string
+  contentMessage?: string
+  messageCTA?: string
+  contactCTA?: string
 }
 
-const Wellcome = ({ user, content, ctatext }: WellcomeProps) => (
+const Wellcome = ({
+  user,
+  contentMessage,
+  messageCTA,
+  contactCTA
+}: WellcomeProps) => (
   <Container>
     <S.Wrapper>
       <S.ElementSmall>
@@ -24,11 +30,8 @@ const Wellcome = ({ user, content, ctatext }: WellcomeProps) => (
       </S.ElementSmall>
       <S.TextContainer>
         <S.Text>
-          <S.Title>Bem vindo, Marcio</S.Title>
-          <S.Content>
-            Para você aproveitar nossas oportunidades primeiro você precisa
-            estar dentro de um grupo, estamos aqui para lhe ajudar.{' '}
-          </S.Content>
+          <S.Title>Bem vindo, {user}</S.Title>
+          <S.Content>{contentMessage}</S.Content>
         </S.Text>
         <S.ContentCTA>
           <S.TitleCTA>O que você prefere?</S.TitleCTA>
@@ -64,8 +67,8 @@ const Wellcome = ({ user, content, ctatext }: WellcomeProps) => (
       </S.ImageContainer>
     </S.Wrapper>
     <S.TextInfo>
-      Qualquer dúvida que você tiver é só nos chamar no nosso número de
-      <Link href="/">WhatsApp.</Link>
+      {messageCTA}
+      <Link href="/">{contactCTA}</Link>
     </S.TextInfo>
   </Container>
 )
