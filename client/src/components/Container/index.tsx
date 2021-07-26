@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components'
 
-const Container = styled.div`
+export const Container = styled.div`
   ${({ theme }) => css`
     max-width: ${theme.grid.container};
     margin-left: auto;
@@ -9,5 +9,3 @@ const Container = styled.div`
     padding-right: calc(${theme.grid.gutter} / 2);
   `}
 `
-
-export default Container
