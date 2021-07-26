@@ -1,5 +1,7 @@
 # Desafio Zapt
 
+**Ps.:** esse processo já foi finalizado, agradecemos quem participou e num futuro teremos outro processo, fiquem ligados =D
+
 > Repositório onde tem o desafio para o processo seletivo da Zapt.
 
 ## Introdução
